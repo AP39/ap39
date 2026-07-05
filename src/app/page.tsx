@@ -24,9 +24,9 @@ export default function Home() {
 
   return (
     <main className={styles.main}>
-      <nav className={styles.nav}>
-        <span className={styles.brand}>AP39.</span>
-        <span className={styles.status}>SECURE_CONNECTION</span>
+      <nav className="siteNav">
+        <span className="siteBrand">AP39.</span>
+        <span className="siteStatus">SECURE_CONNECTION</span>
       </nav>
 
       <div className={styles.centerStage}>

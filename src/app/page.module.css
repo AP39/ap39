@@ -6,42 +6,6 @@
   overflow: hidden;
 }
 
-.nav {
-  position: absolute;
-  top: 0;
-  left: 0;
-  right: 0;
-  display: flex;
-  justify-content: space-between;
-  padding: 3rem 4rem;
-  font-size: 0.65rem;
-  letter-spacing: 0.2em;
-  color: var(--color-text-muted);
-  text-transform: uppercase;
-  z-index: 10;
-}
-
-.brand {
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: 0.3em;
-}
-
-.status {
-  display: flex;
-  align-items: center;
-  gap: 0.75rem;
-}
-
-.status::before {
-  content: '';
-  width: 4px;
-  height: 4px;
-  background: var(--color-text-muted);
-  border-radius: 50%;
-  animation: pulse 2s infinite;
-}
-
 @keyframes pulse {
   0% { opacity: 0.2; }
   50% { opacity: 1; }
@@ -236,10 +200,6 @@
 }
 
 @media (max-width: 768px) {
-  .brand {
-    font-size: 0.8rem;
-  }
-  
   .buttonStack {
     gap: 4.5rem;
   }

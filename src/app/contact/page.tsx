@@ -4,9 +4,9 @@ import Link from 'next/link';
 export default function Contact() {
   return (
     <main className={styles.main}>
-      <nav className={styles.nav}>
-        <Link href="/" className={styles.brand}>AP39.</Link>
-        <span className={styles.status}>// LINK_ESTABLISHED</span>
+      <nav className="siteNav">
+        <Link href="/" className="siteBrand">AP39.</Link>
+        <span className="siteStatus">// LINK_ESTABLISHED</span>
       </nav>
       
       <div className={styles.center}>

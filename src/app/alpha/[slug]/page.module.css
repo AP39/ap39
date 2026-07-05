@@ -4,28 +4,6 @@
   flex-direction: column;
 }
 
-.nav {
-  display: flex;
-  justify-content: space-between;
-  padding: 3rem 4rem;
-  font-size: 0.65rem;
-  letter-spacing: 0.2em;
-  color: var(--color-text-muted);
-  text-transform: uppercase;
-}
-
-.brand {
-  color: #fff;
-  font-weight: 600;
-  letter-spacing: 0.3em;
-  transition: color 0.3s, text-shadow 0.3s;
-}
-
-.brand:hover {
-  color: #00f0ff;
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
-}
-
 .article {
   max-width: 700px;
   margin: 0 auto;

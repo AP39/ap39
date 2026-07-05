@@ -33,9 +33,9 @@ export default async function AlphaIndex() {
   
   return (
     <main className={styles.main}>
-      <nav className={styles.nav}>
-        <Link href="/" className={styles.brand}>AP39.</Link>
-        <span className={styles.status}>// ALPHA_STREAM</span>
+      <nav className="siteNav">
+        <Link href="/" className="siteBrand">AP39.</Link>
+        <span className="siteStatus">// ALPHA_STREAM</span>
       </nav>
 
       <div className={styles.container}>

@@ -29,10 +29,12 @@ export default async function WorkPost({ params }: { params: Promise<{ slug: str
 
   return (
     <main className={styles.main}>
-      <nav className={styles.nav}>
-        <Link href="/work" className={styles.brand}>&lt; RETURN</Link>
-        <span className={styles.status}>// DECRYPTED_ASSET</span>
+      <nav className="siteNav">
+        <Link href="/" className="siteBrand">AP39.</Link>
+        <span className="siteStatus">// DECRYPTED_ASSET</span>
       </nav>
+
+      <Link href="/work" className="returnLink">&lt; RETURN</Link>
 
       <article className={styles.article}>
         <header className={styles.header}>

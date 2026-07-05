@@ -25,19 +25,73 @@ a {
   text-decoration: none;
 }
 
-/* Prevent nav status text from clipping on small screens */
-nav {
-  min-width: 0;
+/* =========================================
+   SHARED NAV — identical position on every page
+   ========================================= */
+.siteNav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 3rem 4rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  z-index: 100;
 }
 
-nav span:last-child,
-nav a:last-child {
+.siteNav .siteBrand {
+  color: #fff;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  flex-shrink: 0;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.siteNav .siteStatus {
   font-size: clamp(0.45rem, 1.2vw, 0.65rem);
   white-space: nowrap;
   overflow: hidden;
   text-overflow: ellipsis;
   max-width: 55%;
   text-align: right;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+/* RETURN link — bottom-left, out of nav's way */
+.returnLink {
+  position: fixed;
+  bottom: 3rem;
+  left: 4rem;
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  z-index: 100;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.returnLink:hover {
+  color: #00f0ff;
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+}
+
+@media (max-width: 768px) {
+  .siteNav {
+    padding: 2rem 1.75rem;
+  }
+  .returnLink {
+    bottom: 2rem;
+    left: 1.75rem;
+  }
 }
 
 .bg-watermark {

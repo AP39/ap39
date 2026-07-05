@@ -35,9 +35,9 @@ export default async function WorkIndex() {
   
   return (
     <main className={styles.main}>
-      <nav className={styles.nav}>
-        <Link href="/" className={styles.brand}>AP39.</Link>
-        <span className={styles.status}>// DECRYPT_WORK</span>
+      <nav className="siteNav">
+        <Link href="/" className="siteBrand">AP39.</Link>
+        <span className="siteStatus">// DECRYPT_WORK</span>
       </nav>
 
       <div className={styles.container}>

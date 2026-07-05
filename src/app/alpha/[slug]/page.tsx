@@ -27,10 +27,12 @@ export default async function AlphaPost({ params }: { params: Promise<{ slug: st
 
   return (
     <main className={styles.main}>
-      <nav className={styles.nav}>
-        <Link href="/alpha" className={styles.brand}>&lt; RETURN</Link>
-        <span className={styles.status}>// DECRYPTED_PAYLOAD</span>
+      <nav className="siteNav">
+        <Link href="/" className="siteBrand">AP39.</Link>
+        <span className="siteStatus">// DECRYPTED_PAYLOAD</span>
       </nav>
+
+      <Link href="/alpha" className="returnLink">&lt; RETURN</Link>
 
       <article className={styles.article}>
         <header className={styles.header}>
