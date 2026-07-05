@@ -10,9 +10,13 @@ export default function Contact() {
       </nav>
       
       <div className={styles.center}>
-        <a href="mailto:ap39ap39@gmail.com" className={styles.email}>
-          ap39ap39@gmail.com
-        </a>
+        <div className={`${styles.buttonWrapper} ${styles.buttonEmail}`}>
+          <a href="https://t.me/ap39ap39" target="_blank" rel="noopener noreferrer" className={styles.insaneButton}>
+            <span className={styles.buttonText}>@ap39ap39</span>
+            <div className={styles.buttonGlow}></div>
+            <div className={styles.buttonBorder}></div>
+          </a>
+        </div>
       </div>
     </main>
   );

@@ -2,9 +2,15 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  position: relative;
+  justify-content: center;
 }
 
 .nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   padding: 3rem 4rem;
@@ -13,23 +19,25 @@
   color: var(--color-text-muted);
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  z-index: 10;
 }
 
 .brand {
   color: #fff;
   font-weight: 600;
   letter-spacing: 0.3em;
-  transition: text-shadow 0.3s;
+  transition: text-shadow 0.3s, color 0.3s;
 }
 
 .brand:hover {
-  text-shadow: 0 0 10px #fff;
+  color: #00f0ff;
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
 }
 
 .container {
   max-width: 1000px;
-  margin: 0 auto;
-  padding: 6rem 2rem;
+  margin: auto auto;
+  padding: 8rem 2rem 4rem 2rem;
   width: 100%;
 }
 
@@ -46,17 +54,16 @@
 }
 
 .card {
-  display: block;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
   padding: 3rem;
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
   overflow: hidden;
   transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
   aspect-ratio: 4 / 3;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
 }
 
 .cardTitle {
@@ -86,19 +93,42 @@
 }
 
 .card:hover {
-  border-color: rgba(0, 240, 255, 0.3);
-  background: rgba(0, 240, 255, 0.02);
-  transform: translateY(-5px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.5);
+  border-color: rgba(0, 240, 255, 0.5);
+  background: rgba(0, 240, 255, 0.03);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 240, 255, 0.12);
 }
 
 .card:hover .cardTitle {
   color: #00f0ff;
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
 }
 
 .card:hover .scanline {
   animation: scan 0.8s ease-out;
+}
+
+/* ACTIVE STATE FOR MOBILE STIMULATION */
+.card.activeMobile {
+  border-color: rgba(0, 240, 255, 0.5);
+  background: rgba(0, 240, 255, 0.03);
+  transform: translateY(-8px) scale(1.02);
+  box-shadow: 0 15px 40px rgba(0, 240, 255, 0.12);
+}
+
+.card.activeMobile .cardTitle {
+  color: #00f0ff;
+  text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+}
+
+.card.activeMobile .scanline {
+  animation: scan 0.8s ease-out;
+}
+
+@media (max-width: 768px) {
+  .card {
+    transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
 }
 
 @keyframes scan {

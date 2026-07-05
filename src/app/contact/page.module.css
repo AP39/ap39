@@ -5,6 +5,10 @@
 }
 
 .nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   padding: 3rem 4rem;
@@ -12,6 +16,44 @@
   letter-spacing: 0.2em;
   color: var(--color-text-muted);
   text-transform: uppercase;
+  z-index: 10;
+}
+
+@media (max-width: 768px) {
+  .brand {
+    font-size: 0.8rem;
+  }
+}
+
+/* ALWAYS STIMULATE BUTTON */
+.insaneButton {
+  padding: 2rem 5rem;
+  font-size: clamp(1rem, 3.5vw, 1.6rem);
+  transform: scale(1.05);
+  border-color: transparent;
+}
+
+.buttonBorder {
+  opacity: 1;
+  animation: rotateBorder 2s linear infinite;
+}
+
+.buttonGlow {
+  opacity: 0.85;
+}
+
+.insaneButton::before {
+  background: rgba(5, 5, 5, 0.95);
+}
+
+.insaneButton::after {
+  animation: swipe 2s ease-out infinite;
+}
+
+.buttonEmail .insaneButton .buttonText {
+  letter-spacing: 0.2em;
+  color: #00ff66;
+  text-shadow: 0 0 10px rgba(0, 255, 102, 0.8);
 }
 
 .brand {
@@ -33,32 +75,147 @@
   justify-content: center;
 }
 
-.email {
-  font-size: clamp(2rem, 5vw, 4rem);
-  font-weight: 300;
-  letter-spacing: 0.05em;
-  color: #fff;
-  transition: all 0.4s ease;
+.buttonWrapper {
   position: relative;
+  display: inline-block;
+  max-width: 100%;
 }
 
-.email::after {
+.buttonGlow {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: linear-gradient(90deg, #00f0ff, #b300ff, #ff003c);
+  background-size: 200% 100%;
+  filter: blur(25px);
+  opacity: 0;
+  z-index: -1;
+  transition: opacity 0.5s ease;
+  animation: shiftGlow 3s linear infinite;
+}
+
+@keyframes shiftGlow {
+  0% { background-position: 0% 50%; }
+  50% { background-position: 100% 50%; }
+  100% { background-position: 0% 50%; }
+}
+
+.insaneButton {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  padding: 2rem 5rem;
+  background: #000;
+  color: #fff;
+  font-size: clamp(1rem, 3.5vw, 1.6rem);
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  cursor: pointer;
+  overflow: hidden;
+  border-radius: 2px;
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.4s ease;
+  z-index: 1;
+  text-align: center;
+  max-width: 100%;
+  word-break: break-all;
+}
+
+.buttonText {
+  position: relative;
+  z-index: 10;
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), letter-spacing 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+  mix-blend-mode: difference;
+}
+
+.buttonBorder {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 200%;
+  height: 400%;
+  background: conic-gradient(from 0deg, transparent 70%, #00ff66 80%, #00f0ff 100%);
+  transform: translate(-50%, -50%) rotate(0deg);
+  opacity: 0;
+  transition: opacity 0.4s ease;
+  z-index: 0;
+}
+
+.insaneButton::before {
   content: '';
   position: absolute;
-  bottom: -10px;
-  left: 0;
-  width: 0%;
-  height: 2px;
-  background: #00ff66;
-  transition: width 0.4s ease;
-  box-shadow: 0 0 10px #00ff66;
+  inset: 1px;
+  background: #000;
+  z-index: 1;
+  transition: background 0.4s ease;
 }
 
-.email:hover {
+.insaneButton::after {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 30%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
+  transform: skewX(-25deg);
+  z-index: 15;
+  transition: none;
+}
+
+/* HOVER STATES */
+.insaneButton:hover {
+  transform: scale(1.06);
+  border-color: transparent;
+}
+
+.insaneButton:hover .buttonBorder {
+  opacity: 1;
+  animation: rotateBorder 2s linear infinite;
+}
+
+.insaneButton:hover .buttonText {
+  letter-spacing: 0.2em;
+  text-shadow: 0 0 10px rgba(0, 255, 102, 0.8);
   color: #00ff66;
-  text-shadow: 0 0 20px rgba(0, 255, 102, 0.4);
 }
 
-.email:hover::after {
-  width: 100%;
+.buttonWrapper:hover .buttonGlow {
+  opacity: 0.85;
+}
+
+.insaneButton:hover::before {
+  background: rgba(5, 5, 5, 0.95);
+}
+
+.insaneButton:hover::after {
+  animation: swipe 0.8s ease-out;
+}
+
+@keyframes rotateBorder {
+  0% { transform: translate(-50%, -50%) rotate(0deg); }
+  100% { transform: translate(-50%, -50%) rotate(360deg); }
+}
+
+@keyframes swipe {
+  0% { left: -100%; }
+  100% { left: 200%; }
+}
+
+/* COLOR VARIANT: GREEN EMAIL */
+.buttonEmail .buttonGlow {
+  background: linear-gradient(90deg, #00ff66, #00f0ff, #00ff66);
+  background-size: 200% 100%;
+}
+
+.buttonEmail .buttonBorder {
+  background: conic-gradient(from 0deg, transparent 70%, #00ff66 80%, #00f0ff 100%);
+}
+
+.buttonEmail .insaneButton {
+  border-color: rgba(0, 255, 102, 0.25);
 }

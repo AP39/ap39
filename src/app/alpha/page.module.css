@@ -6,6 +6,10 @@
 }
 
 .nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   padding: 3rem 4rem;
@@ -14,28 +18,30 @@
   color: var(--color-text-muted);
   text-transform: uppercase;
   border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+  z-index: 10;
 }
 
 .brand {
   color: #fff;
   font-weight: 600;
   letter-spacing: 0.3em;
-  transition: text-shadow 0.3s;
+  transition: text-shadow 0.3s, color 0.3s;
 }
 
 .brand:hover {
-  text-shadow: 0 0 10px #fff;
+  color: #ff003c;
+  text-shadow: 0 0 10px rgba(255, 0, 60, 0.5);
 }
 
 .container {
   max-width: 800px;
-  margin: 0 auto;
-  padding: 4rem 2rem;
+  margin: auto auto;
+  padding: 8rem 2rem 4rem 2rem;
   width: 100%;
 }
 
 .header {
-  margin-bottom: 6rem;
+  margin-bottom: 4rem;
 }
 
 .title {
@@ -61,8 +67,8 @@
 .postCard {
   display: block;
   padding: 2rem;
-  background: transparent;
-  border: 1px solid rgba(255, 255, 255, 0.05);
+  background: rgba(255, 255, 255, 0.01);
+  border: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
   overflow: hidden;
   transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
@@ -98,22 +104,47 @@
   left: -100%;
   width: 50%;
   height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.15), transparent);
+  background: linear-gradient(90deg, transparent, rgba(255, 0, 60, 0.15), transparent);
   transform: skewX(-20deg);
   z-index: 10;
   transition: none;
 }
 
 .postCard:hover {
-  border-color: rgba(0, 240, 255, 0.3);
-  background: rgba(0, 240, 255, 0.02);
-  transform: translateX(10px);
+  border-color: rgba(255, 0, 60, 0.5);
+  background: rgba(255, 0, 60, 0.03);
+  transform: translateX(10px) scale(1.01);
+  box-shadow: 0 10px 30px rgba(255, 0, 60, 0.08);
 }
 
 .postCard:hover .postTitle {
-  color: #00f0ff;
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  color: #ff003c;
+  text-shadow: 0 0 15px rgba(255, 0, 60, 0.6);
   transform: translateX(5px);
+}
+
+/* ACTIVE STATE FOR MOBILE STIMULATION */
+.postCard.activeMobile {
+  border-color: rgba(255, 0, 60, 0.5);
+  background: rgba(255, 0, 60, 0.03);
+  transform: translateX(10px) scale(1.01);
+  box-shadow: 0 10px 30px rgba(255, 0, 60, 0.08);
+}
+
+.postCard.activeMobile .postTitle {
+  color: #ff003c;
+  text-shadow: 0 0 15px rgba(255, 0, 60, 0.6);
+  transform: translateX(5px);
+}
+
+.postCard.activeMobile .scanline {
+  animation: scan 0.8s ease-out;
+}
+
+@media (max-width: 768px) {
+  .postCard {
+    transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
+  }
 }
 
 .postCard:hover .scanline {

@@ -4,6 +4,8 @@ import Link from 'next/link';
 import { notFound } from 'next/navigation';
 import styles from './page.module.css';
 
+import WorkLinks from './WorkLinks';
+
 interface Work {
   title: string;
   slug: string;
@@ -45,14 +47,7 @@ export default async function WorkPost({ params }: { params: Promise<{ slug: str
 
         {work.links && work.links.length > 0 && (
           <div className={styles.links}>
-            <h3 className={styles.linksHeader}>EXTERNAL_LINKS</h3>
-            <div className={styles.linkGrid}>
-              {work.links.map((link, i) => (
-                <a key={i} href={link.url} target="_blank" rel="noopener noreferrer" className={styles.storeLink}>
-                  {link.name}
-                </a>
-              ))}
-            </div>
+            <WorkLinks links={work.links} />
           </div>
         )}
       </article>

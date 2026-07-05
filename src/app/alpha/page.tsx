@@ -3,6 +3,8 @@ import path from 'path';
 import Link from 'next/link';
 import styles from './page.module.css';
 
+import AlphaList from './AlphaList';
+
 interface Post {
   title: string;
   slug: string;
@@ -37,21 +39,11 @@ export default async function AlphaIndex() {
       </nav>
 
       <div className={styles.container}>
-        <div className={styles.postList}>
-          {posts.map(post => (
-            <Link href={`/alpha/${post.slug}`} key={post.slug} className={styles.postCard}>
-              <div className={styles.postMeta}>
-                {post.date.split('T')[0]}
-              </div>
-              <h2 className={styles.postTitle}>{post.title}</h2>
-              <p className={styles.postExcerpt}>{post.excerpt}</p>
-              <div className={styles.scanline}></div>
-            </Link>
-          ))}
-          {posts.length === 0 && (
-            <p className={styles.empty}>NO_DATA_FOUND // AWAITING_INPUT</p>
-          )}
-        </div>
+        {posts.length > 0 ? (
+          <AlphaList posts={posts} />
+        ) : (
+          <p className={styles.empty}>NO_DATA_FOUND // AWAITING_INPUT</p>
+        )}
       </div>
     </main>
   );

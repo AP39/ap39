@@ -7,6 +7,10 @@
 }
 
 .nav {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
   display: flex;
   justify-content: space-between;
   padding: 3rem 4rem;
@@ -14,6 +18,7 @@
   letter-spacing: 0.2em;
   color: var(--color-text-muted);
   text-transform: uppercase;
+  z-index: 10;
 }
 
 .brand {
@@ -157,7 +162,7 @@
 
 /* HOVER STATES */
 .insaneButton:hover {
-  transform: scale(1.05);
+  transform: scale(1.08);
   border-color: transparent; /* Hide static border to show laser border */
 }
 
@@ -173,11 +178,11 @@
 }
 
 .buttonWrapper:hover .buttonGlow {
-  opacity: 0.6;
+  opacity: 0.85;
 }
 
 .insaneButton:hover::before {
-  background: rgba(5, 5, 5, 0.9);
+  background: rgba(5, 5, 5, 0.95);
 }
 
 .insaneButton:hover::after {
@@ -204,6 +209,9 @@
 .buttonWork .buttonBorder {
   background: conic-gradient(from 0deg, transparent 70%, #00f0ff 80%, #b300ff 100%);
 }
+.buttonWork .insaneButton {
+  border-color: rgba(0, 240, 255, 0.25);
+}
 
 .buttonAlpha .buttonGlow {
   background: linear-gradient(90deg, #ff003c, #b300ff, #ff003c);
@@ -211,6 +219,9 @@
 }
 .buttonAlpha .buttonBorder {
   background: conic-gradient(from 0deg, transparent 70%, #ff003c 80%, #b300ff 100%);
+}
+.buttonAlpha .insaneButton {
+  border-color: rgba(255, 0, 60, 0.25);
 }
 
 .buttonContact .buttonGlow {
@@ -220,3 +231,74 @@
 .buttonContact .buttonBorder {
   background: conic-gradient(from 0deg, transparent 70%, #00ff66 80%, #00f0ff 100%);
 }
+.buttonContact .insaneButton {
+  border-color: rgba(0, 255, 102, 0.25);
+}
+
+@media (max-width: 768px) {
+  .brand {
+    font-size: 0.8rem;
+  }
+  
+  .buttonStack {
+    gap: 4.5rem;
+  }
+  
+  .insaneButton {
+    padding: 1.75rem 4.5rem;
+    font-size: 0.85rem;
+  }
+
+  .buttonGlow {
+    transition: opacity 0.8s ease-in-out;
+  }
+
+  .buttonBorder {
+    transition: opacity 0.8s ease-in-out;
+  }
+}
+
+/* SEQUENTIAL STIMULATION (all screens) */
+.buttonWrapper.activeMobile .insaneButton {
+  transform: scale(1.08);
+  border-color: transparent;
+  transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.8s ease;
+}
+
+.buttonWrapper.activeMobile .buttonBorder {
+  opacity: 1;
+  animation: rotateBorder 2s linear infinite;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.buttonWrapper.activeMobile .buttonGlow {
+  opacity: 0.85;
+  transition: opacity 0.8s ease-in-out;
+}
+
+.buttonWrapper.activeMobile .insaneButton::before {
+  background: rgba(5, 5, 5, 0.95);
+}
+
+.buttonWrapper.activeMobile .insaneButton::after {
+  animation: swipe 0.8s ease-out;
+}
+
+.buttonWork.activeMobile .insaneButton .buttonText {
+  letter-spacing: 0.4em;
+  color: #00f0ff;
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.8);
+}
+
+.buttonAlpha.activeMobile .insaneButton .buttonText {
+  letter-spacing: 0.4em;
+  color: #ff003c;
+  text-shadow: 0 0 10px rgba(255, 0, 60, 0.8);
+}
+
+.buttonContact.activeMobile .insaneButton .buttonText {
+  letter-spacing: 0.4em;
+  color: #00ff66;
+  text-shadow: 0 0 10px rgba(0, 255, 102, 0.8);
+}
+

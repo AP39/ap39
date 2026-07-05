@@ -9,6 +9,14 @@ interface Work {
   excerpt: string;
 }
 
+import WorkGrid from './WorkGrid';
+
+interface Work {
+  title: string;
+  slug: string;
+  excerpt: string;
+}
+
 async function getWorks(): Promise<Work[]> {
   const dataDir = path.join(process.cwd(), 'src/data/work');
   if (!fs.existsSync(dataDir)) return [];
@@ -33,18 +41,11 @@ export default async function WorkIndex() {
       </nav>
 
       <div className={styles.container}>
-        <div className={styles.grid}>
-          {works.map(work => (
-            <Link href={`/work/${work.slug}`} key={work.slug} className={styles.card}>
-              <h2 className={styles.cardTitle}>{work.title}</h2>
-              <p className={styles.cardExcerpt}>{work.excerpt}</p>
-              <div className={styles.scanline}></div>
-            </Link>
-          ))}
-          {works.length === 0 && (
-            <p className={styles.empty}>NO_WORK_FOUND</p>
-          )}
-        </div>
+        {works.length > 0 ? (
+          <WorkGrid works={works} />
+        ) : (
+          <p className={styles.empty}>NO_WORK_FOUND</p>
+        )}
       </div>
     </main>
   );
