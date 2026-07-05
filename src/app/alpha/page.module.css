@@ -1,0 +1,133 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 4rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.brand {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  transition: text-shadow 0.3s;
+}
+
+.brand:hover {
+  text-shadow: 0 0 10px #fff;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 6rem;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: 0.2em;
+  margin-bottom: 1rem;
+}
+
+.subtitle {
+  color: var(--color-text-muted);
+  font-size: 0.9rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+}
+
+.postList {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.postCard {
+  display: block;
+  padding: 2rem;
+  background: transparent;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  position: relative;
+  overflow: hidden;
+  transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
+}
+
+.postMeta {
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  color: var(--color-text-muted);
+  margin-bottom: 1rem;
+  font-family: monospace;
+}
+
+.postTitle {
+  font-size: 1.5rem;
+  font-weight: 500;
+  margin-bottom: 1rem;
+  letter-spacing: 0.05em;
+  transition: transform 0.4s ease, color 0.4s ease;
+}
+
+.postExcerpt {
+  color: #888;
+  font-size: 0.95rem;
+  line-height: 1.6;
+  max-width: 650px;
+}
+
+/* Insane Tech Hover Effect */
+.scanline {
+  position: absolute;
+  top: 0;
+  left: -100%;
+  width: 50%;
+  height: 100%;
+  background: linear-gradient(90deg, transparent, rgba(0, 240, 255, 0.15), transparent);
+  transform: skewX(-20deg);
+  z-index: 10;
+  transition: none;
+}
+
+.postCard:hover {
+  border-color: rgba(0, 240, 255, 0.3);
+  background: rgba(0, 240, 255, 0.02);
+  transform: translateX(10px);
+}
+
+.postCard:hover .postTitle {
+  color: #00f0ff;
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+  transform: translateX(5px);
+}
+
+.postCard:hover .scanline {
+  animation: scan 0.8s ease-out;
+}
+
+@keyframes scan {
+  0% { left: -100%; }
+  100% { left: 200%; }
+}
+
+.empty {
+  color: var(--color-text-muted);
+  font-family: monospace;
+  font-size: 0.85rem;
+  letter-spacing: 0.1em;
+}

@@ -1,0 +1,64 @@
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 3rem 4rem;
+  font-size: 0.65rem;
+  letter-spacing: 0.2em;
+  color: var(--color-text-muted);
+  text-transform: uppercase;
+}
+
+.brand {
+  color: #fff;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.brand:hover {
+  color: #00f0ff;
+  text-shadow: 0 0 10px rgba(0, 240, 255, 0.5);
+}
+
+.center {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.email {
+  font-size: clamp(2rem, 5vw, 4rem);
+  font-weight: 300;
+  letter-spacing: 0.05em;
+  color: #fff;
+  transition: all 0.4s ease;
+  position: relative;
+}
+
+.email::after {
+  content: '';
+  position: absolute;
+  bottom: -10px;
+  left: 0;
+  width: 0%;
+  height: 2px;
+  background: #00ff66;
+  transition: width 0.4s ease;
+  box-shadow: 0 0 10px #00ff66;
+}
+
+.email:hover {
+  color: #00ff66;
+  text-shadow: 0 0 20px rgba(0, 255, 102, 0.4);
+}
+
+.email:hover::after {
+  width: 100%;
+}

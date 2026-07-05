@@ -1,0 +1,9 @@
+{
+  "title": "Void Protocol",
+  "slug": "void-protocol",
+  "excerpt": "A secure, peer-to-peer messaging protocol focusing on anonymity.",
+  "content": "Void Protocol was built to ensure absolute privacy. Utilizing advanced cryptographic techniques, it routes messages through a highly obfuscated network layer.",
+  "links": [
+    { "name": "Read Whitepaper", "url": "#" }
+  ]
+}

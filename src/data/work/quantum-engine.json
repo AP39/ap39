@@ -1,0 +1,10 @@
+{
+  "title": "Quantum Engine",
+  "slug": "quantum-engine",
+  "excerpt": "A next-generation rendering engine built for extreme performance.",
+  "content": "Quantum Engine is a proprietary technology stack designed to push the absolute limits of web performance.\n\nBy leveraging WebGL and custom shaders, it allows for million-particle simulations directly in the browser with zero dropped frames. This was a massive engineering undertaking that required rethinking how state management and render loops operate at a fundamental level.",
+  "links": [
+    { "name": "View Live Demo", "url": "#" },
+    { "name": "Source Code", "url": "#" }
+  ]
+}
