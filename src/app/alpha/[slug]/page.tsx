@@ -19,6 +19,13 @@ async function getPost(slug: string): Promise<Post | null> {
   return JSON.parse(content) as Post;
 }
 
+export function generateStaticParams() {
+  const dir = path.join(process.cwd(), 'src/data/alpha');
+  return fs.readdirSync(dir)
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => ({ slug: f.replace(/\.json$/, '') }));
+}
+
 export default async function AlphaPost({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const post = await getPost(slug);

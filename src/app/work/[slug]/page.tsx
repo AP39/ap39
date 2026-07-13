@@ -21,6 +21,13 @@ async function getWork(slug: string): Promise<Work | null> {
   return JSON.parse(content) as Work;
 }
 
+export function generateStaticParams() {
+  const dir = path.join(process.cwd(), 'src/data/work');
+  return fs.readdirSync(dir)
+    .filter((f) => f.endsWith('.json'))
+    .map((f) => ({ slug: f.replace(/\.json$/, '') }));
+}
+
 export default async function WorkPost({ params }: { params: Promise<{ slug: string }> }) {
   const { slug } = await params;
   const work = await getWork(slug);
