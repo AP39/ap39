@@ -2,6 +2,8 @@
   min-height: 100vh;
   display: flex;
   flex-direction: column;
+  /* Translucent black scrim so the page watermark doesn't wash out body text */
+  background: rgba(0, 0, 0, 0.72);
 }
 
 .article {
