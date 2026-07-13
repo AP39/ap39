@@ -52,3 +52,41 @@
 .content p {
   margin-bottom: 2rem;
 }
+
+.byline {
+  margin-top: 1.25rem;
+  font-family: monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: #6a6a6a;
+}
+
+.section {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  margin: 3.5rem 0 1.5rem;
+}
+
+.code {
+  background: rgba(0, 240, 255, 0.04);
+  border: 1px solid rgba(0, 240, 255, 0.2);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.code code {
+  font-family: monospace;
+  color: #d0d0d0;
+  white-space: pre;
+}
+
+.content strong {
+  color: #ffffff;
+  font-weight: 600;
+}
