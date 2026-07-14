@@ -22,6 +22,8 @@ async function getPost(slug: string): Promise<Post | null> {
 
 export function generateStaticParams() {
   const dir = path.join(process.cwd(), 'src/data/alpha');
+  if (!fs.existsSync(dir)) return [];
+
   return fs.readdirSync(dir)
     .filter((f) => f.endsWith('.json'))
     .map((f) => ({ slug: f.replace(/\.json$/, '') }));

@@ -23,9 +23,14 @@ async function getWork(slug: string): Promise<Work | null> {
 
 export function generateStaticParams() {
   const dir = path.join(process.cwd(), 'src/data/work');
-  return fs.readdirSync(dir)
-    .filter((f) => f.endsWith('.json'))
-    .map((f) => ({ slug: f.replace(/\.json$/, '') }));
+  const slugs = fs.existsSync(dir)
+    ? fs.readdirSync(dir).filter((f) => f.endsWith('.json')).map((f) => f.replace(/\.json$/, ''))
+    : [];
+
+  // output: "export" requires at least one static param per dynamic route
+  if (slugs.length === 0) return [{ slug: '_placeholder' }];
+
+  return slugs.map((slug) => ({ slug }));
 }
 
 export default async function WorkPost({ params }: { params: Promise<{ slug: string }> }) {
