@@ -44,7 +44,7 @@ export default async function WorkIndex() {
         {works.length > 0 ? (
           <WorkGrid works={works} />
         ) : (
-          <p className={styles.empty}>NO_WORK_FOUND</p>
+          <p className={styles.empty}>DROPPING SOON</p>
         )}
       </div>
     </main>

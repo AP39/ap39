@@ -1,7 +1,0 @@
-{
-  "title": "The Illusion of Complexity",
-  "slug": "the-illusion-of-complexity",
-  "date": "2026-07-05T04:25:07.676422Z",
-  "excerpt": "Why the best code is the code you never write. A dive into extreme minimalism in engineering.",
-  "content": "Complex systems fail in complex ways.\n\nWhen we engineer for scale, we often over-engineer for scenarios that never arrive. The true mark of an elite developer isn't how many abstractions they can juggle, but how many they can completely eliminate.\n\nSimplicity is not a lack of features. It is the ultimate sophistication.\n\nTo build the future, you have to be willing to destroy what isn't strictly necessary. The code that remains must be raw, undeniable, and perfect."
-}
