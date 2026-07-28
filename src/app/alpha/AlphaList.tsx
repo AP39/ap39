@@ -38,7 +38,7 @@ export default function AlphaList({ posts }: { posts: Post[] }) {
           className={`${styles.postCard} ${activeIndex === i ? styles.activeMobile : ''}`}
         >
           <div className={styles.postMeta}>
-            <span className={styles.postIndex}>{String(i).padStart(2, '0')}</span>
+            <span className={styles.postIndex}>{String(posts.length - i).padStart(3, '0')}</span>
             {post.date.split('T')[0]}
           </div>
           <h2 className={styles.postTitle}>{post.title}</h2>
