@@ -1,0 +1,100 @@
+race,year,slot,name,rider_class,pro_team,cost,points,pts_per_credit
+tdf,2023,1,Tadej Pogačar,All Rounder,UAE Team Emirates,24,2979,124.1
+tdf,2023,2,Adam Yates,All Rounder,UAE Team Emirates,12,1868,155.7
+tdf,2023,3,Pello Bilbao,All Rounder,Bahrain - Victorious,8,1434,179.2
+tdf,2023,4,Simon Yates,Climber,Team Jayco AlUla,10,1704,170.4
+tdf,2023,5,Felix Gall,Climber,AG2R Citroën Team,8,1390,173.8
+tdf,2023,6,Jasper Philipsen,Sprinter,Alpecin-Deceuninck,14,1935,138.2
+tdf,2023,7,Thomas Pidcock,Unclassed,INEOS Grenadiers,10,940,94.0
+tdf,2023,8,Matej Mohorič,Unclassed,Bahrain - Victorious,6,601,100.2
+tdf,2023,9,Tiesj Benoot,Unclassed,Jumbo-Visma,6,593,98.8
+tdf,2024,1,Tadej Pogačar,All Rounder,UAE Team Emirates,28,3841,137.2
+tdf,2024,2,Remco Evenepoel,All Rounder,Soudal - Quick Step,18,2619,145.5
+tdf,2024,3,João Almeida,All Rounder,UAE Team Emirates,12,1788,149.0
+tdf,2024,4,Mikel Landa,Climber,Soudal - Quick Step,8,1342,167.8
+tdf,2024,5,Richard Carapaz,Climber,EF Education-EasyPost,8,1238,154.8
+tdf,2024,6,Biniam Girmay,Sprinter,Intermarché - Wanty,8,1741,217.6
+tdf,2024,7,Derek Gee,Unclassed,Israel - Premier Tech,8,949,118.6
+tdf,2024,8,Anthony Turgis,Unclassed,TotalEnergies,4,644,161.0
+tdf,2024,9,Jonas Abrahamsen,Unclassed,Uno-X Mobility,6,606,101.0
+tdf,2025,1,Tadej Pogačar,All Rounder,UAE Team Emirates - XRG,32,4153,129.8
+tdf,2025,2,Jonas Vingegaard,All Rounder,Team Visma | Lease a Bike,24,3200,133.3
+tdf,2025,3,Kévin Vauquelin,All Rounder,Arkéa - B&B Hotels,6,1361,226.8
+tdf,2025,4,Oscar Onley,Climber,Team Picnic PostNL,8,1789,223.6
+tdf,2025,5,Ben Healy,Climber,EF Education - EasyPost,6,1269,211.5
+tdf,2025,6,Biniam Girmay,Sprinter,Intermarché - Wanty,8,789,98.6
+tdf,2025,7,Tim Wellens,Unclassed,UAE Team Emirates - XRG,6,701,116.8
+tdf,2025,8,Jordan Jegat,Unclassed,Team TotalEnergies,6,664,110.7
+tdf,2025,9,Pascal Eenkhoorn,Unclassed,Soudal Quick-Step,4,290,72.5
+tdf,2026,1,Remco Evenepoel,All Rounder,Red Bull - BORA - hansgrohe,16,2697,168.6
+tdf,2026,2,Mattias Skjelmose,All Rounder,Lidl - Trek,10,1611,161.1
+tdf,2026,3,Isaac Del Toro,Climber,UAE Team Emirates - XRG,14,2464,176.0
+tdf,2026,4,Paul Seixas,Climber,Decathlon CMA CGM Team,18,1919,106.6
+tdf,2026,5,Richard Carapaz,Climber,EF Education - EasyPost,8,1777,222.1
+tdf,2026,6,Mads Pedersen,Sprinter,Lidl - Trek,10,1797,179.7
+tdf,2026,7,Thomas Pidcock,Unclassed,Pinarello-Q36.5 Pro Cycling Team,10,1138,113.8
+tdf,2026,8,Quinn Simmons,Unclassed,Lidl - Trek,6,698,116.3
+tdf,2026,9,Mauro Schmid,Unclassed,Team Jayco AlUla,6,682,113.7
+giro,2023,1,Primož Roglič,All Rounder,Jumbo-Visma,24,2380,99.2
+giro,2023,2,Geraint Thomas,All Rounder,INEOS Grenadiers,18,2187,121.5
+giro,2023,3,João Almeida,All Rounder,UAE Team Emirates,16,1971,123.2
+giro,2023,4,Thibaut Pinot,Climber,Groupama - FDJ,10,1554,155.4
+giro,2023,5,Damiano Caruso,Climber,Bahrain - Victorious,10,1382,138.2
+giro,2023,6,Jonathan Milan,Sprinter,Bahrain - Victorious,8,1600,200.0
+giro,2023,7,Derek Gee,Unclassed,Israel - Premier Tech,4,1663,415.8
+giro,2023,8,Eddie Dunbar,Unclassed,Team Jayco AlUla,6,986,164.3
+giro,2023,9,Nico Denz,Unclassed,BORA - hansgrohe,4,564,141.0
+giro,2024,1,Tadej Pogačar,All Rounder,UAE Team Emirates,32,3719,116.2
+giro,2024,2,Antonio Tiberi,All Rounder,Bahrain - Victorious,14,1496,106.9
+giro,2024,3,Daniel Martínez,Climber,BORA - hansgrohe,12,2378,198.2
+giro,2024,4,Einer Rubio,Climber,Movistar Team,8,1095,136.9
+giro,2024,5,Jonathan Milan,Sprinter,Lidl - Trek,12,1899,158.2
+giro,2024,6,Jhonatan Narváez,Unclassed,INEOS Grenadiers,6,1120,186.7
+giro,2024,7,Valentin Paret-Peintre,Unclassed,Decathlon AG2R La Mondiale Team,6,857,142.8
+giro,2024,8,Georg Steinhauser,Unclassed,EF Education-EasyPost,6,825,137.5
+giro,2024,9,Alex Baudin,Unclassed,Decathlon AG2R La Mondiale Team,4,676,169.0
+giro,2025,1,Isaac Del Toro,All Rounder,UAE Team Emirates - XRG,10,2742,274.2
+giro,2025,2,Derek Gee,All Rounder,Israel - Premier Tech,12,1252,104.3
+giro,2025,3,Richard Carapaz,Climber,EF Education - EasyPost,12,1978,164.8
+giro,2025,4,Simon Yates,Climber,Team Visma | Lease a Bike,12,1795,149.6
+giro,2025,5,Damiano Caruso,Climber,Bahrain - Victorious,8,1319,164.9
+giro,2025,6,Mads Pedersen,Sprinter,Lidl - Trek,14,2106,150.4
+giro,2025,7,Christian Scaroni,Unclassed,XDS Astana Team,8,830,103.8
+giro,2025,8,Thomas Pidcock,Unclassed,Q36.5 Pro Cycling Team,10,811,81.1
+giro,2025,9,Nicolas Prodhomme,Unclassed,Decathlon AG2R La Mondiale Team,6,787,131.2
+giro,2026,1,Jonas Vingegaard,All Rounder,Team Visma | Lease a Bike,30,2876,95.9
+giro,2026,2,Thymen Arensman,All Rounder,INEOS Grenadiers,12,1593,132.8
+giro,2026,3,Derek Gee-West,All Rounder,Lidl - Trek,10,1364,136.4
+giro,2026,4,Jai Hindley,Climber,Red Bull - BORA - hansgrohe,10,1743,174.3
+giro,2026,5,Davide Piganzoli,Climber,Team Visma | Lease a Bike,6,1247,207.8
+giro,2026,6,Paul Magnier,Sprinter,Soudal Quick-Step,12,1403,116.9
+giro,2026,7,Afonso Eulálio,Unclassed,Bahrain - Victorious,6,1382,230.3
+giro,2026,8,Guillermo Thomas Silva,Unclassed,XDS Astana Team,6,1107,184.5
+giro,2026,9,Jhonatan Narváez,Unclassed,UAE Team Emirates - XRG,8,1105,138.1
+vuelta,2023,1,Remco Evenepoel,All Rounder,Soudal - Quick Step,22,2751,125.0
+vuelta,2023,2,Primož Roglič,All Rounder,Jumbo-Visma,24,2371,98.8
+vuelta,2023,3,Marc Soler,All Rounder,UAE Team Emirates,8,1342,167.8
+vuelta,2023,4,Sepp Kuss,Climber,Jumbo-Visma,10,2536,253.6
+vuelta,2023,5,Wout Poels,Climber,Bahrain - Victorious,6,1067,177.8
+vuelta,2023,6,Kaden Groves,Sprinter,Alpecin-Deceuninck,12,1662,138.5
+vuelta,2023,7,Andreas Kron,Unclassed,Lotto Dstny,6,1007,167.8
+vuelta,2023,8,Filippo Ganna,Unclassed,INEOS Grenadiers,8,946,118.2
+vuelta,2023,9,Geoffrey Soupe,Unclassed,TotalEnergies,4,349,87.2
+vuelta,2024,1,Primož Roglič,All Rounder,Red Bull - BORA - hansgrohe,24,2928,122.0
+vuelta,2024,2,Marc Soler,All Rounder,UAE Team Emirates,8,1370,171.2
+vuelta,2024,3,Ben O'Connor,Climber,Decathlon AG2R La Mondiale Team,10,1808,180.8
+vuelta,2024,4,Enric Mas,Climber,Movistar Team,16,1805,112.8
+vuelta,2024,5,Florian Lipowitz,Climber,Red Bull - BORA - hansgrohe,8,1271,158.9
+vuelta,2024,6,Wout Van Aert,Sprinter,Team Visma | Lease a Bike,18,2026,112.6
+vuelta,2024,7,Pablo Castrillo,Unclassed,Equipo Kern Pharma,6,989,164.8
+vuelta,2024,8,Stefan Küng,Unclassed,Groupama - FDJ,6,972,162.0
+vuelta,2024,9,Urko Berrade,Unclassed,Equipo Kern Pharma,4,616,154.0
+vuelta,2025,1,Jonas Vingegaard,All Rounder,Team Visma | Lease a Bike,28,3387,121.0
+vuelta,2025,2,João Almeida,All Rounder,UAE Team Emirates - XRG,20,2686,134.3
+vuelta,2025,3,Jay Vine,All Rounder,UAE Team Emirates - XRG,8,1599,199.9
+vuelta,2025,4,Jai Hindley,Climber,Red Bull - BORA - hansgrohe,10,1796,179.6
+vuelta,2025,5,Sepp Kuss,Climber,Team Visma | Lease a Bike,8,1325,165.6
+vuelta,2025,6,Jenthe Biermans,Sprinter,Arkéa - B&B Hotels,6,262,43.7
+vuelta,2025,7,Thomas Pidcock,Unclassed,Q36.5 Pro Cycling Team,12,1858,154.8
+vuelta,2025,8,Torstein Træen,Unclassed,Bahrain - Victorious,4,909,227.2
+vuelta,2025,9,Louis Vervaeke,Unclassed,Soudal Quick-Step,4,542,135.5
