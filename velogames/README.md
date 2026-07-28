@@ -51,7 +51,7 @@ velogames/
   raw/       source of truth, one self-describing JSON per race
     tdf-2023-2026.json  giro-2023-2026.json  vuelta-2023-2025.json
   docs/      the written analysis
-  scripts/   scrape.py, build.py, optimal.py, query.py
+  scripts/   scrape.py, build.py, optimal.py, query.py, verify.py
 ```
 
 `data/` is fully derived from `raw/`. Rebuild it any time with
@@ -133,6 +133,16 @@ python velogames/scripts/optimal.py
   who scored, not the parcours profile.
 - `winning_score` is the top score on the public Classic leaderboard, which shows
   roughly the top 300 teams only.
+
+Spot-check the database against the live Velogames pages at any time:
+
+```
+python velogames/scripts/verify.py -n 10
+```
+
+It samples random rows and re-fetches the same numbers from velogames.com. It
+reads the database, not `raw/`, so it exercises the whole chain and exits
+non-zero on any mismatch.
 
 ## Rescraping
 
