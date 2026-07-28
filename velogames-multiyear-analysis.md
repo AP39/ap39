@@ -10,6 +10,7 @@ Scraped 2026-07-29 from `velogames.com/velogame/<year>/`, same schema for every 
 |---|---|
 | `velogames-all-riders.csv` | 720 (4 editions) |
 | `velogames-all-scores.csv` | 15,840 (rider x round x 8 components) |
+| `velogames-all-stages.csv` | 84 (every stage, classified by type) |
 | `velogames-<year>-riders.csv`, `velogames-<year>-scores.csv` | per-edition splits |
 
 **Validation:** every rider's 22 round totals sum to their published season total, in all four editions, zero exceptions (720/720).
@@ -131,7 +132,61 @@ This is the quantitative case for the Replacements contest and against treating 
 
 ---
 
-## 7. What the strategy post can actually claim
+## 7. The best human in the world gets within 4-14% of perfect
+
+Winning score on the public Classic leaderboard against the hindsight-optimal ILP:
+
+| Year | Winner | Hindsight optimum | Gap | Gap % | Top 5 spread |
+|---|---|---|---|---|---|
+| 2023 | 12,231 | 13,444 | 1,213 | 9.0% | 12,231 / 12,193 / 12,165 / 12,094 / 12,052 |
+| 2024 | 12,684 | 14,768 | 2,084 | 14.1% | 12,684 / 12,557 / 12,394 / 11,960 / 11,938 |
+| 2025 | 13,585 | 14,216 | 631 | 4.4% | 13,585 / 13,548 / 13,336 / 13,322 / 13,282 |
+| 2026 | 14,030 | 14,783 | 753 | 5.1% | 14,030 / 13,651 / 13,548 / 13,476 / 13,418 |
+
+Out of a field of many thousands, the single best team of the year lands 4.4-14.1% short of the perfect squad. Nobody has ever found the optimum, and nobody has come within 4%.
+
+Useful calibration for the wrap-up post: my 11,924 was 15.0% off the 2026 winner and 19.3% off the optimum. **The distance from "won the whole game" to "perfect" (5.1%) is a quarter of the distance from my team to the winner (15.0%).** The top 5 cluster inside ~1.5% of each other in three of four editions — the leaderboard is dense at the top, so small edges move you a long way.
+
+## 8. Stage types: which archetypes actually pay where
+
+`velogames-all-stages.csv` classifies all 84 stages. ITT/TTT come from Velogames' own stage labels; the rest are classified empirically by which rider class took the stage-result points (sprint = sprinters took ≥40%; mountain = climbers + all-rounders took ≥65%; otherwise mixed). This is derived from outcomes, not from published parcours profiles — a stage where the sprinters got shelled reads as "mountain" here regardless of its official profile.
+
+| Year | sprint | mountain | mixed | ITT | TTT |
+|---|---|---|---|---|---|
+| 2023 | 7 | 7 | 6 | 1 | 0 |
+| 2024 | 8 | 6 | 5 | 2 | 0 |
+| 2025 | 5 | 9 | 5 | 2 | 0 |
+| 2026 | 7 | 9 | 3 | 1 | 1 |
+
+Where the points sit, pooled across four editions:
+
+| Type | Total pts | Stages | Pts/stage | Share |
+|---|---|---|---|---|
+| mountain | 75,594 | 31 | 2,439 | 39.6% |
+| sprint | 59,367 | 27 | 2,199 | 31.1% |
+| mixed | 43,543 | 19 | 2,292 | 22.8% |
+| ITT | 10,638 | 6 | 1,773 | 5.6% |
+| TTT | 1,590 | 1 | 1,590 | 0.8% |
+
+**Mean points per credit, by class and stage type (pooled):**
+
+| Stage type | All Rounder | Climber | Sprinter | Unclassed |
+|---|---|---|---|---|
+| sprint | 1.04 | 0.76 | **6.73** | 0.95 |
+| mixed | 2.14 | 2.19 | 1.35 | 1.86 |
+| mountain | **5.01** | 4.43 | 0.44 | 0.75 |
+| ITT | **5.13** | 1.60 | 0.34 | 0.60 |
+| TTT | 2.29 | 1.36 | 0.34 | 1.30 |
+
+Season-long, pooled: All Rounder 77.9 pts/credit, Climber 62.9, Sprinter 57.9, **Unclassed 24.1**.
+
+Three findings worth the post:
+
+1. **All-Rounders are the best class on mountain stages *and* time trials, and are never bad anywhere.** They beat Climbers on mountain stages (5.01 vs 4.43 pts/credit) because the GC contenders take the mountain stage results *and* the daily GC points on the same day. The "Climber" label is about role, not about who cashes in on climbing days.
+2. **Sprinters are the most extreme asset in the game.** 6.73 pts/credit on sprint stages — the highest single number in the table by a factor of 1.3 — and 0.44 and 0.34 on mountains and ITTs. They are a concentrated bet on roughly 5-8 stages a year. That is a variance decision, not a value decision.
+3. **Unclassed riders are structurally poor everywhere** (0.60-1.86 pts/credit, best on mixed stages), and you are forced to buy three of them. This is the same finding as the cheap-bracket result from a different angle: the mandatory Unclassed slots are the tax the format charges you, and minimising what you spend there while maximising what you get is a large part of the game.
+
+## 9. What the strategy post can actually claim
 
 Ranked by how well the evidence holds across four editions.
 
@@ -142,13 +197,17 @@ Ranked by how well the evidence holds across four editions.
 4. ~30% of the field is dead by stage 15 and ~69% score nothing in the final round.
 5. Stage results + daily GC = ~74% of all points, every year. Everything else is rounding.
 
+6. All-Rounders are the best value class overall (77.9 pts/credit) and the best on both mountain stages and time trials. Unclassed riders are the worst (24.1) and you must buy three.
+7. Sprinters are a concentrated bet on 5-8 stages: 6.73 pts/credit on sprint days, 0.44 on mountains.
+8. The best human in the field lands 4.4-14.1% short of the hindsight optimum, and the top 5 cluster within ~1.5% of each other.
+
 **Weak (2026-only, do not generalise):**
-6. The "10-credit sweet spot" — noise across four editions.
+9. The "10-credit sweet spot" — noise across four editions.
 
 **The counter-intuitive lead:** the most expensive rider is the most correctly-priced asset in the game. Four editions, and the decision to buy him or not was worth between 0% and 0.57%. Everyone argues about him; the argument is worthless. The money is in the 8-14 credit band and in the assist structure.
 
-## 8. What's still missing
+## 10. What's still missing
 
-- **Leaderboard context for 2023-2025.** The 2026 winner scored 14,030 against a hindsight optimum of 14,783. The archived `teamscore.php` pages for older editions didn't yield a winning score to the same parse; worth one manual pass if the post wants "how close did the best human get" as a four-year series.
-- **Stage profile data.** I have when points were scored but not what kind of stage it was. Joining a stage-type table (flat/hill/mountain/ITT) would let the post say which rider archetypes pay on which parcours — the natural next question after the component analysis.
-- **The Replacements contest.** Introduced recently and scored on a separate leaderboard; none of the above touches it.
+- **The Replacements contest.** Scored on a separate leaderboard; none of the above touches it. It is a sequential decision problem under uncertainty rather than a static knapsack, and the attrition numbers in section 6 are the case for why it matters.
+- **Published parcours profiles.** The stage types in section 8 are derived from outcomes, not from official route data. They answer "who actually scored" rather than "what was the stage meant to be" — good enough for strategy, not for a claim about route design. Joining an external profile table would let the post separate the two.
+- **Pre-race prices vs pre-race expectations.** I have final points and final prices but no snapshot of the projections the field was working from, so I can't separate "Velogames mispriced him" from "he had a bad three weeks."
