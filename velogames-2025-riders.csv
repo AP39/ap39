@@ -1,0 +1,185 @@
+year,rider_id,name,team,class,cost,selected_pct,total_points,overall_rank
+2025,20250482,Tadej Pogačar,UAE Team Emirates - XRG,All Rounder,32,74.1,4153,1
+2025,20250459,Jonas Vingegaard,Team Visma | Lease a Bike,All Rounder,24,26.9,3200,2
+2025,20250425,Oscar Onley,Team Picnic PostNL,Climber,8,19.1,1789,3
+2025,20250325,Florian Lipowitz,Red Bull - BORA - hansgrohe,All Rounder,12,25.5,1683,4
+2025,20250442,Matteo Jorgenson,Team Visma | Lease a Bike,All Rounder,12,9.3,1386,5
+2025,20250054,Kévin Vauquelin,Arkéa - B&B Hotels,All Rounder,6,12.6,1361,6
+2025,20250272,Jonathan Milan,Lidl - Trek,Sprinter,12,24.6,1343,7
+2025,20250128,Felix Gall,Decathlon AG2R La Mondiale Team,Climber,10,15.9,1272,8
+2025,20250158,Ben Healy,EF Education - EasyPost,Climber,6,27.2,1269,9
+2025,20250334,Primož Roglič,Red Bull - BORA - hansgrohe,All Rounder,14,13.5,1156,10
+2025,20250203,Thymen Arensman,INEOS Grenadiers,All Rounder,8,1.9,1129,11
+2025,20250025,Mathieu Van Der Poel,Alpecin - Deceuninck,Unclassed,10,44.2,1059,12
+2025,20251402,Tobias Halland Johannessen,Uno-X Mobility,All Rounder,10,4.3,1048,13
+2025,20250454,Wout Van Aert,Team Visma | Lease a Bike,Unclassed,12,31.7,990,14
+2025,20250349,Remco Evenepoel,Soudal Quick-Step,All Rounder,18,33.3,900,15
+2025,20250460,Simon Yates,Team Visma | Lease a Bike,Climber,12,13.6,860,16
+2025,20250397,Ben O'Connor,Team Jayco AlUla,Climber,8,13.5,813,17
+2025,20250238,Biniam Girmay,Intermarché - Wanty,Sprinter,8,17.6,789,18
+2025,20250011,Kaden Groves,Alpecin - Deceuninck,Sprinter,8,2.1,759,19
+2025,20250489,Tim Wellens,UAE Team Emirates - XRG,Unclassed,6,3.0,701,20
+2025,20250969,Arnaud De Lie,Lotto,Sprinter,8,2.6,677,21
+2025,20251280,Jordan Jegat,Team TotalEnergies,Unclassed,6,0.3,664,22
+2025,20250478,Jhonatan Narváez,UAE Team Emirates - XRG,Unclassed,6,3.7,653,23
+2025,20250071,Lenny Martinez,Bahrain - Victorious,Climber,10,15.4,590,24
+2025,20250360,Tim Merlier,Soudal Quick-Step,Sprinter,10,26.9,575,25
+2025,20250437,Victor Campenaerts,Team Visma | Lease a Bike,Unclassed,6,3.8,537,26
+2025,20250490,Adam Yates,UAE Team Emirates - XRG,All Rounder,10,7.1,511,27
+2025,20250186,Romain Grégoire,Groupama - FDJ,Unclassed,8,9.3,511,27
+2025,20250361,Valentin Paret-Peintre,Soudal Quick-Step,Climber,6,1.3,485,29
+2025,20250446,Sepp Kuss,Team Visma | Lease a Bike,Climber,8,11.3,464,30
+2025,20251389,Jonas Abrahamsen,Uno-X Mobility,Unclassed,6,10.7,460,31
+2025,20250433,Edoardo Affini,Team Visma | Lease a Bike,Unclassed,6,3.0,432,32
+2025,20250491,Davide Ballerini,XDS Astana Team,Unclassed,6,1.2,431,33
+2025,20251322,Julian Alaphilippe,Tudor Pro Cycling Team,Climber,6,22.3,408,34
+2025,20251289,Anthony Turgis,Team TotalEnergies,Unclassed,6,0.7,407,35
+2025,20251341,Michael Storer,Tudor Pro Cycling Team,Climber,6,7.5,388,36
+2025,20250197,Paul Penhoët,Groupama - FDJ,Sprinter,6,0.2,382,37
+2025,20250278,Quinn Simmons,Lidl - Trek,Unclassed,6,4.3,380,38
+2025,20250405,Tobias Lund Andresen,Team Picnic PostNL,Sprinter,6,0.9,370,39
+2025,20251345,Matteo Trentin,Tudor Pro Cycling Team,Sprinter,6,0.4,360,40
+2025,20250462,João Almeida,UAE Team Emirates - XRG,All Rounder,16,15.8,348,41
+2025,20250058,Phil Bauhaus,Bahrain - Victorious,Sprinter,6,3.2,339,42
+2025,20250017,Jasper Philipsen,Alpecin - Deceuninck,Sprinter,12,23.6,329,43
+2025,20250328,Jordi Meeus,Red Bull - BORA - hansgrohe,Sprinter,8,3.5,327,44
+2025,20251414,Søren Wærenskjold,Uno-X Mobility,Sprinter,6,0.8,327,44
+2025,20250216,Axel Laurance,INEOS Grenadiers,Unclassed,6,2.7,325,46
+2025,20251324,Alberto Dainese,Tudor Pro Cycling Team,Sprinter,6,0.2,322,47
+2025,20250300,Enric Mas,Movistar Team,Climber,10,7.2,321,48
+2025,20250061,Santiago Buitrago,Bahrain - Victorious,Climber,8,11.1,303,49
+2025,20250519,Simone Velasco,XDS Astana Team,Unclassed,6,0.3,301,50
+2025,20250435,Tiesj Benoot,Team Visma | Lease a Bike,Unclassed,6,2.7,292,51
+2025,20250348,Pascal Eenkhoorn,Soudal Quick-Step,Unclassed,4,3.3,290,52
+2025,20250483,Nils Politt,UAE Team Emirates - XRG,Unclassed,6,2.0,288,53
+2025,20250193,Guillaume Martin,Groupama - FDJ,Climber,6,4.4,278,54
+2025,20250485,Marc Soler,UAE Team Emirates - XRG,Climber,6,4.2,278,54
+2025,20250220,Carlos Rodríguez,INEOS Grenadiers,Climber,10,11.1,277,56
+2025,20250137,Aurélien Paret-Peintre,Decathlon AG2R La Mondiale Team,Climber,6,2.1,272,57
+2025,20250888,Pascal Ackermann,Israel - Premier Tech,Sprinter,6,2.3,270,58
+2025,20250408,Pavel Bittner,Team Picnic PostNL,Sprinter,6,0.4,268,59
+2025,20250484,Pavel Sivakov,UAE Team Emirates - XRG,Climber,6,3.0,268,59
+2025,20250400,Mauro Schmid,Team Jayco AlUla,Unclassed,6,2.9,249,61
+2025,20250200,Clément Russo,Groupama - FDJ,Unclassed,4,1.2,245,62
+2025,20250117,Bruno Armirail,Decathlon AG2R La Mondiale Team,Unclassed,6,4.6,243,63
+2025,20250279,Mattias Skjelmose,Lidl - Trek,Climber,12,12.6,235,64
+2025,20250311,Einer Rubio,Movistar Team,Climber,6,1.9,223,65
+2025,20250398,Luke Plapp,Team Jayco AlUla,Unclassed,6,3.0,223,65
+2025,20250501,Sergio Higuita,XDS Astana Team,Unclassed,6,1.1,220,67
+2025,20250341,Aleksandr Vlasov,Red Bull - BORA - hansgrohe,All Rounder,8,1.0,216,68
+2025,20250429,Frank Van Den Broek,Team Picnic PostNL,Unclassed,6,0.5,216,68
+2025,20250514,Harold Tejada,XDS Astana Team,Unclassed,6,1.4,213,70
+2025,20250170,Harry Sweeny,EF Education - EasyPost,Unclassed,4,9.1,209,71
+2025,20250370,Ilan Van Wilder,Soudal Quick-Step,All Rounder,6,0.4,201,72
+2025,20250047,Cristián Rodríguez,Arkéa - B&B Hotels,Unclassed,6,0.7,192,73
+2025,20250073,Matej Mohorič,Bahrain - Victorious,Unclassed,6,3.5,190,74
+2025,20250515,Mike Teunissen,XDS Astana Team,Unclassed,6,0.1,189,75
+2025,20250281,Jasper Stuyven,Lidl - Trek,Unclassed,6,0.9,187,76
+2025,20250016,Xandro Meurisse,Alpecin - Deceuninck,Unclassed,6,0.1,182,77
+2025,20250303,Gregor Mühlberger,Movistar Team,Unclassed,6,0.1,169,78
+2025,20250912,Jake Stewart,Israel - Premier Tech,Sprinter,6,1.4,168,79
+2025,20250890,Joseph Blackmore,Israel - Premier Tech,Unclassed,6,1.9,167,80
+2025,20250381,Eddie Dunbar,Team Jayco AlUla,All Rounder,6,2.2,165,81
+2025,20250309,Iván Romeo,Movistar Team,Unclassed,6,7.0,154,82
+2025,20251396,Stian Fredheim,Uno-X Mobility,Sprinter,6,0.1,150,83
+2025,20251401,Anders Halland Johannessen,Uno-X Mobility,Unclassed,6,0.8,147,84
+2025,20250192,Valentin Madouas,Groupama - FDJ,Unclassed,6,1.1,146,85
+2025,20251270,Mathieu Burgaudeau,Team TotalEnergies,Unclassed,6,0.3,142,86
+2025,20250497,Yevgeniy Fedorov,XDS Astana Team,Unclassed,6,0.2,140,87
+2025,20250036,Raúl García Pierna,Arkéa - B&B Hotels,Unclassed,6,0.2,137,88
+2025,20250085,Fred Wright,Bahrain - Victorious,Unclassed,6,5.3,133,89
+2025,20250147,Vincenzo Albanese,EF Education - EasyPost,Sprinter,6,0.7,132,90
+2025,20250291,Will Barta,Movistar Team,Unclassed,6,0.6,131,91
+2025,20250032,Ewen Costiou,Arkéa - B&B Hotels,Unclassed,6,0.1,125,92
+2025,20250163,Neilson Powless,EF Education - EasyPost,Unclassed,6,9.5,123,93
+2025,20250387,Dylan Groenewegen,Team Jayco AlUla,Sprinter,8,2.6,122,94
+2025,20250092,Bryan Coquard,Cofidis,Sprinter,6,0.7,120,95
+2025,20250150,Alex Baudin,EF Education - EasyPost,Unclassed,6,1.5,118,96
+2025,20250229,Samuel Watson,INEOS Grenadiers,Unclassed,6,1.7,116,97
+2025,20250021,Jonas Rickaert,Alpecin - Deceuninck,Unclassed,4,2.0,114,98
+2025,20250195,Quentin Pacher,Groupama - FDJ,Unclassed,6,0.2,102,99
+2025,20250145,Bastien Tronchon,Decathlon AG2R La Mondiale Team,Unclassed,6,1.9,101,100
+2025,20250917,Michael Woods,Israel - Premier Tech,Climber,6,3.8,101,100
+2025,20250172,Michael Valgren,EF Education - EasyPost,Unclassed,6,0.2,100,102
+2025,20250031,Amaury Capiot,Arkéa - B&B Hotels,Unclassed,6,0.1,98,103
+2025,20251337,Marius Mayrhofer,Tudor Pro Cycling Team,Sprinter,6,0.1,94,104
+2025,20250297,Iván García Cortina,Movistar Team,Unclassed,6,0.4,92,105
+2025,20250275,Thibau Nys,Lidl - Trek,Unclassed,8,11.8,87,106
+2025,20250986,Brent Van Moer,Lotto,Unclassed,6,0.1,84,107
+2025,20250293,Pablo Castrillo,Movistar Team,Climber,6,3.0,80,108
+2025,20250028,Gianni Vermeersch,Alpecin - Deceuninck,Unclassed,6,0.1,78,109
+2025,20250029,Emiel Verstrynge,Alpecin - Deceuninck,Unclassed,6,0.1,78,109
+2025,20250006,Silvan Dillier,Alpecin - Deceuninck,Unclassed,4,3.3,78,109
+2025,20250148,Kasper Asgreen,EF Education - EasyPost,Unclassed,6,7.9,74,112
+2025,20250337,Mick Van Dijke,Red Bull - BORA - hansgrohe,Unclassed,4,3.2,74,112
+2025,20250110,Alexis Renard,Cofidis,Sprinter,6,0.3,70,114
+2025,20250340,Danny Van Poppel,Red Bull - BORA - hansgrohe,Sprinter,6,1.2,70,114
+2025,20250176,Lewis Askey,Groupama - FDJ,Unclassed,6,1.7,69,116
+2025,20250964,Jenno Berckmoes,Lotto,Sprinter,6,0.2,69,116
+2025,20250333,Laurence Pithie,Red Bull - BORA - hansgrohe,Unclassed,6,0.7,69,116
+2025,20250034,Arnaud Démare,Arkéa - B&B Hotels,Sprinter,6,0.7,67,119
+2025,20250208,Tobias Foss,INEOS Grenadiers,Unclassed,6,1.0,66,120
+2025,20250329,Gianni Moscon,Red Bull - BORA - hansgrohe,Unclassed,4,5.1,66,120
+2025,20250407,Warren Barguil,Team Picnic PostNL,Unclassed,6,2.7,64,122
+2025,20250422,Niklas Märkl,Team Picnic PostNL,Unclassed,4,0.5,63,123
+2025,20251407,Andreas Leknessund,Uno-X Mobility,Unclassed,6,1.0,62,124
+2025,20250113,Dylan Teuns,Cofidis,Unclassed,6,0.3,60,125
+2025,20250089,Alex Aranburu,Cofidis,Sprinter,6,0.8,58,126
+2025,20251331,Marc Hirschi,Tudor Pro Cycling Team,Unclassed,6,3.6,53,127
+2025,20251274,Alexandre Delettre,Team TotalEnergies,Unclassed,6,0.1,52,128
+2025,20250227,Geraint Thomas,INEOS Grenadiers,All Rounder,8,3.1,48,129
+2025,20250114,Benjamin Thomas,Cofidis,Unclassed,6,0.2,48,129
+2025,20251329,Marco Haller,Tudor Pro Cycling Team,Unclassed,4,3.2,48,129
+2025,20250365,Maximilian Schachmann,Soudal Quick-Step,All Rounder,6,0.6,46,132
+2025,20250369,Bert Van Lerberghe,Soudal Quick-Step,Unclassed,4,3.0,46,132
+2025,20250116,Damien Touzé,Cofidis,Unclassed,4,0.8,45,134
+2025,20250261,Simone Consonni,Lidl - Trek,Sprinter,6,0.3,44,135
+2025,20250971,Jarrad Drizners,Lotto,Unclassed,4,0.5,43,136
+2025,20250248,Laurenz Rex,Intermarché - Wanty,Unclassed,6,0.1,42,137
+2025,20250055,Clément Venturini,Arkéa - B&B Hotels,Unclassed,6,0.1,40,138
+2025,20250231,Louis Barré,Intermarché - Wanty,Unclassed,6,6.0,40,138
+2025,20250283,Edward Theuns,Lidl - Trek,Unclassed,4,6.6,38,140
+2025,20251277,Thomas Gachignard,Team TotalEnergies,Unclassed,4,1.6,36,141
+2025,20250177,Cyril Barthe,Groupama - FDJ,Unclassed,4,2.7,34,142
+2025,20250904,Alexey Lutsenko,Israel - Premier Tech,Unclassed,6,0.6,33,143
+2025,20250090,Emanuel Buchmann,Cofidis,Unclassed,6,3.1,32,144
+2025,20250905,Krists Neilands,Israel - Premier Tech,Unclassed,6,0.1,32,144
+2025,20250043,Mathis Le Berre,Arkéa - B&B Hotels,Unclassed,4,2.3,32,144
+2025,20250280,Toms Skujiņš,Lidl - Trek,Unclassed,6,0.5,28,147
+2025,20250119,Clément Berthet,Decathlon AG2R La Mondiale Team,Unclassed,6,0.4,26,148
+2025,20250233,Vito Braet,Intermarché - Wanty,Unclassed,6,0.1,26,148
+2025,20250305,Nelson Oliveira,Movistar Team,Unclassed,6,0.4,25,150
+2025,20250142,Callum Scotson,Decathlon AG2R La Mondiale Team,Unclassed,4,0.9,22,151
+2025,20251291,Mattéo Vercher,Team TotalEnergies,Unclassed,6,0.1,20,152
+2025,20250225,Connor Swift,INEOS Grenadiers,Unclassed,4,7.4,20,152
+2025,20250493,Cees Bol,XDS Astana Team,Unclassed,6,1.0,16,154
+2025,20250494,Clément Champoussin,XDS Astana Team,Climber,6,3.8,16,154
+2025,20250244,Hugo Page,Intermarché - Wanty,Unclassed,6,0.2,15,156
+2025,20250346,Mattia Cattaneo,Soudal Quick-Step,Unclassed,6,0.5,15,156
+2025,20250136,Oliver Naesen,Decathlon AG2R La Mondiale Team,Unclassed,4,3.4,14,158
+2025,20250424,Tim Naberman,Team Picnic PostNL,Unclassed,4,0.3,13,159
+2025,20250395,Luka Mezgec,Team Jayco AlUla,Unclassed,6,0.1,12,160
+2025,20251393,Magnus Cort,Uno-X Mobility,Unclassed,6,9.1,12,160
+2025,20251397,Markus Hoelgaard,Uno-X Mobility,Unclassed,6,0.1,12,160
+2025,20250382,Luke Durbridge,Team Jayco AlUla,Unclassed,4,4.3,12,160
+2025,20250399,Elmar Reinders,Team Jayco AlUla,Unclassed,4,0.7,12,160
+2025,20251336,Fabian Lienhard,Tudor Pro Cycling Team,Unclassed,4,0.5,12,160
+2025,20250257,Georg Zimmermann,Intermarché - Wanty,Unclassed,6,2.8,11,166
+2025,20250256,Roel Van Sintmaartensdijk,Intermarché - Wanty,Unclassed,4,1.6,10,167
+2025,20250173,Marijn Van Den Berg,EF Education - EasyPost,Sprinter,6,0.4,8,168
+2025,20250250,Jonas Rutsch,Intermarché - Wanty,Unclassed,6,0.1,8,168
+2025,20250416,Sean Flynn,Team Picnic PostNL,Unclassed,6,0.3,8,168
+2025,20250068,Kamil Gradek,Bahrain - Victorious,Unclassed,4,0.7,6,171
+2025,20250078,Robert Stannard,Bahrain - Victorious,Unclassed,4,1.1,6,171
+2025,20250069,Jack Haig,Bahrain - Victorious,Unclassed,6,1.0,4,173
+2025,20250985,Lennert Van Eetvelt,Lotto,All Rounder,6,2.2,2,174
+2025,20251271,Steff Cras,Team TotalEnergies,Climber,6,0.6,2,174
+2025,20250903,Matis Louvel,Israel - Premier Tech,Unclassed,4,1.0,2,174
+2025,20250974,Sébastien Grignard,Lotto,Unclassed,4,0.7,2,174
+2025,20250979,Eduardo Sepúlveda,Lotto,Unclassed,4,1.8,2,174
+2025,20250210,Filippo Ganna,INEOS Grenadiers,Unclassed,8,18.5,0,179
+2025,20250099,Ion Izagirre,Cofidis,Unclassed,6,0.8,0,179
+2025,20250121,Stefan Bissegger,Decathlon AG2R La Mondiale Team,Unclassed,6,1.1,0,179
+2025,20251279,Emilien Jeannière,Team TotalEnergies,Sprinter,6,1.1,0,179
+2025,20250891,Guillaume Boivin,Israel - Premier Tech,Unclassed,4,1.7,0,179
+2025,20250968,Jasper De Buyst,Lotto,Unclassed,4,2.2,0,179

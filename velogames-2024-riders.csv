@@ -1,0 +1,177 @@
+year,rider_id,name,team,class,cost,selected_pct,total_points,overall_rank
+2024,20240488,Tadej Pogačar,UAE Team Emirates,All Rounder,28,79.2,3841,1
+2024,20240461,Jonas Vingegaard,Team Visma | Lease a Bike,All Rounder,24,14.9,2703,2
+2024,20240376,Remco Evenepoel,Soudal - Quick Step,All Rounder,18,17.4,2619,3
+2024,20240491,João Almeida,UAE Team Emirates,All Rounder,12,11.4,1788,4
+2024,20240294,Biniam Girmay,Intermarché - Wanty,Sprinter,8,1.9,1741,5
+2024,20240001,Jasper Philipsen,Alpecin-Deceuninck,Sprinter,16,33.2,1482,6
+2024,20240489,Adam Yates,UAE Team Emirates,Climber,14,24.4,1369,7
+2024,20240466,Matteo Jorgenson,Team Visma | Lease a Bike,All Rounder,14,18.8,1365,8
+2024,20240377,Mikel Landa,Soudal - Quick Step,Climber,8,3.8,1342,9
+2024,20240208,Richard Carapaz,EF Education-EasyPost,Climber,8,18.8,1238,10
+2024,20240462,Wout Van Aert,Team Visma | Lease a Bike,Sprinter,14,21.4,1139,11
+2024,20240263,Carlos Rodríguez,INEOS Grenadiers,Climber,14,23.1,1101,12
+2024,20240653,Pascal Ackermann,Israel - Premier Tech,Sprinter,6,1.6,957,13
+2024,20240651,Derek Gee,Israel - Premier Tech,Unclassed,8,32.6,949,14
+2024,20240678,Arnaud De Lie,Lotto Dstny,Sprinter,10,14.6,820,15
+2024,20240320,Giulio Ciccone,Lidl - Trek,Climber,8,21.8,798,16
+2024,20240091,Santiago Buitrago,Bahrain - Victorious,Climber,8,10.3,777,17
+2024,20240434,Simon Yates,Team Jayco AlUla,Climber,12,9.4,754,18
+2024,20240148,Bryan Coquard,Cofidis,Sprinter,8,1.3,690,19
+2024,20240820,Anthony Turgis,TotalEnergies,Unclassed,4,8.7,644,20
+2024,20240116,Primož Roglič,BORA - hansgrohe,All Rounder,20,19.5,609,21
+2024,20240876,Jonas Abrahamsen,Uno-X Mobility,Unclassed,6,2.6,606,22
+2024,20240095,Phil Bauhaus,Bahrain - Victorious,Sprinter,8,2.1,605,23
+2024,20240353,Fernando Gaviria,Movistar Team,Sprinter,6,1.1,603,24
+2024,20240868,Alexander Kristoff,Uno-X Mobility,Sprinter,8,0.4,574,25
+2024,20240493,Juan Ayuso,UAE Team Emirates,All Rounder,14,4.5,543,26
+2024,20240435,Dylan Groenewegen,Team Jayco AlUla,Sprinter,10,3.3,534,27
+2024,20240347,Enric Mas,Movistar Team,All Rounder,10,6.5,528,28
+2024,20240175,Felix Gall,Decathlon AG2R La Mondiale Team,Climber,10,14.6,525,29
+2024,20240348,Alex Aranburu,Movistar Team,Sprinter,6,1.6,503,30
+2024,20240692,Victor Campenaerts,Lotto Dstny,Unclassed,6,3.8,438,31
+2024,20240471,Wilco Kelderman,Team Visma | Lease a Bike,All Rounder,8,1.3,427,32
+2024,20240274,Laurens De Plus,INEOS Grenadiers,Unclassed,6,5.5,424,33
+2024,20240205,Ben Healy,EF Education-EasyPost,Unclassed,8,11.8,421,34
+2024,20240403,Romain Bardet,Team dsm-firmenich PostNL,Climber,8,8.1,416,35
+2024,20240502,Marc Soler,UAE Team Emirates,All Rounder,6,2.3,410,36
+2024,20240034,Kévin Vauquelin,Arkéa - B&B Hotels,Unclassed,6,3.1,405,37
+2024,20240183,Sam Bennett,Decathlon AG2R La Mondiale Team,Sprinter,8,4.0,404,38
+2024,20240145,Guillaume Martin,Cofidis,Climber,6,4.4,401,39
+2024,20240494,Pavel Sivakov,UAE Team Emirates,Climber,6,3.3,376,40
+2024,20240318,Mads Pedersen,Lidl - Trek,Sprinter,12,25.4,374,41
+2024,20240503,Nils Politt,UAE Team Emirates,Unclassed,6,2.8,372,42
+2024,20240496,Tim Wellens,UAE Team Emirates,Unclassed,6,2.0,372,42
+2024,20240118,Jai Hindley,BORA - hansgrohe,Climber,10,14.4,358,44
+2024,20240207,Marijn Van Den Berg,EF Education-EasyPost,Sprinter,6,1.0,334,45
+2024,20240341,Ryan Gibbons,Lidl - Trek,Unclassed,4,3.0,327,46
+2024,20240262,Thomas Pidcock,INEOS Grenadiers,Unclassed,10,23.4,306,47
+2024,20240349,Oier Lazkano,Movistar Team,Unclassed,8,4.0,306,47
+2024,20240248,Quentin Pacher,Groupama - FDJ,Unclassed,6,0.1,305,49
+2024,20240325,Jasper Stuyven,Lidl - Trek,Unclassed,6,0.8,301,50
+2024,20240418,Frank Van Den Broeck,Team dsm-firmenich PostNL,Unclassed,6,0.3,296,51
+2024,20240273,Egan Bernal,INEOS Grenadiers,Climber,12,8.5,292,52
+2024,20240368,Javier Romo,Movistar Team,Climber,6,0.7,291,53
+2024,20240378,Ilan Van Wilder,Soudal - Quick Step,All Rounder,6,0.8,283,54
+2024,20240268,Michał Kwiatkowski,INEOS Grenadiers,Unclassed,6,3.1,276,55
+2024,20240031,Arnaud Démare,Arkéa - B&B Hotels,Sprinter,6,1.0,270,56
+2024,20240480,Bart Lemmen,Team Visma | Lease a Bike,Unclassed,6,0.4,264,57
+2024,20240032,Cristián Rodríguez,Arkéa - B&B Hotels,Unclassed,6,0.5,258,58
+2024,20240680,Maxim Van Gils,Lotto Dstny,Unclassed,8,7.5,257,59
+2024,20240063,Mark Cavendish,Astana Qazaqstan Team,Sprinter,8,13.7,256,60
+2024,20240404,Fabio Jakobsen,Team dsm-firmenich PostNL,Sprinter,8,2.3,247,61
+2024,20240069,Harold Tejada,Astana Qazaqstan Team,Unclassed,6,0.3,246,62
+2024,20240835,Mattéo Vercher,TotalEnergies,Unclassed,4,1.2,245,63
+2024,20240251,Clément Russo,Groupama - FDJ,Unclassed,4,2.2,241,64
+2024,20240323,Toms Skujiņš,Lidl - Trek,Unclassed,6,1.3,231,65
+2024,20240292,Mike Teunissen,Intermarché - Wanty,Unclassed,6,0.2,215,66
+2024,20240002,Mathieu Van Der Poel,Alpecin-Deceuninck,Unclassed,10,23.1,214,67
+2024,20240867,Tobias Halland Johannessen,Uno-X Mobility,All Rounder,6,2.9,214,67
+2024,20240871,Magnus Cort,Uno-X Mobility,Unclassed,8,10.2,212,69
+2024,20240234,Valentin Madouas,Groupama - FDJ,Unclassed,6,1.0,210,70
+2024,20240408,Oscar Onley,Team dsm-firmenich PostNL,Climber,6,8.1,204,71
+2024,20240298,Louis Meintjes,Intermarché - Wanty,Climber,6,3.0,199,72
+2024,20240822,Steff Cras,TotalEnergies,Climber,6,1.3,199,72
+2024,20240479,Jan Tratnik,Team Visma | Lease a Bike,Unclassed,6,1.0,189,74
+2024,20240060,Alexey Lutsenko,Astana Qazaqstan Team,All Rounder,6,1.6,188,75
+2024,20240467,Tiesj Benoot,Team Visma | Lease a Bike,Unclassed,6,5.4,186,76
+2024,20240290,Gerben Thijssen,Intermarché - Wanty,Sprinter,8,0.1,183,77
+2024,20240355,Nelson Oliveira,Movistar Team,Unclassed,6,0.4,182,78
+2024,20240437,Michael Matthews,Team Jayco AlUla,Sprinter,8,1.4,174,79
+2024,20240464,Christophe Laporte,Team Visma | Lease a Bike,Unclassed,8,4.7,174,79
+2024,20240825,Jordan Jegat,TotalEnergies,Unclassed,6,0.1,172,81
+2024,20240338,Julien Bernard,Lidl - Trek,Unclassed,4,7.9,168,82
+2024,20240237,Romain Grégoire,Groupama - FDJ,Unclassed,8,2.7,167,83
+2024,20240409,John Degenkolb,Team dsm-firmenich PostNL,Unclassed,6,0.9,166,84
+2024,20240009,Axel Laurance,Alpecin-Deceuninck,Unclassed,6,0.9,163,85
+2024,20240117,Aleksandr Vlasov,BORA - hansgrohe,Climber,8,9.1,160,86
+2024,20240089,Pello Bilbao,Bahrain - Victorious,All Rounder,8,18.6,157,87
+2024,20240184,Bruno Armirail,Decathlon AG2R La Mondiale Team,Unclassed,6,2.5,155,88
+2024,20240100,Nikias Arndt,Bahrain - Victorious,Unclassed,6,0.9,154,89
+2024,20240870,Søren Wærenskjold,Uno-X Mobility,Unclassed,6,1.5,148,90
+2024,20240397,Jan Hirt,Soudal - Quick Step,Climber,6,1.3,138,91
+2024,20240380,Yves Lampaert,Soudal - Quick Step,Unclassed,6,1.1,138,91
+2024,20240395,Gianni Moscon,Soudal - Quick Step,Unclassed,4,8.3,138,91
+2024,20240146,Axel Zingle,Cofidis,Unclassed,6,1.3,128,94
+2024,20240214,Stefan Bissegger,EF Education-EasyPost,Unclassed,6,2.1,128,94
+2024,20240664,Hugo Houle,Israel - Premier Tech,Unclassed,6,0.4,113,96
+2024,20240235,David Gaudu,Groupama - FDJ,Climber,8,4.4,109,97
+2024,20240661,Krists Neilands,Israel - Premier Tech,Unclassed,6,0.3,103,98
+2024,20240133,Bob Jungels,BORA - hansgrohe,Unclassed,6,1.6,96,99
+2024,20240387,Louis Vervaeke,Soudal - Quick Step,Unclassed,6,0.1,89,100
+2024,20240264,Geraint Thomas,INEOS Grenadiers,All Rounder,10,8.2,88,101
+2024,20240068,Davide Ballerini,Astana Qazaqstan Team,Unclassed,6,1.0,88,101
+2024,20240093,Wout Poels,Bahrain - Victorious,Climber,6,7.2,88,101
+2024,20240046,Raúl García Pierna,Arkéa - B&B Hotels,Unclassed,6,0.2,87,104
+2024,20240099,Fred Wright,Bahrain - Victorious,Unclassed,6,3.9,80,105
+2024,20240211,Alberto Bettiol,EF Education-EasyPost,Unclassed,8,10.3,79,106
+2024,20240655,Stephen Williams,Israel - Premier Tech,Unclassed,6,8.7,79,106
+2024,20240819,Sandy Dujardin,TotalEnergies,Unclassed,6,0.3,76,108
+2024,20240206,Rui Costa,EF Education-EasyPost,Unclassed,6,3.8,73,109
+2024,20240239,Lenny Martinez,Groupama - FDJ,Climber,8,7.3,72,110
+2024,20240296,Kobe Goossens,Intermarché - Wanty,Unclassed,6,0.2,72,110
+2024,20240008,Gianni Vermeersch,Alpecin-Deceuninck,Unclassed,6,0.3,68,112
+2024,20240444,Luka Mezgec,Team Jayco AlUla,Unclassed,6,0.2,68,112
+2024,20240004,Søren Kragh Andersen,Alpecin-Deceuninck,Unclassed,6,0.9,66,114
+2024,20240013,Jonas Rickaert,Alpecin-Deceuninck,Unclassed,4,3.7,66,114
+2024,20240120,Danny Van Poppel,BORA - hansgrohe,Sprinter,6,0.9,62,116
+2024,20240236,Stefan Küng,Groupama - FDJ,Unclassed,6,3.5,62,116
+2024,20240423,Bram Welten,Team dsm-firmenich PostNL,Unclassed,4,1.3,62,116
+2024,20240156,Piet Allegaert,Cofidis,Unclassed,6,0.6,60,119
+2024,20240665,Jakob Fuglsang,Israel - Premier Tech,Unclassed,6,1.9,59,120
+2024,20240270,Jonathan Castroviejo,INEOS Grenadiers,Unclassed,6,1.8,58,121
+2024,20240277,Ben Turner,INEOS Grenadiers,Unclassed,6,0.5,58,121
+2024,20240456,Christopher Juul-Jensen,Team Jayco AlUla,Unclassed,4,2.2,54,123
+2024,20240405,Warren Barguil,Team dsm-firmenich PostNL,Climber,6,3.3,52,124
+2024,20240190,Oliver Naesen,Decathlon AG2R La Mondiale Team,Unclassed,4,7.3,52,124
+2024,20240182,Dorian Godon,Decathlon AG2R La Mondiale Team,Unclassed,6,1.3,51,126
+2024,20240304,Laurenz Rex,Intermarché - Wanty,Sprinter,6,0.2,51,126
+2024,20240295,Hugo Page,Intermarché - Wanty,Unclassed,6,0.1,48,128
+2024,20240816,Mathieu Burgaudeau,TotalEnergies,Unclassed,6,0.9,48,128
+2024,20240869,Rasmus Tiller,Uno-X Mobility,Sprinter,6,0.1,48,128
+2024,20240293,Georg Zimmermann,Intermarché - Wanty,Unclassed,6,1.9,46,131
+2024,20240358,Gregor Mühlberger,Movistar Team,Unclassed,6,0.3,46,131
+2024,20240335,Carlos Verona,Lidl - Trek,Unclassed,6,0.4,45,133
+2024,20240193,Paul Lapeira,Decathlon AG2R La Mondiale Team,Unclassed,6,6.9,44,134
+2024,20240204,Neilson Powless,EF Education-EasyPost,All Rounder,6,6.1,44,134
+2024,20240064,Cees Bol,Astana Qazaqstan Team,Sprinter,6,0.3,42,136
+2024,20240090,Matej Mohorič,Bahrain - Victorious,Unclassed,6,15.9,42,136
+2024,20240220,Sean Quinn,EF Education-EasyPost,Unclassed,6,0.7,40,138
+2024,20240147,Ion Izagirre,Cofidis,All Rounder,6,1.3,36,139
+2024,20240246,Kevin Geniets,Groupama - FDJ,Unclassed,6,0.1,36,139
+2024,20240410,Nils Eekhoff,Team dsm-firmenich PostNL,Unclassed,6,0.2,34,141
+2024,20240018,Silvan Dillier,Alpecin-Deceuninck,Unclassed,4,5.2,34,141
+2024,20240038,Clément Champoussin,Arkéa - B&B Hotels,Unclassed,6,0.4,33,143
+2024,20240666,Jake Stewart,Israel - Premier Tech,Unclassed,6,0.3,33,143
+2024,20240010,Robbe Ghys,Alpecin-Deceuninck,Unclassed,4,2.2,32,145
+2024,20240837,Fabien Grellier,TotalEnergies,Unclassed,4,1.1,32,145
+2024,20240689,Cedric Beullens,Lotto Dstny,Unclassed,6,0.2,31,147
+2024,20240127,Matteo Sobrero,BORA - hansgrohe,Unclassed,6,0.3,30,148
+2024,20240693,Harm Vanhoucke,Lotto Dstny,Unclassed,6,0.1,28,149
+2024,20241407,Odd Christian Eiking,Uno-X Mobility,Unclassed,6,0.6,28,149
+2024,20240687,Brent Van Moer,Lotto Dstny,Unclassed,6,0.1,24,151
+2024,20240351,Davide Formolo,Movistar Team,Climber,6,1.7,24,151
+2024,20240132,Marco Haller,BORA - hansgrohe,Unclassed,6,0.3,22,153
+2024,20240167,Simon Geschke,Cofidis,Unclassed,6,2.9,20,154
+2024,20240045,Daniel McLay,Arkéa - B&B Hotels,Unclassed,4,3.1,20,154
+2024,20240432,Chris Harper,Team Jayco AlUla,Climber,6,1.4,16,156
+2024,20240828,Thomas Gachignard,TotalEnergies,Unclassed,6,0.2,16,156
+2024,20240877,Johannes Kulset,Uno-X Mobility,Unclassed,4,4.4,16,156
+2024,20240450,Luke Durbridge,Team Jayco AlUla,Unclassed,4,4.6,14,159
+2024,20240066,Yevgeniy Fedorov,Astana Qazaqstan Team,Unclassed,6,0.1,13,160
+2024,20240700,Jarrad Drizners,Lotto Dstny,Unclassed,4,0.8,12,161
+2024,20240703,Sébastien Grignard,Lotto Dstny,Unclassed,4,1.1,12,161
+2024,20240059,Amaury Capiot,Arkéa - B&B Hotels,Unclassed,6,0.2,8,163
+2024,20240033,Luca Mozzato,Arkéa - B&B Hotels,Sprinter,6,0.2,8,163
+2024,20240094,Jack Haig,Bahrain - Victorious,Climber,6,2.8,8,163
+2024,20240084,Michael Mørkøv,Astana Qazaqstan Team,Unclassed,4,7.8,8,163
+2024,20240667,Guillaume Boivin,Israel - Premier Tech,Unclassed,4,3.4,8,163
+2024,20240452,Elmar Reinders,Team Jayco AlUla,Unclassed,4,1.1,8,163
+2024,20240128,Nico Denz,BORA - hansgrohe,Unclassed,6,1.3,7,169
+2024,20240384,Casper Pedersen,Soudal - Quick Step,Unclassed,6,0.9,6,170
+2024,20240149,Jesús Herrada,Cofidis,Climber,6,1.5,0,171
+2024,20240153,Alexis Renard,Cofidis,Unclassed,6,0.1,0,171
+2024,20240185,Nans Peters,Decathlon AG2R La Mondiale Team,Unclassed,6,0.1,0,171
+2024,20240186,Nicolas Prodhomme,Decathlon AG2R La Mondiale Team,Unclassed,6,0.1,0,171
+2024,20240083,Michele Gazzoli,Astana Qazaqstan Team,Unclassed,4,1.5,0,171
+2024,20240342,Tim Declercq,Lidl - Trek,Unclassed,4,8.5,0,171
