@@ -1,4 +1,4 @@
-# Velogames TdF 2026 — Full Field Deep Dive
+# Velogames TdF 2026, Full Field Deep Dive
 
 Companion to `velogames-2026-postmortem-data.md`. Every rider, every stage, every scoring component.
 
@@ -6,10 +6,10 @@ Companion to `velogames-2026-postmortem-data.md`. Every rider, every stage, ever
 
 Two CSVs in the repo root, scraped 2026-07-29 from `velogames.com/velogame/2026/riderprofile.php?rider=<id>` for all 184 riders:
 
-**`velogames-2026-riders.csv`** — 184 rows
+**`velogames-2026-riders.csv`**, 184 rows
 `rider_id, name, team, class, cost, selected_pct, total_points, overall_rank`
 
-**`velogames-2026-scores.csv`** — 4,048 rows (184 riders x 22 rounds: stages 1-21 plus "Final Classifications")
+**`velogames-2026-scores.csv`**, 4,048 rows (184 riders x 22 rounds: stages 1-21 plus "Final Classifications")
 `rider_id, name, round, round_label, stg, gc, pc, kom, spr, sum, bky, ass, tot`
 
 | Column | Meaning |
@@ -44,7 +44,7 @@ Two CSVs in the repo root, scraped 2026-07-29 from `velogames.com/velogame/2026/
 Two things fall out immediately:
 
 - **Team assists are the third-largest source of points in the entire game (15.3%).** The original post treated the assist model as a garnish on top of rider projections. It is not a garnish. It is bigger than breakaway, sprints, summits, points class and KOM class *combined* (14.1%).
-- **The "Final Classifications" round is worth 6,470 points — 11.8% of the entire game in a single round**, about 4.4x an average stage. Velogames is endgame-weighted, and any model that treats stages as interchangeable draws is mis-shaped.
+- **The "Final Classifications" round is worth 6,470 points, 11.8% of the entire game in a single round**, about 4.4x an average stage. Velogames is endgame-weighted, and any model that treats stages as interchangeable draws is mis-shaped.
 
 ## 2. The assist model, graded
 
@@ -54,28 +54,28 @@ Total team-assist points earned by each pro team's riders across the tour:
 |---|---|---|---|---|
 | UAE Team Emirates - XRG | 2,542 | **318** | ~204 | −36% |
 | Lidl - Trek | 1,830 | **229** | ~154 | −33% |
-| Red Bull - BORA - hansgrohe | 1,048 | 131 | — | — |
+| Red Bull - BORA - hansgrohe | 1,048 | 131 | | |
 | Team Visma \| Lease a Bike | 954 | **119** | ~108 | −9% |
-| Decathlon CMA CGM Team | 448 | 56 | — | — |
-| Netcompany INEOS | 352 | 44 | — | — |
-| Alpecin-Premier Tech | 284 | 36 | — | — |
-| EF Education - EasyPost | 228 | 28 | — | — |
-| Uno-X Mobility | 208 | 26 | — | — |
-| Soudal Quick-Step | 158 | 20 | — | — |
-| Team Jayco AlUla | 96 | 12 | — | — |
-| XDS Astana Team | 56 | 7 | — | — |
-| NSN Cycling Team | 42 | 5 | — | — |
-| Groupama - FDJ United | 40 | 5 | — | — |
-| Bahrain - Victorious | 28 | 4 | — | — |
-| Pinarello-Q36.5 | 26 | 3 | — | — |
-| Movistar Team | 14 | 2 | — | — |
-| TotalEnergies, Lotto Intermarché, Cofidis, Tudor, Picnic PostNL, Caja Rural | 0 | 0 | — | — |
+| Decathlon CMA CGM Team | 448 | 56 | | |
+| Netcompany INEOS | 352 | 44 | | |
+| Alpecin-Premier Tech | 284 | 36 | | |
+| EF Education - EasyPost | 228 | 28 | | |
+| Uno-X Mobility | 208 | 26 | | |
+| Soudal Quick-Step | 158 | 20 | | |
+| Team Jayco AlUla | 96 | 12 | | |
+| XDS Astana Team | 56 | 7 | | |
+| NSN Cycling Team | 42 | 5 | | |
+| Groupama - FDJ United | 40 | 5 | | |
+| Bahrain - Victorious | 28 | 4 | | |
+| Pinarello-Q36.5 | 26 | 3 | | |
+| Movistar Team | 14 | 2 | | |
+| TotalEnergies, Lotto Intermarché, Cofidis, Tudor, Picnic PostNL, Caja Rural | 0 | 0 | | |
 
 Every team fielded exactly 8 riders, so per-rider is directly comparable.
 
-**The model got the ranking exactly right — UAE > Lidl-Trek > Visma — and under-estimated all three magnitudes, worst on the teams that mattered most.** Six of 23 teams scored literally zero assist points. The distribution is brutally top-heavy: UAE and Lidl-Trek alone took 52% of all assist points in the game.
+**The model got the ranking exactly right, UAE > Lidl-Trek > Visma, and under-estimated all three magnitudes, worst on the teams that mattered most.** Six of 23 teams scored literally zero assist points. The distribution is brutally top-heavy: UAE and Lidl-Trek alone took 52% of all assist points in the game.
 
-This is the strongest vindication in the dataset for the *structure* of the original approach. The whole argument for a QUBO was that team-assist correlations make the objective genuinely quadratic. The data says assists are 15.3% of all points and concentrated in two teams — exactly the regime where "which teammates you stack" is a real coupled decision rather than nine independent picks.
+This is the strongest vindication in the dataset for the *structure* of the original approach. The whole argument for a QUBO was that team-assist correlations make the objective genuinely quadratic. The data says assists are 15.3% of all points and concentrated in two teams, exactly the regime where "which teammates you stack" is a real coupled decision rather than nine independent picks.
 
 ## 3. My nine: how each earned its points
 
@@ -91,9 +91,9 @@ This is the strongest vindication in the dataset for the *structure* of the orig
 | Sean Quinn | 367 | 163 | 180 | 0 | 0 | 0 | 0 | 0 | 24 |
 | Edoardo Affini | 118 | 0 | 0 | 0 | 0 | 0 | 0 | 0 | **118** |
 
-**Edoardo Affini scored zero points of his own for three weeks.** All 118 of his points are team-assist credit for riding on Vingegaard's team. He was a pure bet on Visma's team classification, and Visma delivered 119/rider — almost exactly what the model predicted (108). The pick worked as designed and was still the worst value in the squad at 29.5 pts/credit.
+**Edoardo Affini scored zero points of his own for three weeks.** All 118 of his points are team-assist credit for riding on Vingegaard's team. He was a pure bet on Visma's team classification, and Visma delivered 119/rider, almost exactly what the model predicted (108). The pick worked as designed and was still the worst value in the squad at 29.5 pts/credit.
 
-**The Lidl-Trek assist stack paid.** Ayuso and Skjelmose each collected 231 assist points, Pedersen 221 — 683 points, 5.7% of my total, purely from stacking one team. That was a deliberate quadratic play by the optimizer, and it was correct.
+**The Lidl-Trek assist stack paid.** Ayuso and Skjelmose each collected 231 assist points, Pedersen 221, 683 points, 5.7% of my total, purely from stacking one team. That was a deliberate quadratic play by the optimizer, and it was correct.
 
 ## 4. Race shape: I was ahead of the hindsight-optimal team until stage 12
 
@@ -124,7 +124,7 @@ Cumulative points. "Gap" is optimal minus mine; negative means I was **ahead**.
 | Stage 21 | 10,019 | 12,243 | +2,224 | 2,925 |
 | **Final Classifications** | **11,924** | **14,783** | **+2,859** | 3,695 |
 
-For six stages in the middle of the race my team was outscoring the team that a perfect oracle would have picked. That is not a paradox — the hindsight optimum maximizes the *final* total and is free to be behind at any intermediate point — but it is the single most useful chart in this dataset. It says the loss was not a bad squad. It was a squad whose riders stopped scoring in the third week.
+For six stages in the middle of the race my team was outscoring the team that a perfect oracle would have picked. That is not a paradox, the hindsight optimum maximizes the *final* total and is free to be behind at any intermediate point, but it is the single most useful chart in this dataset. It says the loss was not a bad squad. It was a squad whose riders stopped scoring in the third week.
 
 **The gap opens at stage 13 and never closes.** Stages 13-21 plus the final classifications account for all 2,859 points of it.
 
@@ -154,7 +154,7 @@ Swap each of my riders for the best available alternative at the **same cost and
 | Sean Quinn (4cr UN) | 367 | Huub Artz | 555 | +188 |
 | Edoardo Affini (4cr UN) | 118 | Huub Artz | 555 | **+437** |
 
-Vingegaard (24cr), Evenepoel (16cr) and Ayuso (12cr) have no same-cost, same-class alternative — those price points are unique or near-unique in the field.
+Vingegaard (24cr), Evenepoel (16cr) and Ayuso (12cr) have no same-cost, same-class alternative, those price points are unique or near-unique in the field.
 
 **In four of the six slots where a genuine same-price choice existed, the optimizer picked the single best rider available.** The only improvable picks were the two 4-credit Unclassed filler slots, worth +625 combined.
 
@@ -165,7 +165,7 @@ So the 19.3% gap vs the hindsight optimum is almost entirely a **bracket-allocat
 - Pearson r (cost, final points) across 184 riders: **0.801**
 - Pearson r (ownership %, final points): **0.797**
 
-Price explains about 64% of the variance in points (r² = 0.64). The crowd's ownership is essentially as predictive as the price — r = 0.797 vs 0.801 — which means the field collectively adds almost no information beyond reading the price list. The remaining 36% is where any edge lives, and the price-bracket table in the postmortem file shows where it concentrates: the 10-credit bracket, which returns 104.7 mean pts/credit against 18.1 at 4 credits.
+Price explains about 64% of the variance in points (r² = 0.64). The crowd's ownership is essentially as predictive as the price, r = 0.797 vs 0.801, which means the field collectively adds almost no information beyond reading the price list. The remaining 36% is where any edge lives, and the price-bracket table in the postmortem file shows where it concentrates: the 10-credit bracket, which returns 104.7 mean pts/credit against 18.1 at 4 credits.
 
 ## 7. Specialist leaderboards
 
@@ -188,14 +188,14 @@ Price explains about 64% of the variance in points (r² = 0.64). The crowd's own
 
 **Summits:** Carapaz 200 (11%), Pogačar 132, V. Paret-Peintre 99 (21%), Kuss 80, Evenepoel 56, Martinez 56.
 
-**Breakaway:** capped low and spread wide — Tobias Halland Johannessen and Alex Baudin lead on 80, then a cluster on 60 (Carapaz, Simmons, Schmid, García Pierna, Bernal, Castrillo). Baudin got 22% of his total from breakaways; García Pierna 14%; Castrillo 18%.
+**Breakaway:** capped low and spread wide, Tobias Halland Johannessen and Alex Baudin lead on 80, then a cluster on 60 (Carapaz, Simmons, Schmid, García Pierna, Bernal, Castrillo). Baudin got 22% of his total from breakaways; García Pierna 14%; Castrillo 18%.
 
-The pattern: **cheap riders live on the marginal components.** Veistroffer got 57% of his points from intermediate sprints, Paret-Peintre 34% from KOM. Expensive riders live on stage results and GC. If you want value below 8 credits, you are betting on sprints, KOM and breakaways — the 12% of the points pool that the expensive riders mostly ignore.
+The pattern: **cheap riders live on the marginal components.** Veistroffer got 57% of his points from intermediate sprints, Paret-Peintre 34% from KOM. Expensive riders live on stage results and GC. If you want value below 8 credits, you are betting on sprints, KOM and breakaways, the 12% of the points pool that the expensive riders mostly ignore.
 
 ## 8. Attrition and the final-round cliff
 
 - **13 riders scored zero points across the entire tour** (De Lie, De Kleijn, B. Thomas, Biesterbos, Degenkolb, Parra, Van Den Berg, O'Brien, Trentin, Märkl, Allegaert, Dhondt, Berwick).
-- **64 of 184 riders (35%) scored their last point on or before stage 15.** This is a proxy — it cannot distinguish an abandon from a rider who finished in total anonymity — but a third of the field was fantasy-dead with a week to go.
+- **64 of 184 riders (35%) scored their last point on or before stage 15.** This is a proxy, it cannot distinguish an abandon from a rider who finished in total anonymity, but a third of the field was fantasy-dead with a week to go.
 - **130 of 184 riders (71%) scored zero final-classification points.** Only 54 riders scored anything in the round worth 11.8% of the game; mean 120 points among those who did.
 
 Final-round dependence at the top:
@@ -219,5 +219,5 @@ Roughly **a fifth of every good rider's score arrives in one lump at the end.** 
 2. **The "ahead until stage 12" chart is the spine of the piece.** It reframes the 19.3% gap from "bad model" to "right riders, wrong tier allocation, third-week collapse."
 3. **The counterfactual table kills the obvious objection.** Four of six contestable slots took the literal best rider at that price and class. Nobody can say the optimizer picked badly; it allocated badly.
 4. **r = 0.801 for price, r = 0.797 for the crowd.** The field, in aggregate, knows nothing the price list doesn't. That is a clean, quotable justification for optimizing at all.
-5. **The Vingegaard slot is the whole loss.** 24 credits, 1,279 points, 53.3 pts/credit — against Del Toro at 14cr/2,464 and Carapaz at 8cr/1,777 in the same money. Trace what the model believed about him and why.
+5. **The Vingegaard slot is the whole loss.** 24 credits, 1,279 points, 53.3 pts/credit, against Del Toro at 14cr/2,464 and Carapaz at 8cr/1,777 in the same money. Trace what the model believed about him and why.
 6. **Cheap riders live on sprints, KOM and breakaways.** A concrete, testable strategy note for next year that falls straight out of the component table.
