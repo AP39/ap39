@@ -3,53 +3,70 @@
   display: flex;
   flex-direction: column;
   position: relative;
-  justify-content: center;
 }
 
 .container {
   max-width: 1000px;
-  margin: auto auto;
-  padding: 8rem 2rem 4rem 2rem;
+  margin: 0 auto;
+  padding: 9rem 2rem 6rem 2rem;
   width: 100%;
 }
 
-.grid {
+.section {
+  margin-bottom: 5rem;
+}
+
+.section:last-child {
+  margin-bottom: 0;
+}
+
+.sectionLabel {
+  font-size: 0.65rem;
+  font-weight: 600;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--color-text-muted);
+  margin-bottom: 2rem;
+}
+
+/* ===== CURRENT FRONTIER ===== */
+
+.frontierGrid {
   display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 2rem;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1.5rem;
 }
 
 @media (max-width: 768px) {
-  .grid {
+  .frontierGrid {
     grid-template-columns: 1fr;
   }
 }
 
-.card {
+.frontierCard {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  padding: 3rem;
+  padding: 2.5rem 2rem;
   background: rgba(255, 255, 255, 0.01);
   border: 1px solid rgba(255, 255, 255, 0.1);
   position: relative;
   overflow: hidden;
   transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
-  aspect-ratio: 4 / 3;
 }
 
-.cardTitle {
-  font-size: 1.8rem;
+.frontierName {
+  font-size: 1.3rem;
   font-weight: 500;
-  margin-bottom: 1rem;
   letter-spacing: 0.05em;
-  transition: transform 0.4s ease, color 0.4s ease;
+  margin-bottom: 0.6rem;
+  transition: color 0.4s ease;
 }
 
-.cardExcerpt {
+.frontierBlurb {
   color: #888;
-  font-size: 0.95rem;
-  line-height: 1.6;
+  font-size: 0.85rem;
+  letter-spacing: 0.05em;
 }
 
 .scanline {
@@ -64,43 +81,18 @@
   transition: none;
 }
 
-.card:hover {
+.frontierCard.activeMobile {
   border-color: rgba(0, 240, 255, 0.5);
   background: rgba(0, 240, 255, 0.03);
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 15px 40px rgba(0, 240, 255, 0.12);
 }
 
-.card:hover .cardTitle {
+.frontierCard.activeMobile .frontierName {
   color: #00f0ff;
   text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
 }
 
-.card:hover .scanline {
+.frontierCard.activeMobile .scanline {
   animation: scan 0.8s ease-out;
-}
-
-/* ACTIVE STATE FOR MOBILE STIMULATION */
-.card.activeMobile {
-  border-color: rgba(0, 240, 255, 0.5);
-  background: rgba(0, 240, 255, 0.03);
-  transform: translateY(-8px) scale(1.02);
-  box-shadow: 0 15px 40px rgba(0, 240, 255, 0.12);
-}
-
-.card.activeMobile .cardTitle {
-  color: #00f0ff;
-  text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
-}
-
-.card.activeMobile .scanline {
-  animation: scan 0.8s ease-out;
-}
-
-@media (max-width: 768px) {
-  .card {
-    transition: all 0.8s cubic-bezier(0.2, 0.8, 0.2, 1);
-  }
 }
 
 @keyframes scan {
@@ -108,11 +100,87 @@
   100% { left: 200%; }
 }
 
-.empty {
-  grid-column: 1 / -1;
+/* ===== SITES ===== */
+
+.siteList {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  gap: 0.9rem;
+}
+
+.siteItem {
+  font-size: 1.05rem;
+  letter-spacing: 0.05em;
+}
+
+.siteLink {
+  color: #fff;
+  transition: color 0.3s, text-shadow 0.3s;
+}
+
+.siteLink:hover {
+  color: #00f0ff;
+  text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+}
+
+.siteDead {
   color: var(--color-text-muted);
-  font-family: monospace;
-  font-size: 0.85rem;
-  letter-spacing: 0.1em;
+  cursor: default;
+}
+
+/* ===== APPS ===== */
+
+.appGrid {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  gap: 2rem 1.5rem;
+}
+
+@media (max-width: 900px) {
+  .appGrid {
+    grid-template-columns: repeat(4, 1fr);
+  }
+}
+
+@media (max-width: 560px) {
+  .appGrid {
+    grid-template-columns: repeat(3, 1fr);
+  }
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.7rem;
   text-align: center;
+}
+
+.appIcon {
+  width: 100%;
+  max-width: 72px;
+  aspect-ratio: 1 / 1;
+  object-fit: cover;
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.4s ease, box-shadow 0.4s ease;
+}
+
+.appName {
+  font-size: 0.72rem;
+  letter-spacing: 0.08em;
+  color: #888;
+  line-height: 1.4;
+  transition: color 0.3s;
+}
+
+.appLive:hover .appIcon {
+  transform: translateY(-4px);
+  border-color: rgba(0, 240, 255, 0.5);
+  box-shadow: 0 10px 30px rgba(0, 240, 255, 0.15);
+}
+
+.appLive:hover .appName {
+  color: #00f0ff;
 }

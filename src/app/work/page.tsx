@@ -1,38 +1,11 @@
-import fs from 'fs';
-import path from 'path';
 import Link from 'next/link';
 import styles from './page.module.css';
+import repo from '../../data/repo.json';
+import FrontierRow from './FrontierRow';
 
-interface Work {
-  title: string;
-  slug: string;
-  excerpt: string;
-}
+export default function WorkIndex() {
+  const { frontier, sites, apps } = repo;
 
-import WorkGrid from './WorkGrid';
-
-interface Work {
-  title: string;
-  slug: string;
-  excerpt: string;
-}
-
-async function getWorks(): Promise<Work[]> {
-  const dataDir = path.join(process.cwd(), 'src/data/work');
-  if (!fs.existsSync(dataDir)) return [];
-  
-  const files = fs.readdirSync(dataDir);
-  return files
-    .filter(file => file.endsWith('.json'))
-    .map(file => {
-      const content = fs.readFileSync(path.join(dataDir, file), 'utf-8');
-      return JSON.parse(content) as Work;
-    });
-}
-
-export default async function WorkIndex() {
-  const works = await getWorks();
-  
   return (
     <main className={styles.main}>
       <nav className="siteNav">
@@ -41,11 +14,44 @@ export default async function WorkIndex() {
       </nav>
 
       <div className={styles.container}>
-        {works.length > 0 ? (
-          <WorkGrid works={works} />
-        ) : (
-          <p className={styles.empty}>DROPPING SOON</p>
-        )}
+        <section className={styles.section}>
+          <h2 className={styles.sectionLabel}>CURRENT FRONTIER</h2>
+          <FrontierRow items={frontier} />
+        </section>
+
+        <section className={styles.section}>
+          <h2 className={styles.sectionLabel}>SITES</h2>
+          <ul className={styles.siteList}>
+            {sites.map((site) => (
+              <li key={site.name} className={styles.siteItem}>
+                {site.url ? (
+                  <a href={site.url} className={styles.siteLink}>{site.name}</a>
+                ) : (
+                  <span className={styles.siteDead}>{site.name}</span>
+                )}
+              </li>
+            ))}
+          </ul>
+        </section>
+
+        <section className={styles.section}>
+          <h2 className={styles.sectionLabel}>APPS</h2>
+          <div className={styles.appGrid}>
+            {apps.map((app) => {
+              const inner = (
+                <>
+                  <img src={app.icon} alt="" className={styles.appIcon} loading="lazy" />
+                  <span className={styles.appName}>{app.name}</span>
+                </>
+              );
+              return app.url ? (
+                <a key={app.name} href={app.url} className={`${styles.app} ${styles.appLive}`}>{inner}</a>
+              ) : (
+                <div key={app.name} className={styles.app}>{inner}</div>
+              );
+            })}
+          </div>
+        </section>
       </div>
     </main>
   );
