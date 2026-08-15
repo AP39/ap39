@@ -20,6 +20,20 @@ async function getPost(slug: string): Promise<Post | null> {
   return JSON.parse(content) as Post;
 }
 
+// These posts are also published at crystllabs.com/blog/<slug>.html. ap39 and
+// crystllabs.com share a root domain, so two live copies of the same article read
+// as duplicate content. The canonical names crystllabs.com as the original.
+export async function generateMetadata({ params }: { params: Promise<{ slug: string }> }) {
+  const { slug } = await params;
+  const post = await getPost(slug);
+  if (!post) return {};
+  return {
+    title: post.title,
+    description: post.excerpt,
+    alternates: { canonical: `https://crystllabs.com/blog/${slug}.html` },
+  };
+}
+
 export function generateStaticParams() {
   const dir = path.join(process.cwd(), 'src/data/alpha');
   if (!fs.existsSync(dir)) return [];
