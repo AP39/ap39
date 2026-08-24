@@ -33,7 +33,7 @@ export default function Home() {
         <div className={styles.buttonStack}>
           
           <div className={`${styles.buttonWrapper} ${styles.buttonWork} ${activeIndex === 0 ? styles.activeMobile : ""}`}>
-            <Link href="/work" className={styles.insaneButton}>
+            <Link href="/repo" className={styles.insaneButton}>
               <span className={styles.buttonText}>REPO</span>
               <div className={styles.buttonGlow}></div>
               <div className={styles.buttonBorder}></div>

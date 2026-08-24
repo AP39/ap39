@@ -3,14 +3,14 @@ import styles from './page.module.css';
 import repo from '../../data/repo.json';
 import FrontierRow from './FrontierRow';
 
-export default function WorkIndex() {
+export default function RepoIndex() {
   const { frontier, sites, apps } = repo;
 
   return (
     <main className={styles.main}>
       <nav className="siteNav">
         <Link href="/" className="siteBrand">AP39.</Link>
-        <span className="siteStatus">// DECRYPT_WORK</span>
+        <span className="siteStatus">// DECRYPT_REPO</span>
       </nav>
 
       <div className={styles.container}>

@@ -1,26 +1,53 @@
 {
   "frontier": [
     {
-      "name": "Project Clove",
-      "blurb": "Reality engine."
+      "name": "Crystl Quant",
+      "blurb": "Reality engine.",
+      "url": "https://crystlquant.com"
     },
     {
       "name": "Project Oscar",
-      "blurb": "Cognitive offset."
+      "blurb": "Cognitive offset.",
+      "url": null
     },
     {
       "name": "Zero Cool",
-      "blurb": "Root access."
+      "blurb": "Root access.",
+      "url": null
     }
   ],
   "sites": [
     {
       "name": "Rich Man Poor Man",
-      "url": "https://richmanpoorman.crystllabs.com"
+      "url": "https://richmanpoorman.crystllabs.com/"
     },
     {
       "name": "Crystl Suite",
-      "url": null
+      "url": "https://tools.crystllabs.com/"
+    },
+    {
+      "name": "StatClash",
+      "url": "https://statclash.crystllabs.com/"
+    },
+    {
+      "name": "StarClash",
+      "url": "https://starclash.crystllabs.com/"
+    },
+    {
+      "name": "Code Snob",
+      "url": "https://codesnob.crystllabs.com/"
+    },
+    {
+      "name": "Font Guesser",
+      "url": "https://fontguesser.crystllabs.com/"
+    },
+    {
+      "name": "What Year Was It?",
+      "url": "https://year.crystllabs.com/"
+    },
+    {
+      "name": "The Inflation Price Is Right",
+      "url": "https://inflation.crystllabs.com/"
     }
   ],
   "apps": [
@@ -30,39 +57,14 @@
       "url": "https://play.google.com/store/apps/details?id=com.crystllabs.waterpolosmash"
     },
     {
-      "name": "Marathon Kid",
-      "icon": "/apps/marathon-kid.png",
-      "url": null
-    },
-    {
-      "name": "Stonewheel",
-      "icon": "/apps/stonewheel.png",
-      "url": null
-    },
-    {
       "name": "Zero-Day Syndicate",
       "icon": "/apps/zero-day-syndicate.png",
       "url": "https://play.google.com/store/apps/details?id=com.crystllabs.hacker"
     },
     {
-      "name": "Bent FC",
-      "icon": "/apps/bent-fc.png",
-      "url": null
-    },
-    {
       "name": "Bleacher Busters",
       "icon": "/apps/bleacher-busters.png",
       "url": "https://play.google.com/store/apps/details?id=com.crystllabs.bleacherbusters"
-    },
-    {
-      "name": "Cage of Glory",
-      "icon": "/apps/cage-of-glory.png",
-      "url": null
-    },
-    {
-      "name": "Domestique",
-      "icon": "/apps/domestique.png",
-      "url": null
     },
     {
       "name": "Wall Street: 1987",
@@ -72,6 +74,41 @@
     {
       "name": "Bikini Bay",
       "icon": "/apps/bikini-bay.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.surfersim"
+    },
+    {
+      "name": "Cage of Glory",
+      "icon": "/apps/cage-of-glory.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.mmakid"
+    },
+    {
+      "name": "Marathon Legend",
+      "icon": "/apps/marathon-kid.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.marathonkid"
+    },
+    {
+      "name": "Stonewheel",
+      "icon": "/apps/stonewheel.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.skaterbros"
+    },
+    {
+      "name": "DORK",
+      "icon": "/apps/dork.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.dork"
+    },
+    {
+      "name": "Mise",
+      "icon": "/apps/mise.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.cooking"
+    },
+    {
+      "name": "Bent FC",
+      "icon": "/apps/bent-fc.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.corruptfm"
+    },
+    {
+      "name": "Bent FC: Tournament Edition",
+      "icon": "/apps/bent-fc-tournament.png",
       "url": null
     },
     {
@@ -80,23 +117,18 @@
       "url": null
     },
     {
-      "name": "Crystl Health",
+      "name": "Crystl: Supplements and Fasting",
       "icon": "/apps/crystl-health.png",
       "url": null
     },
     {
-      "name": "Dork95",
-      "icon": "/apps/dork.png",
+      "name": "Domestique",
+      "icon": "/apps/domestique.png",
       "url": null
     },
     {
       "name": "Letterman",
       "icon": "/apps/letterman.png",
-      "url": null
-    },
-    {
-      "name": "Mise",
-      "icon": "/apps/mise.png",
       "url": null
     },
     {
@@ -115,11 +147,6 @@
       "url": null
     },
     {
-      "name": "Young Homie",
-      "icon": "/apps/young-homie.png",
-      "url": null
-    },
-    {
       "name": "California Trail",
       "icon": "/apps/california-trail.png",
       "url": null
@@ -127,6 +154,21 @@
     {
       "name": "Windward",
       "icon": "/apps/windward.png",
+      "url": null
+    },
+    {
+      "name": "Young Homie",
+      "icon": "/apps/young-homie.png",
+      "url": null
+    },
+    {
+      "name": "Office Politics",
+      "icon": "/apps/office-politics.png",
+      "url": null
+    },
+    {
+      "name": "Rug Pull: Crypto Tycoon",
+      "icon": "/apps/rugpull.png",
       "url": null
     }
   ]

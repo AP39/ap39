@@ -184,3 +184,13 @@
 .appLive:hover .appName {
   color: #00f0ff;
 }
+
+.frontierLive:hover {
+  border-color: rgba(0, 240, 255, 0.5);
+  background: rgba(0, 240, 255, 0.03);
+}
+
+.frontierLive:hover .frontierName {
+  color: #00f0ff;
+  text-shadow: 0 0 15px rgba(0, 240, 255, 0.6);
+}

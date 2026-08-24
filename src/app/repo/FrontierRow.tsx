@@ -6,6 +6,7 @@ import styles from './page.module.css';
 interface Frontier {
   name: string;
   blurb: string;
+  url?: string | null;
 }
 
 export default function FrontierRow({ items }: { items: Frontier[] }) {
@@ -28,16 +29,21 @@ export default function FrontierRow({ items }: { items: Frontier[] }) {
 
   return (
     <div className={styles.frontierGrid}>
-      {items.map((item, i) => (
-        <div
-          key={item.name}
-          className={`${styles.frontierCard} ${activeIndex === i ? styles.activeMobile : ''}`}
-        >
-          <h3 className={styles.frontierName}>{item.name}</h3>
-          <p className={styles.frontierBlurb}>{item.blurb}</p>
-          <div className={styles.scanline}></div>
-        </div>
-      ))}
+      {items.map((item, i) => {
+        const className = `${styles.frontierCard} ${activeIndex === i ? styles.activeMobile : ''} ${item.url ? styles.frontierLive : ''}`;
+        const inner = (
+          <>
+            <h3 className={styles.frontierName}>{item.name}</h3>
+            <p className={styles.frontierBlurb}>{item.blurb}</p>
+            <div className={styles.scanline}></div>
+          </>
+        );
+        return item.url ? (
+          <a key={item.name} href={item.url} className={className}>{inner}</a>
+        ) : (
+          <div key={item.name} className={className}>{inner}</div>
+        );
+      })}
     </div>
   );
 }
