@@ -1,0 +1,351 @@
+
+
+Available All Rounders
+   32 | Tadej Pogačar | UAE Team Emirates - XRG
+   16 | João Almeida | UAE Team Emirates - XRG
+   14 | Primož Roglič | Red Bull - BORA - hansgrohe
+   12 | Mattias Skjelmose | Lidl - Trek
+   10 | Jørgen Nordhagen | Team Visma | Lease a Bike
+   8 | Pello Bilbao | Bahrain - Victorious
+   8 | Luke Tuckwell | Red Bull - BORA - hansgrohe
+   8 | Jay Vine | UAE Team Emirates - XRG
+   6 | Pablo Castrillo | Movistar Team
+   6 | Laurens De Plus | Netcompany INEOS
+   6 | Finn Fisher-Black | Red Bull - BORA - hansgrohe
+   6 | Iván Romeo | Movistar Team
+   6 | Ben Tulett | Team Visma | Lease a Bike
+
+
+Available Climbers
+   20 | Felix Gall | Decathlon CMA CGM Team
+   16 | Richard Carapaz | EF Education - EasyPost
+   14 | Oscar Onley | Netcompany INEOS
+   12 | Enric Mas | Movistar Team
+   10 | Tobias Halland Johannessen | Uno-X Mobility
+   10 | Sepp Kuss | Team Visma | Lease a Bike
+   10 | Matthew Riccitello | Decathlon CMA CGM Team
+   10 | Cian Uijtdebroeks | Movistar Team
+   8 | Santiago Buitrago | Bahrain - Victorious
+   8 | Lorenzo Fortunato | XDS Astana Team
+   8 | Mikel Landa | Soudal Quick-Step
+   8 | Valentin Paret-Peintre | Soudal Quick-Step
+   8 | Carlos Rodríguez | Netcompany INEOS
+   6 | Markel Beloki | EF Education - EasyPost
+   6 | Clément Berthet | Groupama - FDJ United
+   6 | Léo Bisiaux | Decathlon CMA CGM Team
+   6 | Steff Cras | Soudal Quick-Step
+   6 | Ramses Debruyne | Alpecin-Premier Tech
+   6 | Jesús Herrada | Burgos Burpellet BH
+   6 | Jan Hirt | NSN Cycling Team
+   6 | Guillaume Martin | Groupama - FDJ United
+   6 | Juan Felipe Rodriguez | EF Education - EasyPost
+   6 | Louis Rouland | Cofidis
+   6 | Pavel Sivakov | UAE Team Emirates - XRG
+   6 | Harold Tejada | XDS Astana Team
+   6 | Kevin Vermaerke | UAE Team Emirates - XRG
+   6 | Jarno Widar | Lotto Intermarché
+   6 | Filippo Zana | Soudal Quick-Step
+
+
+Available Sprinters
+   16 | Mads Pedersen | Lidl - Trek
+   12 | Matthew Brennan | Team Visma | Lease a Bike
+   12 | Wout Van Aert | Team Visma | Lease a Bike
+   10 | Kaden Groves | Alpecin-Premier Tech
+   10 | Jordi Meeus | Red Bull - BORA - hansgrohe
+   8 | Orluis Aular | Movistar Team
+   8 | Alberto Dainese | Soudal Quick-Step
+   8 | Axel Laurance | Netcompany INEOS
+   8 | Thibau Nys | Lidl - Trek
+   6 | Clément Alleno | Burgos Burpellet BH
+   6 | Marc Brustenga | Equipo Kern Pharma
+   6 | Francesco Busatto | Alpecin-Premier Tech
+   6 | Iván Cobo | Equipo Kern Pharma
+   6 | Bryan Coquard | Cofidis
+   6 | Steffen De Schuyteneer | Lotto Intermarché
+   6 | Yevgeniy Fedorov | XDS Astana Team
+   6 | Matevž Govekar | Bahrain - Victorious
+   6 | César Macías | Burgos Burpellet BH
+   6 | Pau Miquel | Bahrain - Victorious
+   6 | Henok Mulubrhan | XDS Astana Team
+   6 | Alexis Renard | Cofidis
+
+
+
+
+Available Unclassed Riders
+   8 | Marco Brenner | Tudor Pro Cycling Team
+   8 | Christophe Laporte | Team Visma | Lease a Bike
+   8 | Cristián Rodríguez | XDS Astana Team
+   6 | Vincenzo Albanese | EF Education - EasyPost
+   6 | Mario Aparicio | Burgos Burpellet BH
+   6 | Bruno Armirail | Team Visma | Lease a Bike
+   6 | Urko Berrade | Equipo Kern Pharma
+   6 | Koen Bouwman | Team Jayco AlUla
+   6 | Vito Braet | Lotto Intermarché
+   6 | Emanuel Buchmann | Cofidis
+   6 | Carlos Canal | Movistar Team
+   6 | Oscar Chamberlain | Decathlon CMA CGM Team
+   6 | Sergio Geovani Chumil | Burgos Burpellet BH
+   6 | Magnus Cort | Uno-X Mobility
+   6 | Alessandro Covi | Team Jayco AlUla
+   6 | Lars Craps | Lotto Intermarché
+   6 | David De La Cruz | Pinarello-Q36.5 Pro Cycling Team
+   6 | José Manuel Díaz | Burgos Burpellet BH
+   6 | Paul Double | Team Jayco AlUla
+   6 | Fredrik Dversnes | Uno-X Mobility
+   6 | Mattia Gaffuri | Team Picnic PostNL
+   6 | Raúl García Pierna | Movistar Team
+   6 | Gal Glivar | Alpecin-Premier Tech
+   6 | Chris Hamilton | Team Picnic PostNL
+   6 | Ethan Hayter | Soudal Quick-Step
+   6 | Hugo Houle | Alpecin-Premier Tech
+   6 | Lennard Kämna | Lidl - Trek
+   6 | Arthur Kluckers | Tudor Pro Cycling Team
+   6 | Patrick Konrad | Lidl - Trek
+   6 | Andreas Kron | Uno-X Mobility
+   6 | Stefan Küng | Tudor Pro Cycling Team
+   6 | Jordan Labrosse | Decathlon CMA CGM Team
+   6 | Victor Langellotti | Netcompany INEOS
+   6 | Gijs Leemreize | Team Picnic PostNL
+   6 | Andreas Leknessund | Uno-X Mobility
+   6 | Alexey Lutsenko | NSN Cycling Team
+   6 | Valentin Madouas | Groupama - FDJ United
+   6 | Juan Guillermo Martinez | Team Picnic PostNL
+   6 | Rudy Molard | Groupama - FDJ United
+   6 | Sylvain Moniquet | Cofidis
+   6 | Gregor Mühlberger | Decathlon CMA CGM Team
+   6 | Domen Novak | UAE Team Emirates - XRG
+   6 | Ivo Oliveira | UAE Team Emirates - XRG
+   6 | Finlay Pickering | Team Jayco AlUla
+   6 | Henri-François Renard-Haquin | Team Picnic PostNL
+   6 | Rémy Rochas | Groupama - FDJ United
+   6 | Alessandro Romele | XDS Astana Team
+   6 | Lorenzo Rota | Lotto Intermarché
+   6 | Ibon Ruiz | Equipo Kern Pharma
+   6 | Sente Sentjens | Alpecin-Premier Tech
+   6 | James Shaw | EF Education - EasyPost
+   6 | Iván Ramiro Sosa | Equipo Kern Pharma
+   6 | Georg Steinhauser | EF Education - EasyPost
+   6 | Callum Thornley | Red Bull - BORA - hansgrohe
+   6 | Rasmus Tiller | Uno-X Mobility
+   6 | Martin Tjøtta | Uno-X Mobility
+   6 | Pablo Torres | UAE Team Emirates - XRG
+   6 | Bastien Tronchon | Groupama - FDJ United
+   6 | Diego Uriarte | Equipo Kern Pharma
+   6 | Milan Vader | Pinarello-Q36.5 Pro Cycling Team
+   6 | Attila Valter | Bahrain - Victorious
+   6 | Gianni Vermeersch | Red Bull - BORA - hansgrohe
+   6 | Mats Wenzel | Equipo Kern Pharma
+   4 | Jorge Arcas | Movistar Team
+   4 | Will Barta | Tudor Pro Cycling Team
+   4 | Julien Bernard | Lidl - Trek
+   4 | Walter Calzoni | Pinarello-Q36.5 Pro Cycling Team
+   4 | Simon Dalby | Uno-X Mobility
+   4 | Timo De Jong | Team Picnic PostNL
+   4 | Sander De Pestel | Decathlon CMA CGM Team
+   4 | Lindsay De Vylder | Alpecin-Premier Tech
+   4 | Iñigo Elosegui | Equipo Kern Pharma
+   4 | Roman Ermakov | Bahrain - Victorious
+   4 | José Luis Faura | Burgos Burpellet BH
+   4 | Sinuhé Fernández | Burgos Burpellet BH
+   4 | Michael Gogl | Alpecin-Premier Tech
+   4 | Asbjørn Hellemose | Team Jayco AlUla
+   4 | Alex Kirsch | Cofidis
+   4 | Steven Kruijswijk | Team Visma | Lease a Bike
+   4 | Olivier Le Gac | Groupama - FDJ United
+   4 | Alastair MacKellar | EF Education - EasyPost
+   4 | Hamish McKenzie | Team Jayco AlUla
+   4 | Jacopo Mosca | Lidl - Trek
+   4 | Gianni Moscon | Red Bull - BORA - hansgrohe
+   4 | Mathias Norsgaard | Lidl - Trek
+   4 | Paul Ourselin | Cofidis
+   4 | Mathijs Paasschens | Bahrain - Victorious
+   4 | Enzo Paleni | Groupama - FDJ United
+   4 | Oliver Peace | Team Picnic PostNL
+   4 | Rudy Porter | Team Jayco AlUla
+   4 | Darren Rafferty | EF Education - EasyPost
+   4 | Timo Roosen | Team Picnic PostNL
+   4 | Sergio Samitier | Cofidis
+   4 | Callum Scotson | Decathlon CMA CGM Team
+   4 | Jasha Sütterlin | Team Jayco AlUla
+   4 | Roland Thalmann | Tudor Pro Cycling Team
+   4 | Reuben Thompson | Lotto Intermarché
+   4 | Darren Van Bekkum | XDS Astana Team
+   4 | Luca Van Boven | Lotto Intermarché
+   4 | Roel Van Sintmaartensdijk | Lotto Intermarché
+   4 | Frederik Wandahl | Red Bull - BORA - hansgrohe
+   4 | Larry Warbasse | Tudor Pro Cycling Team
+   4 | Fabian Weiss | Tudor Pro Cycling Team
+   4 | Hannes Wilksch | Tudor Pro Cycling Team
+
+
+
+Available Wildcards
+   32 | Tadej Pogačar | UAE Team Emirates - XRG
+   20 | Felix Gall | Decathlon CMA CGM Team
+   16 | João Almeida | UAE Team Emirates - XRG
+   16 | Richard Carapaz | EF Education - EasyPost
+   16 | Mads Pedersen | Lidl - Trek
+   14 | Oscar Onley | Netcompany INEOS
+   14 | Primož Roglič | Red Bull - BORA - hansgrohe
+   12 | Matthew Brennan | Team Visma | Lease a Bike
+   12 | Enric Mas | Movistar Team
+   12 | Mattias Skjelmose | Lidl - Trek
+   12 | Wout Van Aert | Team Visma | Lease a Bike
+   10 | Kaden Groves | Alpecin-Premier Tech
+   10 | Tobias Halland Johannessen | Uno-X Mobility
+   10 | Sepp Kuss | Team Visma | Lease a Bike
+   10 | Jordi Meeus | Red Bull - BORA - hansgrohe
+   10 | Jørgen Nordhagen | Team Visma | Lease a Bike
+   10 | Matthew Riccitello | Decathlon CMA CGM Team
+   10 | Cian Uijtdebroeks | Movistar Team
+   8 | Orluis Aular | Movistar Team
+   8 | Pello Bilbao | Bahrain - Victorious
+   8 | Marco Brenner | Tudor Pro Cycling Team
+   8 | Santiago Buitrago | Bahrain - Victorious
+   8 | Alberto Dainese | Soudal Quick-Step
+   8 | Lorenzo Fortunato | XDS Astana Team
+   8 | Mikel Landa | Soudal Quick-Step
+   8 | Christophe Laporte | Team Visma | Lease a Bike
+   8 | Axel Laurance | Netcompany INEOS
+   8 | Thibau Nys | Lidl - Trek
+   8 | Valentin Paret-Peintre | Soudal Quick-Step
+   8 | Carlos Rodríguez | Netcompany INEOS
+   8 | Cristián Rodríguez | XDS Astana Team
+   8 | Luke Tuckwell | Red Bull - BORA - hansgrohe
+   8 | Jay Vine | UAE Team Emirates - XRG
+   6 | Vincenzo Albanese | EF Education - EasyPost
+   6 | Clément Alleno | Burgos Burpellet BH
+   6 | Mario Aparicio | Burgos Burpellet BH
+   6 | Bruno Armirail | Team Visma | Lease a Bike
+   6 | Markel Beloki | EF Education - EasyPost
+   6 | Urko Berrade | Equipo Kern Pharma
+   6 | Clément Berthet | Groupama - FDJ United
+   6 | Léo Bisiaux | Decathlon CMA CGM Team
+   6 | Koen Bouwman | Team Jayco AlUla
+   6 | Vito Braet | Lotto Intermarché
+   6 | Marc Brustenga | Equipo Kern Pharma
+   6 | Emanuel Buchmann | Cofidis
+   6 | Francesco Busatto | Alpecin-Premier Tech
+   6 | Carlos Canal | Movistar Team
+   6 | Pablo Castrillo | Movistar Team
+   6 | Oscar Chamberlain | Decathlon CMA CGM Team
+   6 | Sergio Geovani Chumil | Burgos Burpellet BH
+   6 | Iván Cobo | Equipo Kern Pharma
+   6 | Bryan Coquard | Cofidis
+   6 | Magnus Cort | Uno-X Mobility
+   6 | Alessandro Covi | Team Jayco AlUla
+   6 | Lars Craps | Lotto Intermarché
+   6 | Steff Cras | Soudal Quick-Step
+   6 | David De La Cruz | Pinarello-Q36.5 Pro Cycling Team
+   6 | Laurens De Plus | Netcompany INEOS
+   6 | Steffen De Schuyteneer | Lotto Intermarché
+   6 | Ramses Debruyne | Alpecin-Premier Tech
+   6 | José Manuel Díaz | Burgos Burpellet BH
+   6 | Paul Double | Team Jayco AlUla
+   6 | Fredrik Dversnes | Uno-X Mobility
+   6 | Yevgeniy Fedorov | XDS Astana Team
+   6 | Finn Fisher-Black | Red Bull - BORA - hansgrohe
+   6 | Mattia Gaffuri | Team Picnic PostNL
+   6 | Raúl García Pierna | Movistar Team
+   6 | Gal Glivar | Alpecin-Premier Tech
+   6 | Matevž Govekar | Bahrain - Victorious
+   6 | Chris Hamilton | Team Picnic PostNL
+   6 | Ethan Hayter | Soudal Quick-Step
+   6 | Jesús Herrada | Burgos Burpellet BH
+   6 | Jan Hirt | NSN Cycling Team
+   6 | Hugo Houle | Alpecin-Premier Tech
+   6 | Lennard Kämna | Lidl - Trek
+   6 | Arthur Kluckers | Tudor Pro Cycling Team
+   6 | Patrick Konrad | Lidl - Trek
+   6 | Andreas Kron | Uno-X Mobility
+   6 | Stefan Küng | Tudor Pro Cycling Team
+   6 | Jordan Labrosse | Decathlon CMA CGM Team
+   6 | Victor Langellotti | Netcompany INEOS
+   6 | Gijs Leemreize | Team Picnic PostNL
+   6 | Andreas Leknessund | Uno-X Mobility
+   6 | Alexey Lutsenko | NSN Cycling Team
+   6 | César Macías | Burgos Burpellet BH
+   6 | Valentin Madouas | Groupama - FDJ United
+   6 | Guillaume Martin | Groupama - FDJ United
+   6 | Juan Guillermo Martinez | Team Picnic PostNL
+   6 | Pau Miquel | Bahrain - Victorious
+   6 | Rudy Molard | Groupama - FDJ United
+   6 | Sylvain Moniquet | Cofidis
+   6 | Gregor Mühlberger | Decathlon CMA CGM Team
+   6 | Henok Mulubrhan | XDS Astana Team
+   6 | Domen Novak | UAE Team Emirates - XRG
+   6 | Ivo Oliveira | UAE Team Emirates - XRG
+   6 | Jakob Omrzel | Bahrain - Victorious
+   6 | Finlay Pickering | Team Jayco AlUla
+   6 | Alexis Renard | Cofidis
+   6 | Henri-François Renard-Haquin | Team Picnic PostNL
+   6 | Rémy Rochas | Groupama - FDJ United
+   6 | Juan Felipe Rodriguez | EF Education - EasyPost
+   6 | Alessandro Romele | XDS Astana Team
+   6 | Iván Romeo | Movistar Team
+   6 | Lorenzo Rota | Lotto Intermarché
+   6 | Louis Rouland | Cofidis
+   6 | Ibon Ruiz | Equipo Kern Pharma
+   6 | Sente Sentjens | Alpecin-Premier Tech
+   6 | James Shaw | EF Education - EasyPost
+   6 | Pavel Sivakov | UAE Team Emirates - XRG
+   6 | Iván Ramiro Sosa | Equipo Kern Pharma
+   6 | Georg Steinhauser | EF Education - EasyPost
+   6 | Harold Tejada | XDS Astana Team
+   6 | Callum Thornley | Red Bull - BORA - hansgrohe
+   6 | Rasmus Tiller | Uno-X Mobility
+   6 | Martin Tjøtta | Uno-X Mobility
+   6 | Pablo Torres | UAE Team Emirates - XRG
+   6 | Bastien Tronchon | Groupama - FDJ United
+   6 | Ben Tulett | Team Visma | Lease a Bike
+   6 | Diego Uriarte | Equipo Kern Pharma
+   6 | Milan Vader | Pinarello-Q36.5 Pro Cycling Team
+   6 | Attila Valter | Bahrain - Victorious
+   6 | Kevin Vermaerke | UAE Team Emirates - XRG
+   6 | Gianni Vermeersch | Red Bull - BORA - hansgrohe
+   6 | Mats Wenzel | Equipo Kern Pharma
+   6 | Jarno Widar | Lotto Intermarché
+   6 | Filippo Zana | Soudal Quick-Step
+   4 | Jorge Arcas | Movistar Team
+   4 | Will Barta | Tudor Pro Cycling Team
+   4 | Julien Bernard | Lidl - Trek
+   4 | Walter Calzoni | Pinarello-Q36.5 Pro Cycling Team
+   4 | Simon Dalby | Uno-X Mobility
+   4 | Timo De Jong | Team Picnic PostNL
+   4 | Sander De Pestel | Decathlon CMA CGM Team
+   4 | Lindsay De Vylder | Alpecin-Premier Tech
+   4 | Iñigo Elosegui | Equipo Kern Pharma
+   4 | Roman Ermakov | Bahrain - Victorious
+   4 | José Luis Faura | Burgos Burpellet BH
+   4 | Sinuhé Fernández | Burgos Burpellet BH
+   4 | Michael Gogl | Alpecin-Premier Tech
+   4 | Asbjørn Hellemose | Team Jayco AlUla
+   4 | Alex Kirsch | Cofidis
+   4 | Steven Kruijswijk | Team Visma | Lease a Bike
+   4 | Olivier Le Gac | Groupama - FDJ United
+   4 | Alastair MacKellar | EF Education - EasyPost
+   4 | Hamish McKenzie | Team Jayco AlUla
+   4 | Jacopo Mosca | Lidl - Trek
+   4 | Gianni Moscon | Red Bull - BORA - hansgrohe
+   4 | Mathias Norsgaard | Lidl - Trek
+   4 | Paul Ourselin | Cofidis
+   4 | Mathijs Paasschens | Bahrain - Victorious
+   4 | Enzo Paleni | Groupama - FDJ United
+   4 | Oliver Peace | Team Picnic PostNL
+   4 | Rudy Porter | Team Jayco AlUla
+   4 | Darren Rafferty | EF Education - EasyPost
+   4 | Timo Roosen | Team Picnic PostNL
+   4 | Sergio Samitier | Cofidis
+   4 | Callum Scotson | Decathlon CMA CGM Team
+   4 | Jasha Sütterlin | Team Jayco AlUla
+   4 | Roland Thalmann | Tudor Pro Cycling Team
+   4 | Reuben Thompson | Lotto Intermarché
+   4 | Darren Van Bekkum | XDS Astana Team
+   4 | Luca Van Boven | Lotto Intermarché
+   4 | Roel Van Sintmaartensdijk | Lotto Intermarché
+   4 | Frederik Wandahl | Red Bull - BORA - hansgrohe
+   4 | Larry Warbasse | Tudor Pro Cycling Team
+   4 | Fabian Weiss | Tudor Pro Cycling Team
+   4 | Hannes Wilksch | Tudor Pro Cycling Team
