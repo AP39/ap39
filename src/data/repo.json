@@ -52,44 +52,169 @@
   ],
   "apps": [
     {
-      "name": "Water Polo Smash",
-      "icon": "/apps/water-polo-smash.png",
-      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.waterpolosmash"
+      "name": "Domestique",
+      "icon": "/apps/domestique.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.domestique"
     },
     {
-      "name": "Zero-Day Syndicate",
-      "icon": "/apps/zero-day-syndicate.png",
-      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.hacker"
+      "name": "Chess Drill Instructor",
+      "icon": "/apps/chess-drill-instructor.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.chessdrillinstructor"
     },
     {
-      "name": "Bleacher Busters",
-      "icon": "/apps/bleacher-busters.png",
-      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.bleacherbusters"
+      "name": "Letterman",
+      "icon": "/apps/letterman.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.letterman"
     },
     {
-      "name": "Wall Street: 1987",
-      "icon": "/apps/wall-street-1987.png",
-      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.wallstreetkid"
+      "name": "Murder Phone",
+      "icon": "/apps/murder-phone.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.murderphone"
     },
     {
-      "name": "Bikini Bay",
-      "icon": "/apps/bikini-bay.png",
-      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.surfersim"
+      "name": "Sauce Boss",
+      "icon": "/apps/sauce-boss.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.pepperspot"
     },
     {
-      "name": "Cage of Glory",
-      "icon": "/apps/cage-of-glory.png",
-      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.mmakid"
+      "name": "California Trail",
+      "icon": "/apps/california-trail.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.californiatrail"
     },
     {
-      "name": "Marathon Legend",
-      "icon": "/apps/marathon-kid.png",
-      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.marathonkid"
+      "name": "Windward",
+      "icon": "/apps/windward.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.boattrader"
     },
     {
-      "name": "Stonewheel",
-      "icon": "/apps/stonewheel.png",
-      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.skaterbros"
+      "name": "Rug Pull: Crypto Tycoon",
+      "icon": "/apps/rugpull.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.rugpull"
+    },
+    {
+      "name": "Office Politics",
+      "icon": "/apps/office-politics.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.officepolitics"
+    },
+    {
+      "name": "Bare Knuckle",
+      "icon": "/apps/bare-knuckle.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.bareknuckle"
+    },
+    {
+      "name": "Cabinet",
+      "icon": "/apps/cabinet.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.cabinet"
+    },
+    {
+      "name": "Cell Block",
+      "icon": "/apps/cell-block.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.cellblock"
+    },
+    {
+      "name": "Corner Store",
+      "icon": "/apps/corner-store.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.cornerstore"
+    },
+    {
+      "name": "Counter",
+      "icon": "/apps/counter.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.counter"
+    },
+    {
+      "name": "Door Policy",
+      "icon": "/apps/door-policy.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.doorpolicy"
+    },
+    {
+      "name": "Flip This Flat",
+      "icon": "/apps/flip-this-flat.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.flipflat"
+    },
+    {
+      "name": "Front Page",
+      "icon": "/apps/front-page.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.frontpage"
+    },
+    {
+      "name": "Heel Turn",
+      "icon": "/apps/heel-turn.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.heelturn"
+    },
+    {
+      "name": "Lemon Lot",
+      "icon": "/apps/lemon-lot.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.lemonlot"
+    },
+    {
+      "name": "Lost Property",
+      "icon": "/apps/lost-property.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.lostproperty"
+    },
+    {
+      "name": "Night Shift",
+      "icon": "/apps/night-shift.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.nightshift"
+    },
+    {
+      "name": "Rap Sheet",
+      "icon": "/apps/rap-sheet.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.rapsheet"
+    },
+    {
+      "name": "Reading Room",
+      "icon": "/apps/reading-room.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.readingroom"
+    },
+    {
+      "name": "Route",
+      "icon": "/apps/route.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.route"
+    },
+    {
+      "name": "Scoop",
+      "icon": "/apps/scoop.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.scoop"
+    },
+    {
+      "name": "Slumlord",
+      "icon": "/apps/slumlord.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.slumlord"
+    },
+    {
+      "name": "Supply Run",
+      "icon": "/apps/supply-run.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.supplyrun"
+    },
+    {
+      "name": "The Fence",
+      "icon": "/apps/the-fence.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.fence"
+    },
+    {
+      "name": "The House",
+      "icon": "/apps/the-house.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.thehouse"
+    },
+    {
+      "name": "The Yard",
+      "icon": "/apps/the-yard.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.theyard"
+    },
+    {
+      "name": "Trace",
+      "icon": "/apps/trace.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.trace"
+    },
+    {
+      "name": "Wrong Shift",
+      "icon": "/apps/wrong-shift.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.wrongshift"
+    },
+    {
+      "name": "Bent FC",
+      "icon": "/apps/bent-fc.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.corruptfm"
     },
     {
       "name": "DORK",
@@ -102,38 +227,48 @@
       "url": "https://play.google.com/store/apps/details?id=com.crystllabs.cooking"
     },
     {
-      "name": "Bent FC",
-      "icon": "/apps/bent-fc.png",
-      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.corruptfm"
+      "name": "Marathon Legend",
+      "icon": "/apps/marathon-kid.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.marathonkid"
     },
     {
-      "name": "Bent FC: Tournament Edition",
-      "icon": "/apps/bent-fc-tournament.png",
-      "url": null
+      "name": "Stonewheel",
+      "icon": "/apps/stonewheel.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.skaterbros"
     },
     {
-      "name": "Chess Drill Instructor",
-      "icon": "/apps/chess-drill-instructor.png",
-      "url": null
+      "name": "Cage of Glory",
+      "icon": "/apps/cage-of-glory.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.mmakid"
+    },
+    {
+      "name": "Bikini Bay",
+      "icon": "/apps/bikini-bay.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.surfersim"
+    },
+    {
+      "name": "Bleacher Busters",
+      "icon": "/apps/bleacher-busters.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.bleacherbusters"
+    },
+    {
+      "name": "Wall Street: 1987",
+      "icon": "/apps/wall-street-1987.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.wallstreetkid"
+    },
+    {
+      "name": "Zero-Day Syndicate",
+      "icon": "/apps/zero-day-syndicate.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.hacker"
+    },
+    {
+      "name": "Water Polo Smash",
+      "icon": "/apps/water-polo-smash.png",
+      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.waterpolosmash"
     },
     {
       "name": "Crystl: Supplements and Fasting",
       "icon": "/apps/crystl-health.png",
-      "url": null
-    },
-    {
-      "name": "Domestique",
-      "icon": "/apps/domestique.png",
-      "url": null
-    },
-    {
-      "name": "Letterman",
-      "icon": "/apps/letterman.png",
-      "url": null
-    },
-    {
-      "name": "Murder Phone",
-      "icon": "/apps/murder-phone.png",
       "url": null
     },
     {
@@ -142,33 +277,13 @@
       "url": null
     },
     {
-      "name": "Sauce Boss",
-      "icon": "/apps/sauce-boss.png",
-      "url": null
-    },
-    {
-      "name": "California Trail",
-      "icon": "/apps/california-trail.png",
-      "url": null
-    },
-    {
-      "name": "Windward",
-      "icon": "/apps/windward.png",
+      "name": "Bent FC: Tournament Edition",
+      "icon": "/apps/bent-fc-tournament.png",
       "url": null
     },
     {
       "name": "Young Homie",
       "icon": "/apps/young-homie.png",
-      "url": null
-    },
-    {
-      "name": "Office Politics",
-      "icon": "/apps/office-politics.png",
-      "url": null
-    },
-    {
-      "name": "Rug Pull: Crypto Tycoon",
-      "icon": "/apps/rugpull.png",
       "url": null
     }
   ]
