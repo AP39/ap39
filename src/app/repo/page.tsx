@@ -4,7 +4,7 @@ import repo from '../../data/repo.json';
 import FrontierRow from './FrontierRow';
 
 export default function RepoIndex() {
-  const { frontier, sites, apps } = repo;
+  const { frontier, apps } = repo;
 
   return (
     <main className={styles.main}>
@@ -17,21 +17,6 @@ export default function RepoIndex() {
         <section className={styles.section}>
           <h2 className={styles.sectionLabel}>CURRENT FRONTIER</h2>
           <FrontierRow items={frontier} />
-        </section>
-
-        <section className={styles.section}>
-          <h2 className={styles.sectionLabel}>SITES</h2>
-          <ul className={styles.siteList}>
-            {sites.map((site) => (
-              <li key={site.name} className={styles.siteItem}>
-                {site.url ? (
-                  <a href={site.url} className={styles.siteLink}>{site.name}</a>
-                ) : (
-                  <span className={styles.siteDead}>{site.name}</span>
-                )}
-              </li>
-            ))}
-          </ul>
         </section>
 
         <section className={styles.section}>

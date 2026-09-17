@@ -7,6 +7,8 @@ interface Frontier {
   name: string;
   blurb: string;
   url?: string | null;
+  icon?: string;
+  featured?: boolean;
 }
 
 export default function FrontierRow({ items }: { items: Frontier[] }) {
@@ -30,9 +32,10 @@ export default function FrontierRow({ items }: { items: Frontier[] }) {
   return (
     <div className={styles.frontierGrid}>
       {items.map((item, i) => {
-        const className = `${styles.frontierCard} ${activeIndex === i ? styles.activeMobile : ''} ${item.url ? styles.frontierLive : ''}`;
+        const className = `${styles.frontierCard} ${item.featured ? styles.frontierFeatured : ''} ${activeIndex === i ? styles.activeMobile : ''} ${item.url ? styles.frontierLive : ''}`;
         const inner = (
           <>
+            {item.icon && <img src={item.icon} alt="" className={styles.frontierIcon} />}
             <h3 className={styles.frontierName}>{item.name}</h3>
             <p className={styles.frontierBlurb}>{item.blurb}</p>
             <div className={styles.scanline}></div>

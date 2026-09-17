@@ -3,54 +3,17 @@
     {
       "name": "Crystl Quant",
       "blurb": "Reality engine.",
-      "url": "https://crystlquant.com"
-    },
-    {
-      "name": "Project Oscar",
-      "blurb": "Cognitive offset.",
-      "url": null
-    },
-    {
-      "name": "Zero Cool",
-      "blurb": "Root access.",
-      "url": null
-    }
-  ],
-  "sites": [
-    {
-      "name": "Rich Man Poor Man",
-      "url": "https://richmanpoorman.crystllabs.com/"
-    },
-    {
-      "name": "Crystl Suite",
-      "url": "https://tools.crystllabs.com/"
-    },
-    {
-      "name": "StatClash",
-      "url": "https://statclash.crystllabs.com/"
-    },
-    {
-      "name": "StarClash",
-      "url": "https://starclash.crystllabs.com/"
-    },
-    {
-      "name": "Code Snob",
-      "url": "https://codesnob.crystllabs.com/"
-    },
-    {
-      "name": "Font Guesser",
-      "url": "https://fontguesser.crystllabs.com/"
-    },
-    {
-      "name": "What Year Was It?",
-      "url": "https://year.crystllabs.com/"
-    },
-    {
-      "name": "The Inflation Price Is Right",
-      "url": "https://inflation.crystllabs.com/"
+      "url": "https://crystlquant.com",
+      "icon": "/assets/crystlquant-logo.png",
+      "featured": true
     }
   ],
   "apps": [
+    {
+      "name": "Zero Cool",
+      "icon": "/apps/zero-cool.png",
+      "url": null
+    },
     {
       "name": "Domestique",
       "icon": "/apps/domestique.png",
@@ -59,7 +22,7 @@
     {
       "name": "Chess Drill Instructor",
       "icon": "/apps/chess-drill-instructor.png",
-      "url": "https://play.google.com/store/apps/details?id=com.crystllabs.chessdrillinstructor"
+      "url": null
     },
     {
       "name": "Letterman",

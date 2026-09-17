@@ -49,7 +49,6 @@
   opacity: 0;
   z-index: -1;
   transition: opacity 0.5s ease;
-  animation: shiftGlow 3s linear infinite;
 }
 
 @keyframes shiftGlow {
@@ -218,47 +217,4 @@
   }
 }
 
-/* SEQUENTIAL STIMULATION (all screens) */
-.buttonWrapper.activeMobile .insaneButton {
-  transform: scale(1.08);
-  border-color: transparent;
-  transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.8s ease;
-}
-
-.buttonWrapper.activeMobile .buttonBorder {
-  opacity: 1;
-  animation: rotateBorder 2s linear infinite;
-  transition: opacity 0.8s ease-in-out;
-}
-
-.buttonWrapper.activeMobile .buttonGlow {
-  opacity: 0.85;
-  transition: opacity 0.8s ease-in-out;
-}
-
-.buttonWrapper.activeMobile .insaneButton::before {
-  background: rgba(5, 5, 5, 0.95);
-}
-
-.buttonWrapper.activeMobile .insaneButton::after {
-  animation: swipe 0.8s ease-out;
-}
-
-.buttonWork.activeMobile .insaneButton .buttonText {
-  letter-spacing: 0.4em;
-  color: #00f0ff;
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.8);
-}
-
-.buttonAlpha.activeMobile .insaneButton .buttonText {
-  letter-spacing: 0.4em;
-  color: #ff003c;
-  text-shadow: 0 0 10px rgba(255, 0, 60, 0.8);
-}
-
-.buttonContact.activeMobile .insaneButton .buttonText {
-  letter-spacing: 0.4em;
-  color: #00ff66;
-  text-shadow: 0 0 10px rgba(0, 255, 102, 0.8);
-}
 
