@@ -5,7 +5,8 @@
       "blurb": "Reality engine.",
       "url": "https://crystlquant.com",
       "icon": "/assets/crystlquant-logo.png",
-      "featured": true
+      "featured": true,
+      "status": "Live"
     }
   ],
   "apps": [

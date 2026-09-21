@@ -9,6 +9,7 @@ interface Frontier {
   url?: string | null;
   icon?: string;
   featured?: boolean;
+  status?: string;
 }
 
 export default function FrontierRow({ items }: { items: Frontier[] }) {
@@ -38,6 +39,7 @@ export default function FrontierRow({ items }: { items: Frontier[] }) {
             {item.icon && <img src={item.icon} alt="" className={styles.frontierIcon} />}
             <h3 className={styles.frontierName}>{item.name}</h3>
             <p className={styles.frontierBlurb}>{item.blurb}</p>
+            {item.status && <span className={styles.frontierStatus}>{item.status}</span>}
             <div className={styles.scanline}></div>
           </>
         );
