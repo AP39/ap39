@@ -2,7 +2,7 @@
   --color-bg: #000000; /* Pure black, supreme minimalism */
   --color-text: #ffffff;
   --color-text-muted: #555555;
-  --font-sans: var(--font-inter), sans-serif;
+  --font-sans: Inter, "Helvetica Neue", Arial, sans-serif;
 }
 
 * {

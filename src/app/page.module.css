@@ -1,264 +1,276 @@
 .main {
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
+  min-height: 100svh;
   position: relative;
   overflow: hidden;
+  isolation: isolate;
+  background: rgba(0, 0, 0, .78);
 }
 
-@keyframes pulse {
-  0% { opacity: 0.2; }
-  50% { opacity: 1; }
-  100% { opacity: 0.2; }
-}
-
-.centerStage {
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-}
-
-.buttonStack {
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  gap: 3.5rem;
-}
-
-/* =========================================
-   THE "INSANE TECH" CRAZY BUTTON
-   ========================================= */
-
-.buttonWrapper {
-  position: relative;
-  display: inline-block;
-}
-
-/* The ambient glowing aura that sits BEHIND the button */
-.buttonGlow {
+.main::before {
+  content: '';
   position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background: linear-gradient(90deg, #00f0ff, #b300ff, #ff003c);
-  background-size: 200% 100%;
-  filter: blur(25px);
-  opacity: 0;
+  inset: 0;
   z-index: -1;
-  transition: opacity 0.5s ease;
-  animation: shiftGlow 3s linear infinite;
+  pointer-events: none;
+  background:
+    radial-gradient(circle at center, transparent 0 24%, rgba(0,0,0,.3) 63%, #000 100%),
+    linear-gradient(rgba(255,255,255,.015) 1px, transparent 1px),
+    linear-gradient(90deg, rgba(255,255,255,.015) 1px, transparent 1px);
+  background-size: auto, 4rem 4rem, 4rem 4rem;
 }
 
-@keyframes shiftGlow {
-  0% { background-position: 0% 50%; }
-  50% { background-position: 100% 50%; }
-  100% { background-position: 0% 50%; }
+.statusDot {
+  display: inline-block;
+  width: .35rem;
+  height: .35rem;
+  border-radius: 50%;
+  background: #35ff88;
+  box-shadow: 0 0 10px rgba(53,255,136,.75);
+  animation: statusPulse 2.4s ease-in-out infinite;
 }
 
-.insaneButton {
-  position: relative;
-  display: inline-flex;
+@keyframes statusPulse {
+  50% { opacity: .32; box-shadow: 0 0 3px rgba(53,255,136,.25); }
+}
+
+.selector {
+  min-height: 100svh;
+  display: flex;
+  flex-direction: column;
   align-items: center;
   justify-content: center;
-  padding: 1.5rem 4rem;
-  background: #000;
-  color: #fff;
-  font-size: 0.75rem;
-  font-weight: 600;
-  letter-spacing: 0.2em;
-  text-transform: uppercase;
-  border: 1px solid rgba(255, 255, 255, 0.1);
-  cursor: pointer;
-  overflow: hidden;
-  border-radius: 2px;
-  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.4s ease;
-  z-index: 1;
+  padding: 8rem 2rem;
 }
 
-/* The actual text */
-.buttonText {
+.prompt,
+.hint {
+  color: #484848;
+  font-size: .48rem;
+  letter-spacing: .26em;
+  font-weight: 500;
+}
+
+.prompt { margin-bottom: clamp(3rem, 7vh, 5rem); }
+.hint { margin-top: clamp(3.2rem, 8vh, 5.5rem); }
+
+.icons {
+  display: flex;
+  align-items: flex-start;
+  justify-content: center;
+  gap: clamp(3.5rem, 9vw, 9rem);
+}
+
+.iconLink {
+  --accent: #16e8ff;
+  width: clamp(7.5rem, 12vw, 10rem);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1.8rem;
+  color: #565656;
+  transition: color .35s ease;
+}
+
+.alpha { --accent: #e93cff; }
+.ping { --accent: #35ff88; }
+
+.shape {
+  width: 100%;
+  aspect-ratio: 1;
   position: relative;
-  z-index: 10;
-  transition: transform 0.4s cubic-bezier(0.2, 0.8, 0.2, 1), letter-spacing 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
-  mix-blend-mode: difference;
+  display: grid;
+  place-items: center;
+  filter: drop-shadow(0 0 0 transparent);
+  transition: transform .45s cubic-bezier(.2,.8,.2,1), filter .45s ease;
 }
 
-/* The spinning laser border inside the button */
-.buttonBorder {
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 200%;
-  height: 400%;
-  background: conic-gradient(from 0deg, transparent 70%, #00f0ff 80%, #b300ff 100%);
-  transform: translate(-50%, -50%) rotate(0deg);
-  opacity: 0;
-  transition: opacity 0.4s ease;
-  z-index: 0;
-}
-
-/* Inner masking to cut out the center so only the border is visible */
-.insaneButton::before {
+.shape::before,
+.shape::after {
   content: '';
   position: absolute;
-  inset: 1px; /* Creates a 1px border */
-  background: #000;
-  z-index: 1;
-  transition: background 0.4s ease;
+  inset: 0;
+  background: var(--accent);
 }
 
-/* The scanning light beam effect across the text */
-.insaneButton::after {
+.shape::after {
+  inset: 1px;
+  background: #020202;
+}
+
+.repo .shape::before,
+.repo .shape::after {
+  clip-path: polygon(23% 0, 77% 0, 100% 23%, 100% 77%, 77% 100%, 23% 100%, 0 77%, 0 23%);
+}
+
+.alpha .shape::before,
+.alpha .shape::after {
+  clip-path: polygon(50% 0, 100% 50%, 50% 100%, 0 50%);
+}
+
+.ping .shape::before,
+.ping .shape::after { border-radius: 50%; }
+
+.shapeGraphic {
+  width: 42%;
+  height: 42%;
+  position: relative;
+  z-index: 2;
+  display: grid;
+  place-items: center;
+  color: var(--accent);
+}
+
+/* repository: three indexed data shelves */
+.repo .shapeGraphic {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: .48rem;
+}
+
+.repo .shapeGraphic i {
+  display: block;
+  height: 1px;
+  width: 100%;
+  position: relative;
+  background: color-mix(in srgb, var(--accent) 55%, transparent);
+  transition: transform .3s ease, opacity .3s ease;
+}
+
+.repo .shapeGraphic i::before {
   content: '';
   position: absolute;
-  top: 0;
-  left: -100%;
-  width: 30%;
-  height: 100%;
-  background: linear-gradient(90deg, transparent, rgba(255, 255, 255, 0.8), transparent);
-  transform: skewX(-25deg);
-  z-index: 15;
-  transition: none;
+  left: 0;
+  top: -2px;
+  width: 5px;
+  height: 5px;
+  border: 1px solid var(--accent);
+  background: #020202;
 }
 
-/* HOVER STATES */
-.insaneButton:hover {
-  transform: scale(1.08);
-  border-color: transparent; /* Hide static border to show laser border */
+/* alpha: a live core inside the diamond */
+.alpha .shapeGraphic i {
+  position: absolute;
+  inset: 0;
+  border: 1px dashed color-mix(in srgb, var(--accent) 55%, transparent);
+  border-radius: 50%;
+  transition: transform .6s ease;
 }
 
-.insaneButton:hover .buttonBorder {
-  opacity: 1;
-  animation: rotateBorder 2s linear infinite;
+.alpha .shapeGraphic b {
+  font-family: Georgia, serif;
+  font-size: clamp(1.8rem, 3.2vw, 2.7rem);
+  font-weight: 400;
+  line-height: 1;
 }
 
-.insaneButton:hover .buttonText {
-  letter-spacing: 0.4em;
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.8);
-  color: #00f0ff;
+/* ping: quiet radar */
+.ping .shapeGraphic i {
+  position: absolute;
+  border: 1px solid color-mix(in srgb, var(--accent) 35%, transparent);
+  border-radius: 50%;
 }
 
-.buttonWrapper:hover .buttonGlow {
-  opacity: 0.85;
+.ping .shapeGraphic i:first-child { inset: 2%; }
+.ping .shapeGraphic i:nth-child(2) { inset: 27%; }
+.ping .shapeGraphic b {
+  display: block;
+  width: .38rem;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  background: var(--accent);
+  box-shadow: 0 0 10px var(--accent);
 }
 
-.insaneButton:hover::before {
-  background: rgba(5, 5, 5, 0.95);
+.labelRow {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: .8rem;
 }
 
-.insaneButton:hover::after {
-  animation: swipe 0.8s ease-out;
+.labelRow small {
+  color: #383838;
+  font-family: Consolas, monospace;
+  font-size: .45rem;
+  letter-spacing: .1em;
 }
 
-@keyframes rotateBorder {
-  0% { transform: translate(-50%, -50%) rotate(0deg); }
-  100% { transform: translate(-50%, -50%) rotate(360deg); }
+.labelRow strong {
+  color: #a1a1a1;
+  font-size: .62rem;
+  font-weight: 550;
+  letter-spacing: .3em;
+  transition: color .3s ease, text-shadow .3s ease;
 }
 
-@keyframes swipe {
-  0% { left: -100%; }
-  100% { left: 200%; }
+.iconLink:hover,
+.iconLink:focus-visible { color: var(--accent); }
+
+.iconLink:hover .shape,
+.iconLink:focus-visible .shape {
+  transform: translateY(-7px) scale(1.035);
+  filter: drop-shadow(0 0 13px color-mix(in srgb, var(--accent) 28%, transparent));
 }
 
-/* =========================================
-   BUTTON COLOR VARIANTS
-   ========================================= */
-.buttonWork .buttonGlow {
-  background: linear-gradient(90deg, #00f0ff, #b300ff, #00f0ff);
-  background-size: 200% 100%;
-}
-.buttonWork .buttonBorder {
-  background: conic-gradient(from 0deg, transparent 70%, #00f0ff 80%, #b300ff 100%);
-}
-.buttonWork .insaneButton {
-  border-color: rgba(0, 240, 255, 0.25);
+.iconLink:hover .labelRow strong,
+.iconLink:focus-visible .labelRow strong {
+  color: var(--accent);
+  text-shadow: 0 0 13px color-mix(in srgb, var(--accent) 45%, transparent);
 }
 
-.buttonAlpha .buttonGlow {
-  background: linear-gradient(90deg, #ff003c, #b300ff, #ff003c);
-  background-size: 200% 100%;
-}
-.buttonAlpha .buttonBorder {
-  background: conic-gradient(from 0deg, transparent 70%, #ff003c 80%, #b300ff 100%);
-}
-.buttonAlpha .insaneButton {
-  border-color: rgba(255, 0, 60, 0.25);
+.repo:hover .shapeGraphic i:nth-child(1) { transform: translateX(7px); }
+.repo:hover .shapeGraphic i:nth-child(2) { transform: translateX(-4px); }
+.repo:hover .shapeGraphic i:nth-child(3) { transform: translateX(3px); }
+.alpha:hover .shapeGraphic i { transform: rotate(180deg) scale(1.1); }
+.ping:hover .shapeGraphic i:first-child { animation: radar 1.4s ease-out infinite; }
+.ping:hover .shapeGraphic i:nth-child(2) { animation: radar 1.4s .25s ease-out infinite; }
+
+@keyframes radar {
+  from { transform: scale(.6); opacity: 1; }
+  to { transform: scale(1.45); opacity: 0; }
 }
 
-.buttonContact .buttonGlow {
-  background: linear-gradient(90deg, #00ff66, #00f0ff, #00ff66);
-  background-size: 200% 100%;
-}
-.buttonContact .buttonBorder {
-  background: conic-gradient(from 0deg, transparent 70%, #00ff66 80%, #00f0ff 100%);
-}
-.buttonContact .insaneButton {
-  border-color: rgba(0, 255, 102, 0.25);
+.iconLink:focus-visible {
+  outline: 1px solid var(--accent);
+  outline-offset: 1rem;
 }
 
-@media (max-width: 768px) {
-  .buttonStack {
-    gap: 4.5rem;
-  }
-  
-  .insaneButton {
-    padding: 1.75rem 4.5rem;
-    font-size: 0.85rem;
-  }
-
-  .buttonGlow {
-    transition: opacity 0.8s ease-in-out;
-  }
-
-  .buttonBorder {
-    transition: opacity 0.8s ease-in-out;
-  }
+.systemMeta {
+  position: fixed;
+  right: 4rem;
+  bottom: 3rem;
+  display: flex;
+  gap: 1.5rem;
+  color: #303030;
+  font-size: .43rem;
+  letter-spacing: .17em;
 }
 
-/* SEQUENTIAL STIMULATION (all screens) */
-.buttonWrapper.activeMobile .insaneButton {
-  transform: scale(1.08);
-  border-color: transparent;
-  transition: transform 0.8s cubic-bezier(0.2, 0.8, 0.2, 1), border-color 0.8s ease;
+@media (max-width: 700px) {
+  .selector { padding: 7rem 1.25rem 6rem; }
+  .icons { width: 100%; gap: clamp(.8rem, 5vw, 2rem); }
+  .iconLink { width: min(27vw, 7.3rem); gap: 1.3rem; }
+  .labelRow { gap: .35rem; }
+  .labelRow small { display: none; }
+  .labelRow strong { font-size: .52rem; }
+  .prompt { margin-bottom: 3.5rem; }
+  .hint { margin-top: 4rem; }
+  .systemMeta { right: 1.75rem; bottom: 2rem; }
+  .systemMeta span:first-child { display: none; }
 }
 
-.buttonWrapper.activeMobile .buttonBorder {
-  opacity: 1;
-  animation: rotateBorder 2s linear infinite;
-  transition: opacity 0.8s ease-in-out;
+@media (max-width: 420px) {
+  .icons { flex-direction: column; align-items: center; gap: 1.5rem; }
+  .iconLink { width: 6.4rem; flex-direction: row; gap: 1.4rem; }
+  .shape { flex: 0 0 4rem; }
+  .labelRow { justify-content: flex-start; }
+  .prompt { margin-bottom: 2rem; }
+  .hint { display: none; }
 }
 
-.buttonWrapper.activeMobile .buttonGlow {
-  opacity: 0.85;
-  transition: opacity 0.8s ease-in-out;
+@media (prefers-reduced-motion: reduce) {
+  .statusDot,
+  .ping:hover .shapeGraphic i { animation: none; }
 }
-
-.buttonWrapper.activeMobile .insaneButton::before {
-  background: rgba(5, 5, 5, 0.95);
-}
-
-.buttonWrapper.activeMobile .insaneButton::after {
-  animation: swipe 0.8s ease-out;
-}
-
-.buttonWork.activeMobile .insaneButton .buttonText {
-  letter-spacing: 0.4em;
-  color: #00f0ff;
-  text-shadow: 0 0 10px rgba(0, 240, 255, 0.8);
-}
-
-.buttonAlpha.activeMobile .insaneButton .buttonText {
-  letter-spacing: 0.4em;
-  color: #ff003c;
-  text-shadow: 0 0 10px rgba(255, 0, 60, 0.8);
-}
-
-.buttonContact.activeMobile .insaneButton .buttonText {
-  letter-spacing: 0.4em;
-  color: #00ff66;
-  text-shadow: 0 0 10px rgba(0, 255, 102, 0.8);
-}
-
