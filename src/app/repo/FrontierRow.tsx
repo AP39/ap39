@@ -6,7 +6,8 @@ import styles from './page.module.css';
 interface Frontier {
   name: string;
   blurb: string;
-  url?: string | null;
+  site?: string | null;
+  play?: string | null;
   icon?: string;
   featured?: boolean;
   status?: string;
@@ -33,20 +34,22 @@ export default function FrontierRow({ items }: { items: Frontier[] }) {
   return (
     <div className={styles.frontierGrid}>
       {items.map((item, i) => {
-        const className = `${styles.frontierCard} ${item.featured ? styles.frontierFeatured : ''} ${activeIndex === i ? styles.activeMobile : ''} ${item.url ? styles.frontierLive : ''}`;
-        const inner = (
-          <>
+        const live = item.site || item.play;
+        const className = `${styles.frontierCard} ${item.featured ? styles.frontierFeatured : ''} ${activeIndex === i ? styles.activeMobile : ''} ${live ? styles.frontierLive : ''}`;
+        return (
+          <div key={item.name} className={className}>
             {item.icon && <img src={item.icon} alt="" className={styles.frontierIcon} />}
             <h3 className={styles.frontierName}>{item.name}</h3>
             <p className={styles.frontierBlurb}>{item.blurb}</p>
             {item.status && <span className={styles.frontierStatus}>{item.status}</span>}
+            {live && (
+              <div className={styles.links}>
+                {item.site && <a href={item.site} className={styles.link}>Website</a>}
+                {item.play && <a href={item.play} className={styles.link}>Google Play</a>}
+              </div>
+            )}
             <div className={styles.scanline}></div>
-          </>
-        );
-        return item.url ? (
-          <a key={item.name} href={item.url} className={className}>{inner}</a>
-        ) : (
-          <div key={item.name} className={className}>{inner}</div>
+          </div>
         );
       })}
     </div>

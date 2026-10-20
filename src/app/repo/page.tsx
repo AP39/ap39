@@ -22,19 +22,17 @@ export default function RepoIndex() {
         <section className={styles.section}>
           <h2 className={styles.sectionLabel}>APPS</h2>
           <div className={styles.appGrid}>
-            {apps.map((app) => {
-              const inner = (
-                <>
-                  <img src={app.icon} alt="" className={styles.appIcon} loading="lazy" />
-                  <span className={styles.appName}>{app.name}</span>
-                </>
-              );
-              return app.url ? (
-                <a key={app.name} href={app.url} className={`${styles.app} ${styles.appLive}`}>{inner}</a>
-              ) : (
-                <div key={app.name} className={styles.app}>{inner}</div>
-              );
-            })}
+            {apps.map((app) => (
+              <div key={app.name} className={`${styles.app} ${styles.appLive}`}>
+                <img src={app.icon} alt="" className={styles.appIcon} loading="lazy" />
+                <span className={styles.appName}>{app.name}</span>
+                <span className={styles.appBlurb}>{app.blurb}</span>
+                <div className={styles.links}>
+                  {app.play && <a href={app.play} className={styles.link}>Play</a>}
+                  {app.itch && <a href={app.itch} className={styles.link}>itch.io</a>}
+                </div>
+              </div>
+            ))}
           </div>
         </section>
       </div>

@@ -88,6 +88,7 @@
 
 .frontierStatus {
   display: inline-block;
+  align-self: flex-start;
   margin-top: 0.9rem;
   padding: 0.2rem 0.55rem;
   border: 1px solid rgba(0, 240, 255, 0.4);
@@ -162,20 +163,57 @@
 
 .appGrid {
   display: grid;
-  grid-template-columns: repeat(6, 1fr);
-  gap: 2rem 1.5rem;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 2.5rem 1.5rem;
 }
 
 @media (max-width: 900px) {
   .appGrid {
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(3, 1fr);
   }
 }
 
 @media (max-width: 560px) {
   .appGrid {
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
   }
+}
+
+.appBlurb {
+  font-size: 0.7rem;
+  color: #666;
+  line-height: 1.5;
+}
+
+.links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 0.4rem;
+  margin-top: 0.3rem;
+}
+
+.frontierCard .links {
+  justify-content: flex-start;
+  margin-top: 1rem;
+  position: relative;
+  z-index: 11;
+}
+
+.link {
+  padding: 0.25rem 0.6rem;
+  border: 1px solid rgba(0, 240, 255, 0.35);
+  border-radius: 4px;
+  color: #00f0ff;
+  font-size: 0.62rem;
+  letter-spacing: 0.15em;
+  text-transform: uppercase;
+  transition: background 0.3s, border-color 0.3s;
+}
+
+.link:hover {
+  background: rgba(0, 240, 255, 0.1);
+  border-color: rgba(0, 240, 255, 0.7);
 }
 
 .app {
