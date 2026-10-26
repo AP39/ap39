@@ -1,22 +1,148 @@
-/* One readable article layout for /alpha and /blog posts (redesign 2026-10-27). */
-.article { max-width: 720px; margin: 0 auto; padding: 40px 0 0; }
-.back { display: inline-block; font-size: 14px; margin-bottom: 28px; }
-.header { padding-bottom: 24px; border-bottom: 1px solid var(--line); margin-bottom: 28px; }
-.meta { font-size: 14px; color: var(--muted); }
-.title { font-size: clamp(28px, 5vw, 40px); line-height: 1.15; letter-spacing: -0.02em; margin-top: 8px; }
-.byline { color: var(--muted); font-size: 15px; margin-top: 12px; }
+.main {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  /* Translucent black scrim so the page watermark doesn't wash out body text */
+  background: rgba(0, 0, 0, 0.72);
+}
 
-.content { font-size: 17px; line-height: 1.75; }
-.content p { margin: 0 0 1.2em; }
-.content strong { color: #fff; }
-.content em { color: var(--text); }
-.section { font-size: 22px; line-height: 1.3; margin: 1.8em 0 0.6em; letter-spacing: -0.01em; }
-.list { margin: 0 0 1.2em 1.2em; }
-.list li { margin-bottom: 0.4em; }
-.code { background: var(--panel); border: 1px solid var(--line); border-radius: 10px; padding: 16px; overflow-x: auto; margin: 0 0 1.2em; font-size: 14px; line-height: 1.5; }
-.code code { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; }
-.image { border-radius: 10px; border: 1px solid var(--line); margin: 0 0 1.2em; }
-.tableWrap { overflow-x: auto; margin: 0 0 1.2em; }
-.table { border-collapse: collapse; width: 100%; font-size: 15px; }
-.table th, .table td { border-bottom: 1px solid var(--line); padding: 8px 10px; text-align: left; }
-.table th { color: var(--muted); font-weight: 600; }
+.article {
+  max-width: 700px;
+  margin: 0 auto;
+  padding: 4rem 2rem;
+  width: 100%;
+}
+
+.header {
+  margin-bottom: 4rem;
+  position: relative;
+}
+
+.header::after {
+  content: '';
+  position: absolute;
+  bottom: -2rem;
+  left: 0;
+  width: 50px;
+  height: 2px;
+  background: #00f0ff;
+  box-shadow: 0 0 15px rgba(0, 240, 255, 0.8);
+}
+
+.meta {
+  font-size: 0.75rem;
+  letter-spacing: 0.2em;
+  color: #00f0ff;
+  margin-bottom: 1.5rem;
+  font-family: monospace;
+}
+
+.title {
+  font-size: 3rem;
+  font-weight: 600;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+}
+
+.content {
+  color: #d0d0d0;
+  font-size: 1.15rem;
+  line-height: 1.8;
+  letter-spacing: 0.01em;
+}
+
+.content p {
+  margin-bottom: 2rem;
+}
+
+.byline {
+  margin-top: 1.25rem;
+  font-family: monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.2em;
+  color: #6a6a6a;
+}
+
+.section {
+  font-size: 1.6rem;
+  font-weight: 600;
+  letter-spacing: -0.01em;
+  color: #ffffff;
+  margin: 3.5rem 0 1.5rem;
+}
+
+.code {
+  background: rgba(0, 240, 255, 0.04);
+  border: 1px solid rgba(0, 240, 255, 0.2);
+  border-radius: 8px;
+  padding: 1.25rem 1.5rem;
+  margin-bottom: 2rem;
+  overflow-x: auto;
+  font-size: 0.9rem;
+  line-height: 1.65;
+}
+
+.code code {
+  font-family: monospace;
+  color: #d0d0d0;
+  white-space: pre;
+}
+
+.content strong {
+  color: #ffffff;
+  font-weight: 600;
+}
+
+.content em {
+  color: #b0b0b0;
+  font-style: italic;
+}
+
+.image {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+  border: 1px solid rgba(0, 240, 255, 0.2);
+  margin-bottom: 2rem;
+}
+
+.tableWrap {
+  overflow-x: auto;
+  margin-bottom: 2rem;
+}
+
+.table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.95rem;
+}
+
+.table th,
+.table td {
+  padding: 0.6rem 1rem;
+  border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  text-align: left;
+  white-space: nowrap;
+}
+
+.table th {
+  font-family: monospace;
+  font-size: 0.7rem;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  color: #00f0ff;
+}
+
+.table td {
+  color: #d0d0d0;
+}
+
+.list {
+  margin: 0 0 2rem;
+  padding-left: 1.5rem;
+}
+
+.list li {
+  margin-bottom: 0.6rem;
+}

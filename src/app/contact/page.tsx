@@ -1,18 +1,23 @@
-import type { Metadata } from 'next';
-
-export const metadata: Metadata = { title: 'Contact | AP39', description: 'How to reach AP39.', alternates: { canonical: '/contact' } };
+import styles from './page.module.css';
+import Link from 'next/link';
 
 export default function Contact() {
   return (
-    <div className="wrap">
-      <section className="page-title">
-        <h1>Contact</h1>
-        <p>For work, collaboration or questions about anything here.</p>
-      </section>
-      <div className="contact-box">
-        <p>The fastest way to reach me is Telegram.</p>
-        <a className="btn" href="https://t.me/ap39ap39" target="_blank" rel="noopener noreferrer">Message @ap39ap39</a>
+    <main className={styles.main}>
+      <nav className="siteNav">
+        <Link href="/" className="siteBrand">AP39.</Link>
+        <span className="siteStatus">// LINK_ESTABLISHED</span>
+      </nav>
+      
+      <div className={styles.center}>
+        <div className={`${styles.buttonWrapper} ${styles.buttonEmail}`}>
+          <a href="https://t.me/ap39ap39" target="_blank" rel="noopener noreferrer" className={styles.insaneButton}>
+            <span className={styles.buttonText}>@ap39ap39</span>
+            <div className={styles.buttonGlow}></div>
+            <div className={styles.buttonBorder}></div>
+          </a>
+        </div>
       </div>
-    </div>
+    </main>
   );
 }
