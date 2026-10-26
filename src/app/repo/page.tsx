@@ -1,41 +1,25 @@
-import Link from 'next/link';
-import styles from './page.module.css';
+import type { Metadata } from 'next';
 import repo from '../../data/repo.json';
-import FrontierRow from './FrontierRow';
+import { ProjectCard } from '@/components/Cards';
 
-export default function RepoIndex() {
+export const metadata: Metadata = { title: 'Work | AP39', description: 'Sites and released apps and games built by AP39 at Crystl Labs.', alternates: { canonical: '/repo' } };
+
+export default function Work() {
   const { frontier, apps } = repo;
-
   return (
-    <main className={styles.main}>
-      <nav className="siteNav">
-        <Link href="/" className="siteBrand">AP39.</Link>
-        <span className="siteStatus">// DECRYPT_REPO</span>
-      </nav>
-
-      <div className={styles.container}>
-        <section className={styles.section}>
-          <h2 className={styles.sectionLabel}>CURRENT FRONTIER</h2>
-          <FrontierRow items={frontier} />
-        </section>
-
-        <section className={styles.section}>
-          <h2 className={styles.sectionLabel}>APPS</h2>
-          <div className={styles.appGrid}>
-            {apps.map((app) => (
-              <div key={app.name} className={`${styles.app} ${styles.appLive}`}>
-                <img src={app.icon} alt="" className={styles.appIcon} loading="lazy" />
-                <span className={styles.appName}>{app.name}</span>
-                <span className={styles.appBlurb}>{app.blurb}</span>
-                <div className={styles.links}>
-                  {app.play && <a href={app.play} className={styles.link}>Play</a>}
-                  {app.itch && <a href={app.itch} className={styles.link}>itch.io</a>}
-                </div>
-              </div>
-            ))}
-          </div>
-        </section>
-      </div>
-    </main>
+    <div className="wrap">
+      <section className="page-title">
+        <h1>Work</h1>
+        <p>Live sites first, then every released app and game, with links to Google Play and itch.io.</p>
+      </section>
+      <section className="section">
+        <div className="section-head"><h2>Sites</h2></div>
+        <div className="grid wide">{frontier.map((p) => <ProjectCard key={p.name} p={p} site />)}</div>
+      </section>
+      <section className="section">
+        <div className="section-head"><h2>Released apps and games</h2><span className="tag">{apps.length}</span></div>
+        <div className="grid">{apps.map((p) => <ProjectCard key={p.name} p={p} />)}</div>
+      </section>
+    </div>
   );
 }

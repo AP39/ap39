@@ -16,6 +16,13 @@
       "play": "https://play.google.com/store/apps/details?id=com.crystllabs.underfolio",
       "icon": "/assets/underfolio-icon.png",
       "status": "Live"
+    },
+    {
+      "name": "The Kimchi Premium",
+      "blurb": "Korean stocks and markets, explained in English.",
+      "site": "https://thekimchipremium.com/",
+      "icon": "/assets/kimchi-icon.png",
+      "status": "Live"
     }
   ],
   "apps": [
