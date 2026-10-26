@@ -11,7 +11,7 @@ interface Post {
   excerpt: string;
 }
 
-export default function AlphaList({ posts }: { posts: Post[] }) {
+export default function AlphaList({ posts, basePath = '/alpha' }: { posts: Post[]; basePath?: string }) {
   const [activeIndex, setActiveIndex] = useState<number>(-1);
 
   useEffect(() => {
@@ -33,7 +33,7 @@ export default function AlphaList({ posts }: { posts: Post[] }) {
     <div className={styles.postList}>
       {posts.map((post, i) => (
         <Link
-          href={`/alpha/${post.slug}`}
+          href={`${basePath}/${post.slug}`}
           key={post.slug}
           className={`${styles.postCard} ${activeIndex === i ? styles.activeMobile : ''}`}
         >

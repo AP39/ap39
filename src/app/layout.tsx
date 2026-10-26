@@ -24,7 +24,7 @@ export default function RootLayout({
         <div className="bg-watermark" aria-hidden="true" />
         {children}
         <footer className="siteFooter">
-          Also by us: <a href="https://crystlquant.com/">CrystlQuant</a> - a number before the game, graded after.
+          <a href="/blog">Blog</a> · Also by us: <a href="https://crystlquant.com/">CrystlQuant</a> - a number before the game, graded after.
         </footer>
       </body>
     </html>
