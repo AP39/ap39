@@ -1,50 +1,17 @@
-import fs from 'fs';
-import path from 'path';
-import Link from 'next/link';
-import styles from './page.module.css';
+import type { Metadata } from 'next';
+import { getPosts } from '@/lib/posts';
+import { PostList } from '@/components/Cards';
 
-import AlphaList from './AlphaList';
+export const metadata: Metadata = { title: 'Writing | AP39', description: 'Engineering write-ups by AP39: what was measured, what it cost and what changed.', alternates: { canonical: '/alpha' } };
 
-interface Post {
-  title: string;
-  slug: string;
-  date: string;
-  excerpt: string;
-}
-
-async function getPosts(): Promise<Post[]> {
-  const dataDir = path.join(process.cwd(), 'src/data/alpha');
-  if (!fs.existsSync(dataDir)) return [];
-  
-  const files = fs.readdirSync(dataDir);
-  const posts = files
-    .filter(file => file.endsWith('.json'))
-    .map(file => {
-      const filePath = path.join(dataDir, file);
-      const content = fs.readFileSync(filePath, 'utf-8');
-      return JSON.parse(content) as Post;
-    });
-    
-  return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-}
-
-export default async function AlphaIndex() {
-  const posts = await getPosts();
-  
+export default function Writing() {
   return (
-    <main className={styles.main}>
-      <nav className="siteNav">
-        <Link href="/" className="siteBrand">AP39.</Link>
-        <span className="siteStatus">// ALPHA_STREAM</span>
-      </nav>
-
-      <div className={styles.container}>
-        {posts.length > 0 ? (
-          <AlphaList posts={posts} />
-        ) : (
-          <p className={styles.empty}>NO_DATA_FOUND // AWAITING_INPUT</p>
-        )}
-      </div>
-    </main>
+    <div className="wrap">
+      <section className="page-title">
+        <h1>Writing</h1>
+        <p>Engineering write-ups: what was measured, what it cost, and what changed because of it.</p>
+      </section>
+      <section className="section"><PostList posts={getPosts('alpha')} base="/alpha" /></section>
+    </div>
   );
 }
