@@ -7,7 +7,7 @@ export default function Home() {
   return (
     <main className={styles.main}>
       <nav className="siteNav">
-        <span className="siteBrand">AP39.</span>
+        <span className="siteBrand"><img src="/crown.png" alt="" className="siteCrown" width={26} height={26} />AP39.</span>
         <span className="siteStatus">SECURE_CONNECTION</span>
       </nav>
 

@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import SiteLinks from '@/app/SiteLinks';
 import styles from './page.module.css';
 import repo from '../../data/repo.json';
 import FrontierRow from './FrontierRow';
@@ -9,8 +10,8 @@ export default function RepoIndex() {
   return (
     <main className={styles.main}>
       <nav className="siteNav">
-        <Link href="/" className="siteBrand">AP39.</Link>
-        <span className="siteStatus">// DECRYPT_REPO</span>
+        <Link href="/" className="siteBrand"><img src="/crown.png" alt="" className="siteCrown" width={26} height={26} />AP39.</Link>
+        <SiteLinks />
       </nav>
 
       <div className={styles.container}>

@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
+import SiteLinks from '@/app/SiteLinks';
 import { notFound } from 'next/navigation';
 import { renderContent } from '@/lib/PostContent';
 import styles from './page.module.css';
@@ -52,8 +53,8 @@ export default async function AlphaPost({ params }: { params: Promise<{ slug: st
   return (
     <main className={styles.main}>
       <nav className="siteNav">
-        <Link href="/" className="siteBrand">AP39.</Link>
-        <span className="siteStatus">// DECRYPTED_PAYLOAD</span>
+        <Link href="/" className="siteBrand"><img src="/crown.png" alt="" className="siteCrown" width={26} height={26} />AP39.</Link>
+        <SiteLinks />
       </nav>
 
       <Link href="/alpha" className="returnLink">&lt; RETURN</Link>

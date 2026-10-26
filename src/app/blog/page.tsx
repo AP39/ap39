@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
+import SiteLinks from '@/app/SiteLinks';
 import type { Metadata } from 'next';
 import styles from '../alpha/page.module.css';
 import AlphaList from '../alpha/AlphaList';
@@ -33,8 +34,8 @@ export default function BlogIndex() {
   return (
     <main className={styles.main}>
       <nav className="siteNav">
-        <Link href="/" className="siteBrand">AP39.</Link>
-        <span className="siteStatus">// BLOG</span>
+        <Link href="/" className="siteBrand"><img src="/crown.png" alt="" className="siteCrown" width={26} height={26} />AP39.</Link>
+        <SiteLinks />
       </nav>
       <div className={styles.container}>
         {posts.length > 0 ? (

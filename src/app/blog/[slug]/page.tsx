@@ -1,6 +1,7 @@
 import fs from 'fs';
 import path from 'path';
 import Link from 'next/link';
+import SiteLinks from '@/app/SiteLinks';
 import { notFound } from 'next/navigation';
 import { renderContent } from '@/lib/PostContent';
 import styles from '../../alpha/[slug]/page.module.css';
@@ -38,8 +39,8 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
   return (
     <main className={styles.main}>
       <nav className="siteNav">
-        <Link href="/" className="siteBrand">AP39.</Link>
-        <span className="siteStatus">// BLOG</span>
+        <Link href="/" className="siteBrand"><img src="/crown.png" alt="" className="siteCrown" width={26} height={26} />AP39.</Link>
+        <SiteLinks />
       </nav>
       <Link href="/blog" className="returnLink">&lt; RETURN</Link>
       <article className={styles.article}>

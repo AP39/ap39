@@ -1,12 +1,13 @@
 import styles from './page.module.css';
 import Link from 'next/link';
+import SiteLinks from '@/app/SiteLinks';
 
 export default function Contact() {
   return (
     <main className={styles.main}>
       <nav className="siteNav">
-        <Link href="/" className="siteBrand">AP39.</Link>
-        <span className="siteStatus">// LINK_ESTABLISHED</span>
+        <Link href="/" className="siteBrand"><img src="/crown.png" alt="" className="siteCrown" width={26} height={26} />AP39.</Link>
+        <SiteLinks />
       </nav>
       
       <div className={styles.center}>
