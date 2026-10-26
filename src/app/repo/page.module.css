@@ -59,9 +59,9 @@
   transition: all 0.4s cubic-bezier(0.2, 0.8, 0.2, 1);
 }
 
+/* the three sites sit as equals on one row (2026-10-27): the featured card keeps its colour, not a double width */
 .frontierFeatured {
-  grid-column: span 2;
-  padding: 3.5rem 2.5rem;
+  grid-column: auto;
 }
 
 .frontierIcon {

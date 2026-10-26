@@ -4,9 +4,9 @@ import Link from 'next/link';
 export default function SiteLinks() {
   return (
     <span className="siteLinks">
-      <Link href="/repo">Repo</Link>
-      <Link href="/alpha">Alpha</Link>
-      <Link href="/contact">Ping</Link>
+      <Link href="/repo">Work</Link>
+      <Link href="/alpha">Writing</Link>
+      <Link href="/contact">Contact</Link>
     </span>
   );
 }
