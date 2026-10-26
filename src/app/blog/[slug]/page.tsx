@@ -47,7 +47,6 @@ export default async function BlogPost({ params }: { params: Promise<{ slug: str
         <header className={styles.header}>
           <div className={styles.meta}>{post.date.split('T')[0]}</div>
           <h1 className={styles.title}>{post.title}</h1>
-          <div className={styles.byline}>WRITTEN BY AP39</div>
         </header>
         <div className={styles.content}>{renderContent(post.content)}</div>
       </article>
