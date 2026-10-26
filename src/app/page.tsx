@@ -16,7 +16,7 @@ export default function Home() {
           
           <div className={`${styles.buttonWrapper} ${styles.buttonWork}`}>
             <Link href="/repo" className={styles.insaneButton}>
-              <span className={styles.buttonText}>REPO</span>
+              <span className={styles.buttonText}>WORK</span>
               <div className={styles.buttonGlow}></div>
               <div className={styles.buttonBorder}></div>
             </Link>
@@ -24,7 +24,7 @@ export default function Home() {
 
           <div className={`${styles.buttonWrapper} ${styles.buttonAlpha}`}>
             <Link href="/alpha" className={styles.insaneButton}>
-              <span className={styles.buttonText}>ALPHA</span>
+              <span className={styles.buttonText}>WRITING</span>
               <div className={styles.buttonGlow}></div>
               <div className={styles.buttonBorder}></div>
             </Link>
@@ -32,7 +32,7 @@ export default function Home() {
 
           <div className={`${styles.buttonWrapper} ${styles.buttonContact}`}>
             <Link href="/contact" className={styles.insaneButton}>
-              <span className={styles.buttonText}>PING</span>
+              <span className={styles.buttonText}>CONTACT</span>
               <div className={styles.buttonGlow}></div>
               <div className={styles.buttonBorder}></div>
             </Link>
