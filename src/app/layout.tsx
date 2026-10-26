@@ -8,6 +8,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
+  metadataBase: new URL("https://ap39.site"),
   title: "AP39.",
   description: "AP39. Selected Works.",
 };
@@ -22,6 +23,9 @@ export default function RootLayout({
       <body suppressHydrationWarning>
         <div className="bg-watermark" aria-hidden="true" />
         {children}
+        <footer className="siteFooter">
+          Also by us: <a href="https://crystlquant.com/">CrystlQuant</a> - a number before the game, graded after.
+        </footer>
       </body>
     </html>
   );
