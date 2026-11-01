@@ -531,11 +531,60 @@
       "itch": "https://crystllabs.itch.io/cleanbeans"
     },
     {
+      "name": "Glasshouse Seasons",
+      "icon": "/apps/glasshouse-seasons.png",
+      "blurb": "Soil, water, light and heat decide the harvest. You decide where it sells.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/glasshouseseasons"
+    },
+    {
+      "name": "Guild & Grain",
+      "icon": "/apps/guild-and-grain.png",
+      "blurb": "Run the village that feeds, equips and sends off the adventuring party.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/guildandgrain"
+    },
+    {
+      "name": "Junction Stories",
+      "icon": "/apps/junction-stories.png",
+      "blurb": "Lay the track, time the trains, and hear what each town has to say once it is connected.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/junctionstories"
+    },
+    {
+      "name": "Kickflip Courier",
+      "icon": "/apps/kickflip-courier.png",
+      "blurb": "Grab the parcels, grind the rails, land the trick. Arrive with at least one box.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/kickflipcourier"
+    },
+    {
+      "name": "Kubb Coast",
+      "icon": "/apps/kubb-coast.png",
+      "blurb": "Underarm throws, wooden kubbs, and a king you must not touch until the very end.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/kubbcoast"
+    },
+    {
+      "name": "Loopback Links",
+      "icon": "/apps/loopback-links.png",
+      "blurb": "Mini golf in three-hole rounds. Bank off the rails and time the moving gates.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/loopbacklinks"
+    },
+    {
       "name": "Mochi Stack",
       "icon": "/apps/mochi-stack.png",
       "blurb": "Tap to drop a squishy cube pet onto the tower. Land it dead center for a PERFECT.",
       "play": "https://play.google.com/store/apps/details?id=com.crystllabs.mochistack",
       "itch": "https://crystllabs.itch.io/cutiepack"
+    },
+    {
+      "name": "Northmark Ski Orienteering",
+      "icon": "/apps/northmark-ski-orienteering.png",
+      "blurb": "Read the trail map, pick the junctions, and reach every numbered control in order.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/northmark"
     },
     {
       "name": "Penguin Slide",
@@ -552,11 +601,32 @@
       "itch": "https://crystllabs.itch.io/cutiepack"
     },
     {
+      "name": "Rapidline Slalom",
+      "icon": "/apps/rapidline-slalom.png",
+      "blurb": "Find the gate, turn below it, power back upstream. Every pole touch costs time.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/rapidlineslalom"
+    },
+    {
+      "name": "Skykick Takraw",
+      "icon": "/apps/skykick-takraw.png",
+      "blurb": "Receive, set, spike. Rooftop sepak takraw in seven-point matches.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/skykicktakraw"
+    },
+    {
       "name": "Solitaire Postcards",
       "icon": "/apps/solitaire-postcards.png",
       "blurb": "Draw-one Klondike across illustrated destinations. The daily deal always has a solution.",
       "play": "https://play.google.com/store/apps/details?id=com.crystllabs.solitairepostcards",
       "itch": "https://crystllabs.itch.io/solitairepostcards"
+    },
+    {
+      "name": "Sugar Split",
+      "icon": "/apps/sugar-split.png",
+      "blurb": "Two gumdrops, opposite gravities, one shared tap. Every flip moves both lanes.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.sugarsplit",
+      "itch": "https://crystllabs.itch.io/sugarsplit"
     },
     {
       "name": "Switchback Post",
@@ -571,6 +641,20 @@
       "blurb": "Original wallpapers, matching color palettes and a home-screen date widget.",
       "play": "https://play.google.com/store/apps/details?id=com.crystllabs.themestudio",
       "itch": null
+    },
+    {
+      "name": "Tiny Tonics",
+      "icon": "/apps/tiny-tonics.png",
+      "blurb": "Pour the layers until every flask is one color, cork it, and hand it over the counter.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/tinytonics"
+    },
+    {
+      "name": "Velvet Derby",
+      "icon": "/apps/velvet-derby.png",
+      "blurb": "Read the pack, find a seam, and get your jammer through. Ninety-second roller derby jams.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/velvetderby"
     },
     {
       "name": "Arc & Arrow",
@@ -594,6 +678,27 @@
       "itch": "https://crystllabs.itch.io/carat"
     },
     {
+      "name": "DICEMAN",
+      "icon": "/apps/diceman.png",
+      "blurb": "Three dice, one decision. Outplay nine rivals and build a street-dice career.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/diceman"
+    },
+    {
+      "name": "Glowline",
+      "icon": "/apps/glowline.png",
+      "blurb": "Join matching neon dots, never cross a line, fill every square. One answer per board.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/glowline"
+    },
+    {
+      "name": "Hide & Gnome",
+      "icon": "/apps/hide-and-gnome.png",
+      "blurb": "Hidden object hunts in tiny 3D towns. Find your list, then spot the gnomes.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/hideandgnome"
+    },
+    {
       "name": "Kittycat",
       "icon": "/apps/kittycat.png",
       "blurb": "Bring home a shy cat and earn their trust, one small day at a time.",
@@ -608,6 +713,13 @@
       "itch": "https://crystllabs.itch.io/lastlantern"
     },
     {
+      "name": "Mancala Grove",
+      "icon": "/apps/mancala-grove.png",
+      "blurb": "Kalah, Oware and Congkak on a wooden board. See where every stone lands first.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/mancalagrove"
+    },
+    {
       "name": "Monkey Swing",
       "icon": "/apps/monkey-swing.png",
       "blurb": "Hold to grab a vine, let go to fly. See how far one cube monkey can swing.",
@@ -615,11 +727,235 @@
       "itch": "https://crystllabs.itch.io/cutiepack"
     },
     {
+      "name": "Orbit Latch",
+      "icon": "/apps/orbit-latch.png",
+      "blurb": "Hold to latch onto an anchor, swing, release. One touch, 36 sectors, 12 lessons.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/orbitlatch"
+    },
+    {
+      "name": "Pack the Van",
+      "icon": "/apps/pack-the-van.png",
+      "blurb": "The heist went fine. Now fit the loot in the van before the sirens arrive.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/packthevan"
+    },
+    {
+      "name": "Pocket Tide",
+      "icon": "/apps/pocket-tide.png",
+      "blurb": "You do not steer the ship. You turn the tide, and the current carries it home.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/pockettide"
+    },
+    {
+      "name": "Quadline Trials",
+      "icon": "/apps/quadline-trials.png",
+      "blurb": "Throttle, brake, lean. Keep a quad on four wheels over 30 tracks and race your own ghost.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/quadlinetrials"
+    },
+    {
+      "name": "Reefkeeper",
+      "icon": "/apps/reefkeeper.png",
+      "blurb": "Build an aquarium habitat by habitat. Keep the water right and the visitors coming.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/reefkeeper"
+    },
+    {
+      "name": "Rooftop Rim",
+      "icon": "/apps/rooftop-rim.png",
+      "blurb": "Five-ball racks, bank shots and moving hoops on 40 courts above the city.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/rooftoprim"
+    },
+    {
+      "name": "Slalom Postcards",
+      "icon": "/apps/slalom-postcards.png",
+      "blurb": "Ski 24 snowy slopes, skim the gold edge of each gate, stamp your mountain postcards.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/slalompostcards"
+    },
+    {
+      "name": "Sticky Fingers",
+      "icon": "/apps/sticky-fingers.png",
+      "blurb": "A pickpocket game in a busy market. Lift wallets while nobody is looking.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/stickyfingers"
+    },
+    {
+      "name": "Sunset Sideout",
+      "icon": "/apps/sunset-sideout.png",
+      "blurb": "Time the receive, pick the set, swipe the spike. Beach volleyball against 12 pairs.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/sunsetsideout"
+    },
+    {
+      "name": "Tack & Tide",
+      "icon": "/apps/tack-and-tide.png",
+      "blurb": "Read the wind, trim the sail, tack to the buoy. 24 regattas against your own ghost.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/tacktide"
+    },
+    {
+      "name": "Tideline Salvage",
+      "icon": "/apps/tideline-salvage.png",
+      "blurb": "Read the tides, send the fleet out, restore what comes back. A harbor salvage sim.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/tidelinesalvage"
+    },
+    {
+      "name": "Valet Pulse",
+      "icon": "/apps/valet-pulse.png",
+      "blurb": "Four lanes, growing queues, one crossing. Release each car at the right moment.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/valetpulse"
+    },
+    {
+      "name": "Bento Balance",
+      "icon": "/apps/bento-balance.png",
+      "blurb": "Stack rice, sushi and broccoli on a tilting tray. Serve the recipe before lunch tips.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/bentobalance"
+    },
+    {
+      "name": "Castledoku",
+      "icon": "/apps/castledoku.png",
+      "blurb": "One castle per row, column and kingdom, none touching. 200 puzzles on a pixel island.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/castledoku"
+    },
+    {
+      "name": "Critter Drop",
+      "icon": "/apps/critter-drop.png",
+      "blurb": "Drop round critters into a jar, merge matching pairs, and grow a chick into a whale.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.critterdrop",
+      "itch": "https://crystllabs.itch.io/critterdrop"
+    },
+    {
+      "name": "Deep Six Hockey",
+      "icon": "/apps/deep-six-hockey.png",
+      "blurb": "Underwater hockey. Pass, dive, score, and come up for air before your swimmer runs out.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/deepsixhockey"
+    },
+    {
+      "name": "Dune Sail",
+      "icon": "/apps/dune-sail.png",
+      "blurb": "No engine, just wind. Trim the sail and tack a land yacht through desert checkpoints.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/dunesail"
+    },
+    {
+      "name": "Fronton Fever",
+      "icon": "/apps/fronton-fever.png",
+      "blurb": "Catch it in the cesta, sling it at the front wall, and read the rebound. Arcade jai alai.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/frontonfever"
+    },
+    {
+      "name": "Granny Goes Rogue",
+      "icon": "/apps/granny-goes-rogue.png",
+      "blurb": "A retired gran sneaks past the guards, grabs the loot and gets home in time for tea.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/grannygoesrogue"
+    },
+    {
+      "name": "Inkline Panic",
+      "icon": "/apps/inkline-panic.png",
+      "blurb": "Your next step does not exist yet. Draw it, then watch the ink fade under your runner.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/inklinepanic"
+    },
+    {
       "name": "Keepy Kitty",
       "icon": "/apps/keepy-kitty.png",
       "blurb": "Tap so the kitten hops and boops the balloon with her nose. Keep it off the grass.",
       "play": "https://play.google.com/store/apps/details?id=com.crystllabs.keepykitty",
       "itch": "https://crystllabs.itch.io/cutiepack"
+    },
+    {
+      "name": "Little Ward",
+      "icon": "/apps/little-ward.png",
+      "blurb": "Lay out a small clinic, shorten the queues, and keep the staff from burning out.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/littleward"
+    },
+    {
+      "name": "Marble Mandate",
+      "icon": "/apps/marble-mandate.png",
+      "blurb": "The marbles keep coming. Flip the track switches and send each one to the matching bin.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/marblemandate"
+    },
+    {
+      "name": "Orbit Yard",
+      "icon": "/apps/orbit-yard.png",
+      "blurb": "Build an orbital service yard and keep power, oxygen and heat in line as ships arrive.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/orbityard"
+    },
+    {
+      "name": "Parkade",
+      "icon": "/apps/parkade.png",
+      "blurb": "Every car is boxed in. Tap them out in the right order, and do not bump anyone.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/parkade"
+    },
+    {
+      "name": "Picnic Pile",
+      "icon": "/apps/picnic-pile.png",
+      "blurb": "Pick food off a 3D picnic pile, match three alike in the tray, and clear the blanket.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/picnicpile"
+    },
+    {
+      "name": "Pocket Playmaker",
+      "icon": "/apps/pocket-playmaker.png",
+      "blurb": "Draw a three-pass move through the defense, then curl the finish around the keeper.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/pocketplaymaker"
+    },
+    {
+      "name": "Polite Getaway",
+      "icon": "/apps/polite-getaway.png",
+      "blurb": "You drive the getaway car. Stop at every red and let everyone else go first.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/politegetaway"
+    },
+    {
+      "name": "Rally Remix",
+      "icon": "/apps/rally-remix.png",
+      "blurb": "Portrait tennis with automatic footwork. You handle the spin, drop shots and lobs.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/rallyremix"
+    },
+    {
+      "name": "Reef Relay",
+      "icon": "/apps/reef-relay.png",
+      "blurb": "Draw one current and a whole school of fish follows it home. 24 reefs, four-second lines.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/reefrelay"
+    },
+    {
+      "name": "Second Life Works",
+      "icon": "/apps/second-life-works.png",
+      "blurb": "Turn a pile of scrap into useful products with conveyors, sorters and a lot of planning.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/secondlifeworks"
+    },
+    {
+      "name": "Stonecurl Tactics",
+      "icon": "/apps/stonecurl-tactics.png",
+      "blurb": "Pick the line, set the weight, sweep it to the button. Curling, played as a puzzle.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/stonecurltactics"
+    },
+    {
+      "name": "Switchback Couriers",
+      "icon": "/apps/switchback-couriers.png",
+      "blurb": "A small depot, a city full of parcels, and a fleet that has to make every trip count.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/switchbackcouriers"
     },
     {
       "name": "Tile Trails",
@@ -667,28 +1003,28 @@
       "name": "Cagebound",
       "icon": "/apps/cagebound.png",
       "blurb": "An MMA deckbuilder where every card is a technique. Read the fight, save the gym.",
-      "play": null,
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.cagebound",
       "itch": "https://crystllabs.itch.io/cagebound"
     },
     {
       "name": "Scrubbed",
       "icon": "/apps/scrubbed.png",
       "blurb": "Clean up crime scenes the police closed, and find what they missed.",
-      "play": null,
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.scrubbed",
       "itch": "https://crystllabs.itch.io/scrubbed"
     },
     {
       "name": "Prism Post",
       "icon": "/apps/prism-post.png",
       "blurb": "Restore stained-glass windows, deliver lost letters and color your own story.",
-      "play": null,
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.prismpost",
       "itch": "https://crystllabs.itch.io/prismpost"
     },
     {
       "name": "Blue Hour",
       "icon": "/apps/blue-hour.png",
       "blurb": "A cozy reef adventure: photograph wildlife and finish a family journal.",
-      "play": null,
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.bluehour",
       "itch": "https://crystllabs.itch.io/bluehour"
     },
     {
@@ -816,6 +1152,1252 @@
       "blurb": "Rebuild a dead neon strip club by club, then headline it yourself.",
       "play": null,
       "itch": "https://crystllabs.itch.io/neonstrip"
+    },
+    {
+      "name": "Bate-Rebate",
+      "icon": "/apps/bate-rebate.png",
+      "blurb": "Build the table you want to master.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/baterebate"
+    },
+    {
+      "name": "Feira dos Ventos",
+      "icon": "/apps/feira-dos-ventos.png",
+      "blurb": "Every deal changes the next one.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/feiradosventos"
+    },
+    {
+      "name": "Liga da Sucata",
+      "icon": "/apps/liga-da-sucata.png",
+      "blurb": "Build the machine. Outsmart the league.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/ligadasucata"
+    },
+    {
+      "name": "Loop Raiders",
+      "icon": "/apps/loop-raiders.png",
+      "blurb": "Take the long way. Reconnect the city.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/loopraiders"
+    },
+    {
+      "name": "Tiger Trap",
+      "icon": "/apps/tiger-trap.png",
+      "blurb": "One valley. Two ways to see it.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/tigertrap"
+    },
+    {
+      "name": "Yut Party",
+      "icon": "/apps/yut-party.png",
+      "blurb": "Four friends. One bright festival.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/yutparty"
+    },
+    {
+      "name": "Seed & Stone",
+      "icon": "/apps/seed-and-stone.png",
+      "blurb": "Small seeds. A garden reborn.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/seedstone"
+    },
+    {
+      "name": "Royal Race",
+      "icon": "/apps/royal-race.png",
+      "blurb": "Seven runners. One invitation for everyone.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/royalrace"
+    },
+    {
+      "name": "Flickwood Arena",
+      "icon": "/apps/flickwood-arena.png",
+      "blurb": "One good shot. A workshop worth saving.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/flickwoodarena"
+    },
+    {
+      "name": "Chain Tactics",
+      "icon": "/apps/chain-tactics.png",
+      "blurb": "Every move carries a letter home.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/chaintactics"
+    },
+    {
+      "name": "Mill Masters",
+      "icon": "/apps/mill-masters.png",
+      "blurb": "Build a mill. Make room for a town.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/millmasters"
+    },
+    {
+      "name": "King's Escape",
+      "icon": "/apps/kings-escape.png",
+      "blurb": "Carry the crown. Hear the other side.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/kingsescape"
+    },
+    {
+      "name": "Pocket Carrom",
+      "icon": "/apps/pocket-carrom.png",
+      "blurb": "Own the next shot. Bring Mira's neighborhood club back to life, one evening match at a time.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.pocketcarrom",
+      "itch": "https://crystllabs.itch.io/pocketcarrom"
+    },
+    {
+      "name": "Cinder Oath",
+      "icon": "/apps/cinder-oath.png",
+      "blurb": "Build a deck of dangerous promises and outwit the things that collect them.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/cinderoath"
+    },
+    {
+      "name": "Hollow Signal",
+      "icon": "/apps/hollow-signal.png",
+      "blurb": "Follow the signal through the fog. Escape before it learns your voice.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/hollowsignal"
+    },
+    {
+      "name": "Iron Ninth",
+      "icon": "/apps/iron-ninth.png",
+      "blurb": "Time your swing. Break the cage circuit. Reclaim your name.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/ironninth"
+    },
+    {
+      "name": "Ward Zero",
+      "icon": "/apps/ward-zero.png",
+      "blurb": "Manage the last quarantine ward, protect your staff and expose the cover-up.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/wardzero"
+    },
+    {
+      "name": "Dead Air Dispatch",
+      "icon": "/apps/dead-air-dispatch.png",
+      "blurb": "Tune the signal, solve the call and decide who makes it through the night.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/deadairdispatch"
+    },
+    {
+      "name": "Neon Debt",
+      "icon": "/apps/neon-debt.png",
+      "blurb": "Run the rooftops, dodge the drones and deliver a city-changing secret.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/neondebt"
+    },
+    {
+      "name": "Ashfall Express",
+      "icon": "/apps/ashfall-express.png",
+      "blurb": "Route the last freight train through a broken world. Every seat matters.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/ashfallexpress"
+    },
+    {
+      "name": "Dustwake Rally",
+      "icon": "/apps/dustwake-rally.png",
+      "blurb": "Drift through a scorched frontier. Risk the shortcut. Bring your car home.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/dustwakerally"
+    },
+    {
+      "name": "Deadbolt District",
+      "icon": "/apps/deadbolt-district.png",
+      "blurb": "Steal the evidence. Read the patrols. Choose who gets out.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/deadboltdistrict"
+    },
+    {
+      "name": "Blacktide Salvage",
+      "icon": "/apps/blacktide-salvage.png",
+      "blurb": "Dive into forgotten wrecks. Take the salvage. Make it back alive.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/blacktidesalvage"
+    },
+    {
+      "name": "Café Secrets",
+      "icon": "/apps/cafe-secrets.png",
+      "blurb": "Merge pastries and drinks, serve the neighborhood, uncover three mysteries.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/cafesecrets"
+    },
+    {
+      "name": "Last Hearth",
+      "icon": "/apps/last-hearth.png",
+      "blurb": "Keep a small village alive through twenty winter nights.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/lasthearth"
+    },
+    {
+      "name": "Clover County",
+      "icon": "/apps/clover-county.png",
+      "blurb": "Grow fields, run workshops and fill market orders in a sunny county.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/clovercounty"
+    },
+    {
+      "name": "Bannerbound",
+      "icon": "/apps/bannerbound.png",
+      "blurb": "Build a six-card deck, deploy troops and hold the bridges.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/bannerbound"
+    },
+    {
+      "name": "Solitaire Trails",
+      "icon": "/apps/solitaire-trails.png",
+      "blurb": "TriPeaks solitaire on a countryside trail. One higher, one lower.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/solitairetrails"
+    },
+    {
+      "name": "Dobras do Mundo",
+      "icon": "/apps/dobras-do-mundo.png",
+      "blurb": "The map is your most powerful tool.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/dobrasdomundo"
+    },
+    {
+      "name": "Little Empires",
+      "icon": "/apps/little-empires.png",
+      "blurb": "Roll two dice, pick one, and build a little town between rolls.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/littleempires"
+    },
+    {
+      "name": "Spin Street Laundry",
+      "icon": "/apps/spin-street-laundry.png",
+      "blurb": "Run a neon laundromat, beat the bottleneck and save the block. Idle story.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/spinstreetlaundry"
+    },
+    {
+      "name": "Second Chance Depot",
+      "icon": "/apps/second-chance-depot.png",
+      "blurb": "Open crates of junk, restore hidden treasures and solve a decades-old mystery.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/secondchancedepot"
+    },
+    {
+      "name": "Patchwork Arcade",
+      "icon": "/apps/patchwork-arcade.png",
+      "blurb": "Restore fifteen broken arcade cabinets and solve the mystery of the high score.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/patchworkarcade"
+    },
+    {
+      "name": "Parcel Pier",
+      "icon": "/apps/parcel-pier.png",
+      "blurb": "Sort parcels, load the boats and run the deliveries of five tiny islands.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/parcelpier"
+    },
+    {
+      "name": "Mile Marker Motel",
+      "icon": "/apps/mile-marker-motel.png",
+      "blurb": "Run a roadside motel on Route 12. Never put the band next to the honeymooners.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/milemarkermotel"
+    },
+    {
+      "name": "Little Observatory",
+      "icon": "/apps/little-observatory.png",
+      "blurb": "Book the telescopes, light the dome, chase a star that returns every 113 years.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/littleobservatory"
+    },
+    {
+      "name": "Harbor Lunch",
+      "icon": "/apps/harbor-lunch.png",
+      "blurb": "Plan the lunch at dawn, run the grill at noon and feed the whole harbor.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/harborlunch"
+    },
+    {
+      "name": "Greenhouse Lane",
+      "icon": "/apps/greenhouse-lane.png",
+      "blurb": "Bring a 1789 glasshouse back to bloom. Grow, cross-pollinate, sell every stem.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/greenhouselane"
+    },
+    {
+      "name": "Dawn Bakery",
+      "icon": "/apps/dawn-bakery.png",
+      "blurb": "Plan the morning menu, fire the ovens and bake for a whole seaside town.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/dawnbakery"
+    },
+    {
+      "name": "Campfire County",
+      "icon": "/apps/campfire-county.png",
+      "blurb": "Build a campground for owls, frogs, pigs and chickens. They all have opinions.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/campfirecounty"
+    },
+    {
+      "name": "One Path Park",
+      "icon": "/apps/one-path-park.png",
+      "blurb": "Draw one path. Light up the park.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/onepathpark"
+    },
+    {
+      "name": "Balance Bureau",
+      "icon": "/apps/balance-bureau.png",
+      "blurb": "Weigh the mystery. Crack the case.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/balancebureau"
+    },
+    {
+      "name": "Mosaic Census",
+      "icon": "/apps/mosaic-census.png",
+      "blurb": "Divide the board. Restore the light.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/mosaiccensus"
+    },
+    {
+      "name": "Pocket Timetables",
+      "icon": "/apps/pocket-timetables.png",
+      "blurb": "Every train on time.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/pockettimetables"
+    },
+    {
+      "name": "Shadow Sum",
+      "icon": "/apps/shadow-sum.png",
+      "blurb": "Reveal hidden values.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.shadowsum",
+      "itch": "https://crystllabs.itch.io/shadowsum"
+    },
+    {
+      "name": "Domino District",
+      "icon": "/apps/domino-district.png",
+      "blurb": "Place a domino. Build a neighbourhood.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/dominodistrict"
+    },
+    {
+      "name": "Cafe Seating Files",
+      "icon": "/apps/cafe-seating-files.png",
+      "blurb": "Follow the clues. Seat the regulars.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/cafeseatingfiles"
+    },
+    {
+      "name": "Circuit Census",
+      "icon": "/apps/circuit-census.png",
+      "blurb": "Wake the city, one connection at a time.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/circuitcensus"
+    },
+    {
+      "name": "Lantern Links",
+      "icon": "/apps/lantern-links.png",
+      "blurb": "Build the bridges. Bring back the tide.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/lanternlinks"
+    },
+    {
+      "name": "Number Ferry",
+      "icon": "/apps/number-ferry.png",
+      "blurb": "Every boat needs an exact total.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/numberferry"
+    },
+    {
+      "name": "Tiffin Trail",
+      "icon": "/apps/tiffin-trail.png",
+      "blurb": "A little lunch. A thoughtful route.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/tiffintrail"
+    },
+    {
+      "name": "Shabd Steps",
+      "icon": "/apps/shabd-steps.png",
+      "blurb": "A little word. A new journal page.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/shabdsteps"
+    },
+    {
+      "name": "Monsoon Junction",
+      "icon": "/apps/monsoon-junction.png",
+      "blurb": "Every train has a way through.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/monsoonjunction"
+    },
+    {
+      "name": "Patang Sky",
+      "icon": "/apps/patang-sky.png",
+      "blurb": "The wind has a story of its own.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/patangsky"
+    },
+    {
+      "name": "Carrom Courtyard",
+      "icon": "/apps/carrom-courtyard.png",
+      "blurb": "A table. A thoughtful shot.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/carromcourtyard"
+    },
+    {
+      "name": "Paani Patch",
+      "icon": "/apps/paani-patch.png",
+      "blurb": "Every drop, a new beginning.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/paanipatch"
+    },
+    {
+      "name": "Bazaar Stack",
+      "icon": "/apps/bazaar-stack.png",
+      "blurb": "A little place for everything.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/bazaarstack"
+    },
+    {
+      "name": "Chai Chapter",
+      "icon": "/apps/chai-chapter.png",
+      "blurb": "Every cup has a little story.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.india.chaichapter",
+      "itch": "https://crystllabs.itch.io/chaichapter"
+    },
+    {
+      "name": "Rangoli Trails",
+      "icon": "/apps/rangoli-trails.png",
+      "blurb": "A whole courtyard, one line at a time.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/rangolitrails"
+    },
+    {
+      "name": "Gully Six",
+      "icon": "/apps/gully-six.png",
+      "blurb": "One lane. One over. Your moment.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/gullysix"
+    },
+    {
+      "name": "Sandline Studio",
+      "icon": "/apps/sandline-studio.png",
+      "blurb": "Draw on the beach. Let the sea take it.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/sandlinestudio"
+    },
+    {
+      "name": "Mosaic Moments",
+      "icon": "/apps/mosaic-moments.png",
+      "blurb": "Bring the town back, tile by tile.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/mosaicmoments"
+    },
+    {
+      "name": "Doodle Trails",
+      "icon": "/apps/doodle-trails.png",
+      "blurb": "Draw the way. Nib walks on it.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/doodletrails"
+    },
+    {
+      "name": "Pattern Picnic",
+      "icon": "/apps/pattern-picnic.png",
+      "blurb": "Design the patterns. Dress the cafe.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/patternpicnic"
+    },
+    {
+      "name": "Mandala Loom",
+      "icon": "/apps/mandala-loom.png",
+      "blurb": "Draw one line. The loom weaves it twelve times.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/mandalaloom"
+    },
+    {
+      "name": "Stained Glass Sketchbook",
+      "icon": "/apps/stained-glass-sketchbook.png",
+      "blurb": "Every window holds a memory.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/stainedglasssketchbook"
+    },
+    {
+      "name": "Paper Garden Maker",
+      "icon": "/apps/paper-garden-maker.png",
+      "blurb": "Cut the flowers. Keep the memories.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.papergardenmaker",
+      "itch": "https://crystllabs.itch.io/papergardenmaker"
+    },
+    {
+      "name": "Pixel Patch Studio",
+      "icon": "/apps/pixel-patch-studio.png",
+      "blurb": "Stitch the kingdom back together",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/pixelpatchstudio"
+    },
+    {
+      "name": "Palette Postcards",
+      "icon": "/apps/palette-postcards.png",
+      "blurb": "Bring the old road back to colour",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/palettepostcards"
+    },
+    {
+      "name": "Color Storybook",
+      "icon": "/apps/color-storybook.png",
+      "blurb": "Colour the faded tales back to life",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/colorstorybook"
+    },
+    {
+      "name": "Wicket & Vice",
+      "icon": "/apps/wicket-and-vice.png",
+      "blurb": "Build a cricket career, master the chase and navigate dangerous favors.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/wicketandvice"
+    },
+    {
+      "name": "Velvet Break",
+      "icon": "/apps/velvet-break.png",
+      "blurb": "Rise through the tennis tour, master each surface and protect your story.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/velvetbreak"
+    },
+    {
+      "name": "The Last Bell",
+      "icon": "/apps/the-last-bell.png",
+      "blurb": "Train, box and build a legacy in a career where every contract has a cost.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/thelastbell"
+    },
+    {
+      "name": "Sunspike Syndicate",
+      "icon": "/apps/sunspike-syndicate.png",
+      "blurb": "Build a beach volleyball partnership and chase glory along a vivid coast.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/sunspikesyndicate"
+    },
+    {
+      "name": "Ruck & Ruin",
+      "icon": "/apps/ruck-and-ruin.png",
+      "blurb": "Lead a rugby club through fierce matches, boardroom pressure and survival.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/ruckandruin"
+    },
+    {
+      "name": "Ninth Inning Saints",
+      "icon": "/apps/ninth-inning-saints.png",
+      "blurb": "Play all nine innings. Build your ballclub. Decide what winning costs.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/ninthinningsaints"
+    },
+    {
+      "name": "Fourth Down Empire",
+      "icon": "/apps/fourth-down-empire.png",
+      "blurb": "Call the plays, complete four-quarter games and challenge the front office.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/fourthdownempire"
+    },
+    {
+      "name": "Cold Blood Hockey",
+      "icon": "/apps/cold-blood-hockey.png",
+      "blurb": "Play full hockey games, lead your line and fight for your town's rink.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/coldbloodhockey"
+    },
+    {
+      "name": "Blacktop Republic",
+      "icon": "/apps/blacktop-republic.png",
+      "blurb": "Build your basketball crew, save the court and rise from street to league.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/blacktoprepublic"
+    },
+    {
+      "name": "Terrace Kings",
+      "icon": "/apps/terrace-kings.png",
+      "blurb": "A pixel football career of promotion battles, loyalty and dangerous deals.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/terracekings"
+    },
+    {
+      "name": "Cloud Sheep Color Club",
+      "icon": "/apps/cloud-sheep-color-club.png",
+      "blurb": "Make a little weather of your own.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/cloudsheepcolorclub"
+    },
+    {
+      "name": "Earth Is Weird",
+      "icon": "/apps/earth-is-weird.png",
+      "blurb": "Explain this planet, please.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/earthisweird"
+    },
+    {
+      "name": "Capybara Driving Academy",
+      "icon": "/apps/capybara-driving-academy.png",
+      "blurb": "A calm mind. A tiny party hat.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/capybaradrivingacademy"
+    },
+    {
+      "name": "Dumpling Golf Club",
+      "icon": "/apps/dumpling-golf-club.png",
+      "blurb": "Aim small. Land deliciously.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/dumplinggolfclub"
+    },
+    {
+      "name": "Boo's Little Memories",
+      "icon": "/apps/boos-little-memories.png",
+      "blurb": "Some things are worth remembering.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/booslittlememories"
+    },
+    {
+      "name": "Snail Mail Solitaire",
+      "icon": "/apps/snail-mail-solitaire.png",
+      "blurb": "Take the scenic route.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/snailmailsolitaire"
+    },
+    {
+      "name": "Beetle & Bolt",
+      "icon": "/apps/beetle-and-bolt.png",
+      "blurb": "Big repairs. Very small engineers.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/beetleandbolt"
+    },
+    {
+      "name": "Postmouse",
+      "icon": "/apps/postmouse.png",
+      "blurb": "Small paws. Enormous letters.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/postmouse"
+    },
+    {
+      "name": "Penguin Picnic Panic",
+      "icon": "/apps/penguin-picnic-panic.png",
+      "blurb": "Everybody brought something weird.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/penguinpicnicpanic"
+    },
+    {
+      "name": "Sock Goblins",
+      "icon": "/apps/sock-goblins.png",
+      "blurb": "A little chaos. A lot of socks.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/sockgoblins"
+    },
+    {
+      "name": "Stitch Trail",
+      "icon": "/apps/stitch-trail.png",
+      "blurb": "Solve the chart. Stitch the blanket. Save Nana's yarn cafe.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/stitchtrailcrochet"
+    },
+    {
+      "name": "Sketch Day",
+      "icon": "/apps/sketch-day.png",
+      "blurb": "Draw a line. It becomes real.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/sketchdaycompanion"
+    },
+    {
+      "name": "Seed Diary",
+      "icon": "/apps/seed-diary.png",
+      "blurb": "Plant. Cross. Record. Rebuild a lost seed library.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/seeddiary"
+    },
+    {
+      "name": "Photo Quest",
+      "icon": "/apps/photo-quest.png",
+      "blurb": "Real places in 360. Frame the perfect shot.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/photoquestjournal"
+    },
+    {
+      "name": "Model Bench",
+      "icon": "/apps/model-bench.png",
+      "blurb": "Build the kits. Rebuild the town.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/modelbenchlog"
+    },
+    {
+      "name": "Mini Paint",
+      "icon": "/apps/mini-paint.png",
+      "blurb": "Mix the colours. Paint the heroes.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/minipaintledger"
+    },
+    {
+      "name": "Mend and Make",
+      "icon": "/apps/mend-and-make.png",
+      "blurb": "Every torn coat has a story. Patch it. Stitch it. Give it back.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/mendandmake"
+    },
+    {
+      "name": "Letterform Lab",
+      "icon": "/apps/letterform-lab.png",
+      "blurb": "Trace the strokes. Light up the pier.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/letterformlab"
+    },
+    {
+      "name": "Fold Along",
+      "icon": "/apps/fold-along.png",
+      "blurb": "Fold the paper. Match the shape. Bring the Paper Garden back.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/foldalong"
+    },
+    {
+      "name": "Bird Notebook",
+      "icon": "/apps/bird-notebook.png",
+      "blurb": "A birding year in Audubon's footsteps, one card at a time.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/birdnotebook"
+    },
+    {
+      "name": "Windowlight Stories",
+      "icon": "/apps/windowlight-stories.png",
+      "blurb": "Watch the windows. Piece together their lives.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/windowlightstories"
+    },
+    {
+      "name": "Suitcase Stories",
+      "icon": "/apps/suitcase-stories.png",
+      "blurb": "Every lost suitcase is a journey. Unpack it.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/suitcasestories"
+    },
+    {
+      "name": "Paper City Detective",
+      "icon": "/apps/paper-city-detective.png",
+      "blurb": "In a city made of paper, the truth hides behind the next layer.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/papercitydetective"
+    },
+    {
+      "name": "Midnight Museum Cases",
+      "icon": "/apps/midnight-museum-cases.png",
+      "blurb": "After closing, the exhibits move.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/midnightmuseumcases"
+    },
+    {
+      "name": "Market Morning Mystery",
+      "icon": "/apps/market-morning-mystery.png",
+      "blurb": "Find every lost delivery before the market opens.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/marketmorningmystery"
+    },
+    {
+      "name": "Lost and Found Desk",
+      "icon": "/apps/lost-and-found-desk.png",
+      "blurb": "Every lost thing has a story. Send it home.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/lostandfounddesk"
+    },
+    {
+      "name": "Garden Secrets",
+      "icon": "/apps/garden-secrets.png",
+      "blurb": "Thirty years of weeds. One grandmother's journal.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/gardensecrets"
+    },
+    {
+      "name": "Clockwork Postcards",
+      "icon": "/apps/clockwork-postcards.png",
+      "blurb": "Turn the gears, and each card comes to life.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/clockworkpostcards"
+    },
+    {
+      "name": "Cabin Cluebook",
+      "icon": "/apps/cabin-cluebook.png",
+      "blurb": "A lakeside cabin and the keepsake Grandma hid for you.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/cabincluebook"
+    },
+    {
+      "name": "Tiny Room Keys",
+      "icon": "/apps/tiny-room-keys.png",
+      "blurb": "Each box holds a tiny room. Each room hides a way out.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/tinyroomkeys"
+    },
+    {
+      "name": "Rumor Mill",
+      "icon": "/apps/rumor-mill.png",
+      "blurb": "Whisper one kind rumor to the right villager and steer it to the right ears.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.rumormill",
+      "itch": "https://crystllabs.itch.io/rumormill"
+    },
+    {
+      "name": "Lost & Found",
+      "icon": "/apps/lost-and-found.png",
+      "blurb": "Inspect lost objects, question their owners and solve a warm station mystery.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/lostandfound"
+    },
+    {
+      "name": "Queue Up",
+      "icon": "/apps/queue-up.png",
+      "blurb": "Everyone in line has a rule. Find the one order that makes them all happy.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/queueup"
+    },
+    {
+      "name": "Mangled Proverb",
+      "icon": "/apps/mangled-proverb.png",
+      "blurb": "A daily word puzzle: guess the famous saying that five parrots garbled.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/mangledproverb"
+    },
+    {
+      "name": "Past Selves",
+      "icon": "/apps/past-selves.png",
+      "blurb": "Nine lives, ten seconds. Team up with your past selves in a pixel castle puzzle.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/pastselves"
+    },
+    {
+      "name": "Vanishing Keys",
+      "icon": "/apps/vanishing-keys.png",
+      "blurb": "A word game with a twist: every letter you type vanishes from the keyboard.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/vanishingkeys"
+    },
+    {
+      "name": "Clean Getaway",
+      "icon": "/apps/clean-getaway.png",
+      "blurb": "Draw a route, time patrols and recover masterpieces in a 3D heist puzzle.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/cleangetaway"
+    },
+    {
+      "name": "Tip the Scale",
+      "icon": "/apps/tip-the-scale.png",
+      "blurb": "A trivia game show about weight. Guess which side is heavier, then balance it!",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/tipthescale"
+    },
+    {
+      "name": "Ant Trail",
+      "icon": "/apps/ant-trail.png",
+      "blurb": "Draw scent trails, guide swarms and grow a colony in this seasonal ant puzzle.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/anttrail"
+    },
+    {
+      "name": "Moon Pull",
+      "icon": "/apps/moon-pull.png",
+      "blurb": "Be the Moon. Raise the tide, clear the reefs and guide the fishing fleet home.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/moonpull"
+    },
+    {
+      "name": "Torre de Vento",
+      "icon": "/apps/torre-de-vento.png",
+      "blurb": "Make something worth standing behind.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/torredevento"
+    },
+    {
+      "name": "Grove Blocks",
+      "icon": "/apps/grove-blocks.png",
+      "blurb": "Fit shapes on an 8 x 8 board, clear rows and columns, and grow a quiet woodland.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/groveblocks"
+    },
+    {
+      "name": "Operação Brasa",
+      "icon": "/apps/operacao-brasa.png",
+      "blurb": "Every route is a decision.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/operacaobrasa"
+    },
+    {
+      "name": "Sugar Sort",
+      "icon": "/apps/sugar-sort.png",
+      "blurb": "Find three matching treats, mind your seven-space tray, and fill a dessert collection.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/sugarsort"
+    },
+    {
+      "name": "Traçado",
+      "icon": "/apps/tracado.png",
+      "blurb": "Make the track. Earn the lap.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/tracado"
+    },
+    {
+      "name": "Crown & Crystal",
+      "icon": "/apps/crown-and-crystal.png",
+      "blurb": "Match gems, set off cascades, and restore a little puzzle kingdom.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/crownandcrystal"
+    },
+    {
+      "name": "Engenho",
+      "icon": "/apps/engenho.png",
+      "blurb": "Small parts. Beautiful systems.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/engenho"
+    },
+    {
+      "name": "Pacto de Mesa",
+      "icon": "/apps/pacto-de-mesa.png",
+      "blurb": "Win the trick. Rewrite the next one.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/pactodemesa"
+    },
+    {
+      "name": "Fio da Aventura",
+      "icon": "/apps/fio-da-aventura.png",
+      "blurb": "Every swing leaves a new possibility.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/fiodaaventura"
+    },
+    {
+      "name": "Dead Air",
+      "icon": "/apps/dead-air.png",
+      "blurb": "Start a true crime podcast in your garage, grow a studio and solve cold cases.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/deadair"
+    },
+    {
+      "name": "Final Course",
+      "icon": "/apps/final-course.png",
+      "blurb": "Seven courses. Eight guests. One killer at the table. Question, deduce, accuse.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/finalcourse"
+    },
+    {
+      "name": "Willowmere",
+      "icon": "/apps/willowmere.png",
+      "blurb": "Merge, restore a lakeside lodge and find out how Aunt Edith really drowned.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/willowmere"
+    },
+    {
+      "name": "Pixel Precinct",
+      "icon": "/apps/pixel-precinct.png",
+      "blurb": "Find hidden clues in pixel crime scenes, catch the liar and close 30 cases.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/pixelprecinct"
+    },
+    {
+      "name": "Box 47",
+      "icon": "/apps/box-47.png",
+      "blurb": "Type a word. Open a file. Find what a small-town sheriff buried in 1977.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/box47"
+    },
+    {
+      "name": "Latent",
+      "icon": "/apps/latent.png",
+      "blurb": "Night shift at the crime lab. Match prints, run DNA, line up bullets, testify.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/latentlab"
+    },
+    {
+      "name": "Stakeout",
+      "icon": "/apps/stakeout.png",
+      "blurb": "Watch one street from a rooftop and pick the killer out of the crowd.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/stakeout"
+    },
+    {
+      "name": "Murder at the Monarch",
+      "icon": "/apps/murder-at-the-monarch.png",
+      "blurb": "1925. A grand hotel. 100 murders. Crack each whodunit with pure logic.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/murderatmonarch"
+    },
+    {
+      "name": "Spare Key",
+      "icon": "/apps/spare-key.png",
+      "blurb": "Six housemates. One spare key. Someone opened the door that night.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/sparekey"
+    },
+    {
+      "name": "Sugarfall Four",
+      "icon": "/apps/sugarfall-four.png",
+      "blurb": "Drop candies, connect four in any direction and set off sweet gravity cascades across 150 stages.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/sugarfallfour"
+    },
+    {
+      "name": "Mowtown Gardens",
+      "icon": "/apps/mowtown-gardens.png",
+      "blurb": "Plan the perfect route, mow satisfying stripes and turn a neglected block into a garden trail.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/mowtowngardens"
+    },
+    {
+      "name": "Miso & Me",
+      "icon": "/apps/miso-and-me.png",
+      "blurb": "Care for a shy rescue puppy, teach gentle tricks and fill a scrapbook with little walks.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.misoandme",
+      "itch": "https://crystllabs.itch.io/misoandme"
+    },
+    {
+      "name": "Upload",
+      "icon": "/apps/upload.png",
+      "blurb": "Film, edit and grow a video channel while building a life beyond the views.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/uploadstudio"
+    },
+    {
+      "name": "Cornercraft MMA",
+      "icon": "/apps/cornercraft-mma.png",
+      "blurb": "Scout fighters, plan smart camps and call the corner between rounds.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/cornercraftmma"
+    },
+    {
+      "name": "Canopy Crew",
+      "icon": "/apps/canopy-crew.png",
+      "blurb": "Inspect the crown, plan your cuts and keep the nest safe.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/canopycrew"
+    },
+    {
+      "name": "Casa Comal",
+      "icon": "/apps/casa-comal.png",
+      "blurb": "Run a family taqueria lunch rush: build plates, keep the neighbors happy and grow Abuela's kitchen.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/casacomal"
+    },
+    {
+      "name": "The Gold Train Files",
+      "icon": "/apps/the-gold-train-files.png",
+      "blurb": "Rebuild the evidence of the 1855 Great Gold Robbery in 25 logic puzzles from railway history.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/goldtrainfiles"
+    },
+    {
+      "name": "Afterhours Records",
+      "icon": "/apps/afterhours-records.png",
+      "blurb": "Make beats in a pixel studio, work with collaborators and build an independent music career.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/afterhoursrecords"
+    },
+    {
+      "name": "Pace & Promises",
+      "icon": "/apps/pace-and-promises.png",
+      "blurb": "Find your rhythm, join the running club and see where friendship leads.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/pacepromises"
+    },
+    {
+      "name": "After Hours",
+      "icon": "/apps/after-hours.png",
+      "blurb": "Stream from a fading arcade: play retro mini-games live, read your chat and grow a channel from three viewers.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/afterhours"
+    },
+    {
+      "name": "Saltline",
+      "icon": "/apps/saltline.png",
+      "blurb": "One breath, one careful shot: supply an island night market and solve the lighthouse mystery.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/saltline"
+    },
+    {
+      "name": "Mint Condition",
+      "icon": "/apps/mint-condition.png",
+      "blurb": "Grade, trade and display fantasy cards in a cozy collector's shop.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/mintcondition"
+    },
+    {
+      "name": "Mochi Mail",
+      "icon": "/apps/mochi-mail.png",
+      "blurb": "Match little stamps, deliver forgotten letters and brighten a cozy village.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/mochimail"
+    },
+    {
+      "name": "Velvet Feed",
+      "icon": "/apps/velvet-feed.png",
+      "blurb": "Style a studio, shoot and edit your posts, and build a creative life on your own terms.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/velvetfeed"
+    },
+    {
+      "name": "Neon '99",
+      "icon": "/apps/neon-99.png",
+      "blurb": "1999, a pager and a tired coupe: race the night circuits, keep June's garage alive.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/neon99"
+    },
+    {
+      "name": "Chalk & Chance",
+      "icon": "/apps/chalk-and-chance.png",
+      "blurb": "A cozy climbing puzzle: plan every hold, rest on the wall and win back your old crew.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/chalkchance"
+    },
+    {
+      "name": "Chrome County",
+      "icon": "/apps/chrome-county.png",
+      "blurb": "Ride careful deliveries, rebuild a clubhouse and survive the pettiest club meeting in town.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.chromecounty",
+      "itch": "https://crystllabs.itch.io/chromecounty"
+    },
+    {
+      "name": "Black Belt Beat",
+      "icon": "/apps/black-belt-beat.png",
+      "blurb": "A taekwondo rhythm game: kick on the beat, shout kihap and earn your black belt.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/blackbeltbeat"
+    },
+    {
+      "name": "Concrete Crown",
+      "icon": "/apps/concrete-crown.png",
+      "blurb": "Lead your crew in a 3D street brawler. Claim thirty blocks and shape your city.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/concretecrown"
+    },
+    {
+      "name": "Last Call",
+      "icon": "/apps/last-call.png",
+      "blurb": "Flick troublemakers out, save your bar and keep the tips. 3D physics, offline.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/lastcall"
+    },
+    {
+      "name": "Riverbank Rumble",
+      "icon": "/apps/riverbank-rumble.png",
+      "blurb": "A retro beat em up: brawl through seven turfs, beat the bosses, rule the town.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/riverbankrumble"
+    },
+    {
+      "name": "Nak Muay",
+      "icon": "/apps/nak-muay.png",
+      "blurb": "Master eight limbs, train at camp and fight from Isan to Bangkok. Play offline.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/nakmuay"
+    },
+    {
+      "name": "Haymaker",
+      "icon": "/apps/haymaker.png",
+      "blurb": "Read the tell, slip the punch and build a champion in this 3D boxing career.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/haymaker"
+    },
+    {
+      "name": "Kayfabe",
+      "icon": "/apps/kayfabe.png",
+      "blurb": "Book wrestling shows, build rivalries and grow a pixel promotion. Play offline.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/kayfabe"
+    },
+    {
+      "name": "Rikishi",
+      "icon": "/apps/rikishi.png",
+      "blurb": "A sumo game and career sim: train, fight six tournaments a year, reach Yokozuna.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/rikishi"
+    },
+    {
+      "name": "Moonless",
+      "icon": "/apps/moonless.png",
+      "blurb": "Turn-based ninja stealth puzzles. Move when they look away.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/moonless"
+    },
+    {
+      "name": "Pulse Pilots",
+      "icon": "/apps/pulse-pilots.png",
+      "blurb": "Hit, hold and slide through original music in an anime rhythm flight game.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/pulsepilots"
+    },
+    {
+      "name": "Tidebound Tactics",
+      "icon": "/apps/tidebound-tactics.png",
+      "blurb": "Aim clever cannon ricochets and command an anime fleet in naval strategy.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/tideboundtactics"
+    },
+    {
+      "name": "Rift Racket",
+      "icon": "/apps/rift-racket.png",
+      "blurb": "Charge anime tennis shots, bend rallies through portals and win the cup.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/riftracket"
+    },
+    {
+      "name": "Starfall Sync",
+      "icon": "/apps/starfall-sync.png",
+      "blurb": "Dodge anime bullet storms, graze for power and unleash your Sync Burst.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/starfallsync"
+    },
+    {
+      "name": "Ember Kitchen",
+      "icon": "/apps/ember-kitchen.png",
+      "blurb": "Cook anime comfort food, build your kitchen and chain a perfect service.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/emberkitchen"
+    },
+    {
+      "name": "Sigil Shuffle",
+      "icon": "/apps/sigil-shuffle.png",
+      "blurb": "Build an anime spell deck, reposition foes and chain powerful sigil reactions.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/sigilshuffle"
+    },
+    {
+      "name": "Yokai Signal",
+      "icon": "/apps/yokai-signal.png",
+      "blurb": "Draw safe forest routes, match spirit powers to hazards and bring lost yokai home.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/yokaisignal"
+    },
+    {
+      "name": "Mask Protocol",
+      "icon": "/apps/mask-protocol.png",
+      "blurb": "Plan three thieves, outsmart guards and escape in anime stealth tactics.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/maskprotocol"
+    },
+    {
+      "name": "Neon Relay",
+      "icon": "/apps/neon-relay.png",
+      "blurb": "Jump, slide and burst across neon rooftops in a fast anime courier runner.",
+      "play": null,
+      "itch": "https://crystllabs.itch.io/neonrelay"
+    },
+    {
+      "name": "Focus Grove",
+      "icon": "/apps/focus-grove.png",
+      "blurb": "A focus timer that grows a little garden as you study and work.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.focusgrove",
+      "itch": null
+    },
+    {
+      "name": "Ghostline",
+      "icon": "/apps/ghostline.png",
+      "blurb": "Find a friend erased from every record by building a crew and solving signal puzzles.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.ghostline",
+      "itch": null
+    },
+    {
+      "name": "Night Receipt",
+      "icon": "/apps/night-receipt.png",
+      "blurb": "A convenience store mystery where a receipt arrives stamped with tomorrow's date.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.projectrando.nightreceipt",
+      "itch": null
+    },
+    {
+      "name": "Parcel Parade",
+      "icon": "/apps/parcel-parade.png",
+      "blurb": "Route parcels across an island chain and find out why the island mail stopped.",
+      "play": "https://play.google.com/store/apps/details?id=com.crystllabs.parcelparade",
+      "itch": null
     }
   ]
 }
