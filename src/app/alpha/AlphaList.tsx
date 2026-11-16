@@ -9,6 +9,7 @@ interface Post {
   slug: string;
   date: string;
   excerpt: string;
+  basePath?: string;
 }
 
 export default function AlphaList({ posts, basePath = '/alpha' }: { posts: Post[]; basePath?: string }) {
@@ -33,8 +34,8 @@ export default function AlphaList({ posts, basePath = '/alpha' }: { posts: Post[
     <div className={styles.postList}>
       {posts.map((post, i) => (
         <Link
-          href={`${basePath}/${post.slug}`}
-          key={post.slug}
+          href={`${post.basePath ?? basePath}/${post.slug}`}
+          key={`${post.basePath ?? basePath}/${post.slug}`}
           className={`${styles.postCard} ${activeIndex === i ? styles.activeMobile : ''}`}
         >
           <div className={styles.postMeta}>
