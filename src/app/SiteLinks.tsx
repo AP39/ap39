@@ -5,7 +5,7 @@ export default function SiteLinks() {
   return (
     <span className="siteLinks">
       <Link href="/repo">Work</Link>
-      <Link href="/alpha">Writing</Link>
+      <Link href="/blog">Writing</Link>
       <Link href="/contact">Contact</Link>
     </span>
   );

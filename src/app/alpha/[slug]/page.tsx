@@ -56,7 +56,7 @@ export default async function AlphaPost({ params }: { params: Promise<{ slug: st
         <SiteLinks />
       </nav>
 
-      <Link href="/alpha" className="returnLink">&lt; RETURN</Link>
+      <Link href="/blog" className="returnLink">&lt; RETURN</Link>
 
       <article className={styles.article}>
         <header className={styles.header}>
