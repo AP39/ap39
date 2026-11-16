@@ -11,21 +11,26 @@ interface Post {
   slug: string;
   date: string;
   excerpt: string;
+  basePath?: string;
+}
+
+// "Writing" (/alpha) is the page the front page's WRITING button and the top bar open, so it lists
+// every post: the four Jul-Aug essays here plus the weekly blog posts in src/data/blog (owner
+// 2026-11-16: the blog was only reachable from the footer, so Writing looked dead after 18 Aug).
+// Each post keeps its own address (/alpha/... or /blog/...).
+function readDir(dir: string, basePath: string): Post[] {
+  const dataDir = path.join(process.cwd(), dir);
+  if (!fs.existsSync(dataDir)) return [];
+  return fs.readdirSync(dataDir)
+    .filter(file => file.endsWith('.json'))
+    .map(file => {
+      const post = JSON.parse(fs.readFileSync(path.join(dataDir, file), 'utf-8')) as Post;
+      return { title: post.title, slug: post.slug, date: post.date, excerpt: post.excerpt, basePath };
+    });
 }
 
 async function getPosts(): Promise<Post[]> {
-  const dataDir = path.join(process.cwd(), 'src/data/alpha');
-  if (!fs.existsSync(dataDir)) return [];
-  
-  const files = fs.readdirSync(dataDir);
-  const posts = files
-    .filter(file => file.endsWith('.json'))
-    .map(file => {
-      const filePath = path.join(dataDir, file);
-      const content = fs.readFileSync(filePath, 'utf-8');
-      return JSON.parse(content) as Post;
-    });
-    
+  const posts = [...readDir('src/data/alpha', '/alpha'), ...readDir('src/data/blog', '/blog')];
   return posts.sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
 }
 
