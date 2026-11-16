@@ -1,28 +1,17 @@
-import fs from 'fs';
-import path from 'path';
 import Link from 'next/link';
 import SiteLinks from '@/app/SiteLinks';
 import type { Metadata } from 'next';
 import styles from '../alpha/page.module.css';
 import AlphaList from '../alpha/AlphaList';
+import { getAllPosts } from '@/lib/posts';
 
-// The AP39 blog (owner 2026-10-27). Posts are src/data/blog/<slug>.json with title, slug, date, excerpt and
-// content (same format and markdown subset as the alpha posts). Unlike alpha, these are originals: their
-// canonical is ap39.site. While there are no posts the page stays out of search and the sitemap.
-interface Post { title: string; slug: string; date: string; excerpt: string }
-
-function getPosts(): Post[] {
-  const dir = path.join(process.cwd(), 'src/data/blog');
-  if (!fs.existsSync(dir)) return [];
-  return fs.readdirSync(dir)
-    .filter((f) => f.endsWith('.json'))
-    .map((f) => JSON.parse(fs.readFileSync(path.join(dir, f), 'utf-8')) as Post)
-    .sort((a, b) => new Date(b.date).getTime() - new Date(a.date).getTime());
-}
+// The one writing page (owner 2026-11-16): the weekly posts plus the four Jul-Aug essays, newest first.
+// WRITING on the front page and the top bar open this page. Posts: src/lib/posts.ts.
+const getPosts = getAllPosts;
 
 export function generateMetadata(): Metadata {
   return {
-    title: 'Blog | AP39.',
+    title: 'Writing | AP39.',
     description: 'Notes from AP39.',
     alternates: { canonical: '/blog' },
     robots: getPosts().length ? undefined : { index: false, follow: true },

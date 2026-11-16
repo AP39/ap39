@@ -23,7 +23,7 @@ export default function Home() {
           </div>
 
           <div className={`${styles.buttonWrapper} ${styles.buttonAlpha}`}>
-            <Link href="/alpha" className={styles.insaneButton}>
+            <Link href="/blog" className={styles.insaneButton}>
               <span className={styles.buttonText}>WRITING</span>
               <div className={styles.buttonGlow}></div>
               <div className={styles.buttonBorder}></div>
